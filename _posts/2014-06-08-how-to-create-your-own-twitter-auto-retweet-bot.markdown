@@ -22,7 +22,11 @@ tags:
 - Website
 ---
 
-In this elaborate tutorial, you will be able to create a twitter auto retweet bot, which will automatically search the whole of twitter for any topic of your interest and will automatically tweet them for you. Also, you can also make this bot retweet your favorite accounts, lists, your favorites, etc. ![sample-retweet](http://img.techcovered.org/tc/sample-retweet.png) To see this bot in action, if you tweet something with the word “techcovered”, <del>it will automatically be retweeted by this blog’s twitter account </del>(I have disabled this, at the moment, because of too much spam). You can also create a similar one, following the instructions given below:
+In this elaborate tutorial, you will be able to create a twitter auto retweet bot, which will automatically search the whole of twitter for any topic of your interest and will automatically tweet them for you. Also, you can also make this bot retweet your favorite accounts, lists, your favorites, etc. 
+
+![sample-retweet](http://img.techcovered.org/tc/sample-retweet.png) 
+
+To see this bot in action, if you tweet something with the word “techcovered”, <del>it will automatically be retweeted by this blog’s twitter account </del>(I have disabled this, at the moment, because of too much spam). You can also create a similar one, following the instructions given below:
 
 
 ## What we will be using:

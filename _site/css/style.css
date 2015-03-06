@@ -32,9 +32,18 @@ body {
 #hero {
 	padding:35px;
 }
-#logo h1 strong{
+#logo a{
+	padding:5px;
 	font-size: 35px;
 	float:left;
+	color:#fff;
+	transition:all 0.5s ease;
+	border:5px solid #0080AA;
+}
+#logo a:hover {
+	text-decoration: none;
+	border-color: #fff;
+
 }
 #rightelementsheader {
 	float:right;
@@ -99,3 +108,43 @@ body {
 	text-align: center;
 	width:100%;
 }
+
+/* Footer */
+footer {
+	padding:50px;
+	border-top: 1px solid #ccc;
+	margin-top:50px;
+	color:#888;
+	text-align: center;
+}
+
+.button {
+	padding:7px;
+	border:2px solid #0080AA;
+	color:#0080AA;
+	background-color: #fff;
+	text-decoration: none;
+	transition:all 0.5s ease;
+}
+.button:hover{
+	border:2px solid #ffffff;
+	color:#fff;
+	background-color: #0080AA;
+	text-decoration: none;
+}
+
+/* Single Posts */
+
+#thepost {
+	font-size: 16px;
+	font-family: "Open Sans", Helvetica,Sans-serif;
+}
+
+#thepost img {
+	max-width: 100%;
+}
+
+#thepost p {
+	margin-bottom: 25px;
+}
+
