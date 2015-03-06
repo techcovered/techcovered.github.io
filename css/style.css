@@ -37,13 +37,15 @@ body {
 	font-size: 35px;
 	float:left;
 	color:#fff;
-	transition:all 0.5s ease;
-	border:5px solid #0080AA;
 }
+
 #logo a:hover {
 	text-decoration: none;
-	border-color: #fff;
-
+        -webkit-transform: scale(2);
+        -ms-transform: scale(2);
+        transform: scale(2);
+        position: relative;
+        left:100px;	
 }
 #rightelementsheader {
 	float:right;
@@ -54,10 +56,15 @@ body {
 	margin-right: 10px;
 	color:#fff;
 }
+#rightelementsheader > span > a >i:hover{
+	    -webkit-transform: scale(2);
+        -ms-transform: scale(2);
+        transform: scale(2);	
 
+}
 .posts.container {
 	padding:10px 50px;
-	border:1px solid #ccc;
+	border:1px solid #dedede;
 	background:#fff;
 }
 
@@ -77,13 +84,26 @@ body {
 .postslist {
 	margin-bottom: 50px;
 }
+.postslist > .row > .col-xs-10 > h2 > a {
+	text-decoration: none;
+}
 
 #date {
-	width:75px;
-	height:100px;
+	width:60px;
+	height: 60px;
+	border-radius:50%; 
+	color:#fff;
+	background-color: #0080AA;
 	float:left;
-	padding:2px;
+	padding:7px;
+	margin-top: 50px;
+	text-align: center;
 	}
+#date:hover {
+	    -webkit-transform: scale(1.8);
+        -ms-transform: scale(1.8);
+        transform: scale(1.8);	
+}
 
 /* Pagination */
 .pagination > ul {
@@ -108,7 +128,10 @@ body {
 	text-align: center;
 	width:100%;
 }
-
+.pagination > ul > li.active {
+	color:#fff;
+	background-color: #0080AA;
+}
 /* Footer */
 footer {
 	padding:50px;
@@ -142,9 +165,149 @@ footer {
 
 #thepost img {
 	max-width: 100%;
+	display:block;
+	margin: 10px auto;
 }
 
 #thepost p {
 	margin-bottom: 25px;
 }
 
+.relatedPost {
+	font-size: 18px;
+	list-style: decimal;
+	margin-top: 20px;
+}
+
+#relatedones {
+	background-color: #0080AA;
+	color:#fff;
+	padding:15px;
+	margin-top: 50px;
+	transition: all 0.5 ease;
+}
+
+#relatedones:hover {
+	-webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);	
+
+}
+#relatedones a {
+	color:#fff;
+}
+#relatedones h3 {
+	color:#fff;
+}
+
+/* Email signup */
+
+#mc_embed_signup {
+	min-height:170px;
+	border: 1px solid #dedede;
+	margin:50px auto;
+	padding:15px 50px;
+	transition:all 1s ease;
+}
+.mc-field-group.leftfloat {
+	float:left;
+}
+.mc-field-group.rightfloat {
+	float:right;
+
+}
+#mc-embedded-subscribe {
+margin-top: 20px;
+}
+#mc_embed_signup:hover {
+        -webkit-animation: swing 1.5s ease;
+        animation: swing 1.5s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+ }
+
+
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(6px);
+        transform: translateX(6px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-6px);
+        transform: translateX(-6px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-2px);
+        transform: translateX(-2px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(1px);
+        transform: translateX(1px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+
+.mc-field-group > input {
+	border-color: #fff #fff #ccc;
+    border-style: solid;
+    border-width: 1px 1px 2px;
+    transition:all 0.5s ease;
+}
+
+.mc-field-group > input:hover {
+	border-bottom-color:#000; 
+}
+#disqus_thread input:hover {
+        -webkit-animation: swing 1.5s ease;
+        animation: swing 1.5s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+}
