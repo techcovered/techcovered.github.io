@@ -20,7 +20,7 @@ Reddit is one of the top 30 websites of the world (source: [alexa](http://www.a
 
 There is no _absolute_ method to check if your website or blog is getting popular on Reddit. Usually, if it does get popular, you would be able to see a large spike of users from Reddit on your website's analytics. However, there is another way to check if your website is being shared on Reddit.
 
-![reddit_domain](http://img.techcovered.org/tc/reddit_domain.png)
+![reddit_domain](images/reddit_domain.png)
 
 To check for all the URLs submitted on Reddit from your website (say: websiteaddresstest.com), then go to the URL [http://www.reddit.com/domain/websiteaddresstest.com](http://www.reddit.com/domain/websiteaddresstest.com) where websiteaddresstest.com is your website's address.
 

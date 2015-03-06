@@ -18,7 +18,7 @@ tags:
 
 Faxes are more than 50 years old and still finds frequent use in offices around the world. The internet can be used to easily replace them, but yet, the convenience of directly obtaining a hard copy of a document is worth the trouble of paying extra for a fax machine and a phone line. However, you don’t always have to pay for sending faxes: the internet lets you send faxes for free!
 
-![send_fax](http://img.techcovered.org/tc/send_fax.png)
+![send_fax](images/send_fax.png)
 
 **[HelloFax](https://www.hellofax.com/)** is a online fax sending service, which among its many paid options, lets you send a limited amount of free faxes, to any international number – for free, of course. Hellofax also has a $10/month service, which gives you a custom fax number, so that you can receive faxes send to that number.
 

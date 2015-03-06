@@ -20,7 +20,7 @@ tags:
 
 Do you like reading comics? Of course you do. Everyone does! The important question here is, do you like reading (and downloading) comics, for free? Legally? If your answer is yes, then here is a exhaustive list of websites that allow you to download and read comics  online, legally.
 
-![comic-garfield](http://img.techcovered.org/tc/comic-garfield.png)
+![comic-garfield](images/comic-garfield.png)
 
 
 

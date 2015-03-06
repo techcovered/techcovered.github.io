@@ -20,7 +20,7 @@ tags:
 
 If you are not aware, job interviewers make it a point to check the job candidates’ Facebook profile as a character reference check, before they consider him/her for employment. But if your Facebook account is littered with party pictures, or any other things that are frowned upon by the working class, you might lose your edge for the job post.
 
-![simple-wash](http://img.techcovered.org/tc/simple-wash.png)
+![simple-wash](images/simple-wash.png)
 
 This is where an incredibly useful service, **[Simple wash](http://simplewa.sh/)** comes into play. This online service scans your Facebook posts, tags, images, links, and even fan pages for socially unrelatable content, ranging from sex to drugs, and even with some extra abstract content. You can also scan your twitter account for these using the same service.
 

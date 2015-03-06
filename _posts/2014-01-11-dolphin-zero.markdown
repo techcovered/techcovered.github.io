@@ -17,7 +17,7 @@ tags:
 
 If you are often worried about your privacy and always paranoid if someone would go through your browsing history on your mobile device, a safe option is to always delete your browsing history, cache, cookies and other data every time you complete your browsing session. However, that would prove to be too tedious for you to do every time you use your mobile browser.
 
-![dolphin-zero](http://img.techcovered.org/tc/dolphin-zero.png)
+![dolphin-zero](images/dolphin-zero.png)
 
 [Dolphin Zero](https://play.google.com/store/apps/details?id=com.dolphin.browser.zero) is a one of its kind privacy browser, where every time you quit the browser, it automatically “shreds” all your data, including your browsing history, the data you entered in forms, your stored passwords, cookies from websites and other cached data. Dolphin Zero is derived from its mother browser, Dolphin for Android, which is an award winning browser in terms of speed and stability, so expect nothing less from Dolphin Zero.
 

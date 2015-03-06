@@ -13,7 +13,7 @@ categories:
 
 Among the recent interface changes by Twitter, the most welcomed addition is the support for dragging and dropping images to the twitter status to upload it.
 
-![twitter-drag-drop](http://img.techcovered.org/tc/twitter-drag-drop.png)
+![twitter-drag-drop](images/twitter-drag-drop.png)
 
 If you want to upload an image and post it in your twitter status, just drag it from your computer and drop it in the twitter status box, either in the homepage or by clicking the blue “Tweet” icon at the top right corner.
 

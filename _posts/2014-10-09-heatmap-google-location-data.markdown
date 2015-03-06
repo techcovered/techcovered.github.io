@@ -20,7 +20,7 @@ Google maps and Google Search tends to store your location information and links
 
 One such service, [TheoPolis' Location History Visualizer](http://theopolis.me/location-history-visualizer/), allows you to view a heat map of all the locations you have been to.
 
-![Google Location History Heatmap ](http://img.techcovered.org/tc/google-location-heatmap.png)
+![Google Location History Heatmap ](images/google-location-heatmap.png)
 
 All you have to do is to go to Google Takeout, uncheck all options except the Location History option and click on Next > Create Archive. You need to enter your password to verify your identity and then wait for it to finish and press Download. In the archive, search for a file named "LocationHistory.json" and extract it. In the website, click on browse and navigate to the json file you just extracted.
 

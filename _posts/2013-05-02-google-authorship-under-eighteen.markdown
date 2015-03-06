@@ -21,7 +21,7 @@ If you own a website or blog, you'd heard of Google Authorship (which makes the 
 If you have successfully linked your profile to your website, then your picture will probably appear along with your website's search results. You can type in your websites name in the [rich snippets tool](www.google.com/webmasters/tools/richsnippets) and verify if you've properly set it up. However, there are some restrictions that will stop your profile from appearing in search results.
 
 
-![authorship-under-18](http://img.techcovered.org/tc/authorship-under-18.png)
+![authorship-under-18](images/authorship-under-18.png)
 
 
 If you are under 18 years of age, Google Authorship wont be displayed for your website. Now, Google does not actually find out your age, but relies on the date of birth which you provided while signing up for your Google account.

@@ -22,7 +22,7 @@ In the recent changes:
 a)  If you click on a video to pause it, and then proceed to click it again to play it, YouTube automatically puts the player in full screen.
 b) If the YouTube player is in focus, pressing the spacebar will pause the video, pressing it again will resume playing it. However, if you are in the comments section, pressing the spacebar is of no use.
 
-![youtube-player](http://img.techcovered.org/tc/youtube-player.png)
+![youtube-player](images/youtube-player.png)
 
 
 ## Use the J K L buttons

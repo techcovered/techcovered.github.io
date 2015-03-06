@@ -21,7 +21,7 @@ If you would like to know how complex a websites design is, Firefox’s own deve
 
 Once you are in the 3D view, use your mouse, scroll button, arrow keys and even the WASD keys to control the 3D interface. Once you bring the website horizontal, you will be able to see the number of layers the website uses, in 3D.
 
-![web-design-complex](http://img.techcovered.org/tc/web-design-complex.png)
+![web-design-complex](images/web-design-complex.png)
 
 The complexity of the design is based on this – if you see a large number of layers, the website design is complicated. If you see less amount of layers, it is less complicated.
 

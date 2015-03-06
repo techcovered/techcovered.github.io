@@ -16,7 +16,7 @@ tags:
 
 GIF animations are really awesome. But have you come across a GIF animation file on the internet, but wanted only a single picture extracted from it? You’re in luck, because that’s exactly what I am going to show you here.
 
-![gif-exploded](http://img.techcovered.org/tc/gif-exploded.png)
+![gif-exploded](images/gif-exploded.png)
 
 There are many websites that allow you to “explode” a gif into many image frames that make up a gif. The most popular one is [Gif Explode](http://gif-explode.com/), where you enter the url of the gif file and it gives you all the images the gif file is made of. But to save these image files to your computer, you should right click and save image as, and save the image as a .png or .jpg file instead of the standard gif format.
 

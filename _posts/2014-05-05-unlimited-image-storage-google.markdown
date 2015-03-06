@@ -19,7 +19,7 @@ tags:
 
 Here is something which a few of us know about – Google provides you unlimited storage space for images and videos, for free! To do this, all you need is a Google account, a ton of images and a Google+ profile.
 
-![google photos](http://img.techcovered.org/tc/googlephotos.png)
+![google photos](images/googlephotos.png)
 
 **[Google+ photos](https://plus.google.com/photos)** is a part of (any guesses?) Google+ and it stores all the images you ever uploaded on the networking site. However, Google+ Photos is more useful than it looks like. Why? Because it allows you to store photos which are lesser than 2048x2048 resolution and videos under 15 minutes, without taking up any of your space in the Google-allotted 15 GB. This means, you can store an unlimited number of images and <15 minute videos for free, without taxing any of your space on Google!
 
@@ -29,7 +29,7 @@ However, the only catch is that your image size needs to be less than or equal t
 
 To automatically upload photos at original size, you need to tick the “Upload my photos at full size” in [Google+ Settings](https://plus.google.com/settings?hl=en).
 
-![full-storage-google](http://img.techcovered.org/tc/full-storage-google.png)
+![full-storage-google](images/full-storage-google.png)
 
 If your images are well above the 2048 resolution, you need to resize them accordingly. You can do this easily with freeware tools like [paint.net](http://getpaint.net), [gimp](http://www.gimp.org/), [irfanview](http://www.irfanview.com/), etc. If you have a lot of images which need to be resized, you need to batch process them. You can you irfanview to do this, or use a [lightning image resizer](http://www.softpedia.com/get/Multimedia/Graphic/Graphic-Others/Lightning-Image-Resizer.shtml) to do it for you. Do keep in mind that the maximum width and height should be 2048 pixels.
 

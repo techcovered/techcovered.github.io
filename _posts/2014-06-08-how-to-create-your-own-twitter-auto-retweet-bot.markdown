@@ -24,7 +24,7 @@ tags:
 
 In this elaborate tutorial, you will be able to create a twitter auto retweet bot, which will automatically search the whole of twitter for any topic of your interest and will automatically tweet them for you. Also, you can also make this bot retweet your favorite accounts, lists, your favorites, etc. 
 
-![sample-retweet](http://img.techcovered.org/tc/sample-retweet.png) 
+![sample-retweet](images/sample-retweet.png) 
 
 To see this bot in action, if you tweet something with the word “techcovered”, <del>it will automatically be retweeted by this blog’s twitter account </del>(I have disabled this, at the moment, because of too much spam). You can also create a similar one, following the instructions given below:
 
@@ -50,7 +50,7 @@ To see this bot in action, if you tweet something with the word “techcovered�
 ## How will we be doing it?
 
 
-Twitter has disabled RSS feeds for profiles, so the major step to do this is obtaining tweets in RSS form. [A script ](http://ctrlq.org/code/19491-embed-twitter-rss)from Amit Agarwal, a well known blogger, solves this issue. With a little modification to the script, we create a non-repeating version (i.e, same tweet will not be retweeted multiple times). With the help of IFTTT, we tweet these feeds. Hence, the auto-retweet bot. ![twitter-activity-retweet](http://img.techcovered.org/tc/twitter-activity-retweet.png)
+Twitter has disabled RSS feeds for profiles, so the major step to do this is obtaining tweets in RSS form. [A script ](http://ctrlq.org/code/19491-embed-twitter-rss)from Amit Agarwal, a well known blogger, solves this issue. With a little modification to the script, we create a non-repeating version (i.e, same tweet will not be retweeted multiple times). With the help of IFTTT, we tweet these feeds. Hence, the auto-retweet bot. ![twitter-activity-retweet](images/twitter-activity-retweet.png)
 
 
 ## Let's start, then..

@@ -24,7 +24,7 @@ You have many options when it comes to system restore. You can either allot only
 
 If you do not want to delete all your current system points for a rainy day, then a wise choice is to reduce the amount of space it uses. To do so, right click on the _Computer_ icon in the desktop and select _Properties_. In the left side, click on the _System Protection. _Click on your drives in which protection is enabled (by default, it is the C drive) and select _Configure. _
 
-![system-restore](http://img.techcovered.org/tc/system-restore.png)
+![system-restore](images/system-restore.png)
 
 In the dialog box, move the slider from the default value to somewhere around 2%. That is, only 2% of your space on that drive would be allotted for System Restore.
 
@@ -44,7 +44,7 @@ To delete all the restore points, right click on _Computer_, select _Properties_
 
 Another option (which is recommended) is to install the uber-useful tool called [CCleaner](http://www.piriform.com/ccleaner) (heard of it?). This utility software is used to remove all useless and temporary files from your computer, but also comes with a registry cleaner, uninstaller, driver wiper, start-up manager and the now relevant System Restore Manager.
 
-[![ccleaner-system-restore](http://img.techcovered.org/tc/ccleaner-system-restore_thumb.png)](http://img.techcovered.org/tc/ccleaner-system-restore.png)
+[![ccleaner-system-restore](images/ccleaner-system-restore_thumb.png)](http://img.techcovered.org/tc/ccleaner-system-restore.png)
 
 Click on _Tools>System Restore._ You will then find a list of all the current System Restore points residing in your system. Click on the ones you don’t want (I’d recommend everything; The first one is disabled by default for security reasons) and click on remove. That’s it! You are now left with only your latest system restore point.
 

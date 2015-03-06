@@ -21,7 +21,7 @@ If you love watching sitcoms and cannot afford to miss out on even one episode, 
 
 [**ShowRSS**](http://showrss.karmorra.info) is a website in which you select your favorite sitcoms and then, the website automatically generates a list of episodes which are available. The website then generates a personalized RSS link for you, which you can enter in your Torrent’s feed subscriber (like uTorrent, etc). Your torrent client will automatically download these episodes for you.
 
-![showrss-episode-list](http://img.techcovered.org/tc/showrss-episode-list.png)
+![showrss-episode-list](images/showrss-episode-list.png)
 
 To start with, you should create an id in the site (your email address is not required; how very kind of them). The next step is to pick your list of sitcoms. As you chose the sitcoms available in the list, the episodes list keep building. Then, click the “Feeds” on the top navigation bar and in the “Your feed address:” select the quality of the episode that you want and then click “Generate”. Copy the link of the RSS feed.
 

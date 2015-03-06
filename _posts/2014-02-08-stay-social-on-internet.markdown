@@ -23,7 +23,7 @@ Here is a short guide to a list of web apps and tips to help you lead an active 
 
 If you need to be social, your status updates must be regular like a clockwork. If you are the manager of your company’s online presence, then the need to be always online is essential. Thankfully, you don’t need to always be online to do this. The are many web services which lets you do this for free.
 
-![bufferapp](http://img.techcovered.org/tc/bufferapp.png)
+![bufferapp](images/bufferapp.png)
 
 [HootSuite](https://hootsuite.com) tops it all, by offering a very large range of tools dedicated to allow you to vastly control your social structure online. It also provides scheduling tools through which you can post to multiple profiles on different social networks. Another worthy alternative is [Buffer](https://bufferapp.com), which has an interface more pleasing to the eye. Buffer also provides analytics to the updates you post, though its accuracy is debatable. If you need a more simpler interface, [LaterBro](laterbro.com) does a very good job. However, scheduling posts only to Facebook and Twitter is allowed.
 
@@ -48,7 +48,7 @@ Here are a few recipes which you can use to link your profiles.
 
 Instant replies to people who send you email, makes all the difference between a person who is socially active online and one who is not. Regardless of whether you are online or not, you can still reply to new emails. To do this, you can set up auto responders.
 
-![gmail_vacation](http://img.techcovered.org/tc/gmail_vacation.png)
+![gmail_vacation](images/gmail_vacation.png)
 
 Gmail has its own email responder built-in, it goes by the name of _Vacation responder_. If you use outlook to manage your emails, you can use it to send auto replies too (Tutorials: [link 1](http://staff.ask.sydney.edu.au/app/answers/detail/a_id/496), [link 2](http://answers.uchicago.edu/page.php?id=27432)). If you use outlook.com, you can use outlook’s auto responder too (Gear icon>More mail settings> Sending automated vacation replies). So, the next time when a (possible) fan sends out an email to you, be sure you get back to him/her instantly.
 

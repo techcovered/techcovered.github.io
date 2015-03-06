@@ -18,7 +18,7 @@ tags:
 
 Even if you have the official YouTube app on Android, you do not have the ability of playing YouTube videos in the background. For example, if you do not have  a particular song or audio track on your phone, you can search for that on YouTube and play it in the background, while you perform other tasks on your phone.
 
-![Screenshot_2013-12-06-01-14-27](http://img.techcovered.org/tc/Screenshot_2013-12-06-01-14-27.png)[![Screenshot_2013-12-06-02-08-04](http://img.techcovered.org/tc/Screenshot_2013-12-06-02-08-04_thumb.png)](http://img.techcovered.org/tc/Screenshot_2013-12-06-02-08-04.png)
+![Screenshot_2013-12-06-01-14-27](images/Screenshot_2013-12-06-01-14-27.png)[![Screenshot_2013-12-06-02-08-04](http://img.techcovered.org/tc/Screenshot_2013-12-06-02-08-04_thumb.png)](http://img.techcovered.org/tc/Screenshot_2013-12-06-02-08-04.png)
 
 [Viral Floating YouTube App](https://play.google.com/store/apps/details?id=com.Mata.YTplayer) is an Android app which is a YouTube video player. It offers almost all the functions of the official YouTube app of Android, but without the same amount of polish. To play a video in the background, you should play the selected video on the player first and then click on the top-right settings bar and click on “Play in Background”.
 

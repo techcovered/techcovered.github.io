@@ -26,7 +26,7 @@ Here are some steps to consume data as less as possible, without incurring extra
 ## a) Use Opera Turbo (Off Road Mode):
 
 
-![opera-off-road](http://img.techcovered.org/tc/opera-off-road.png)Not many people use [Opera](www.opera.com) as their primary browsers – not as much as Firefox and chrome anyways. But those who use it can’t deny that it doesn’t fall very close to these browsers. Opera is well known for its features, and one of them is Opera Turbo or _Off Road_ Mode. Once you enable it, Opera Turbo uses Opera’s servers to compress any webpages that you want, by as much as 70-90%, thereby reducing the amount of data you consumed compared to any other browser. It also automatically compresses images from websites.
+![opera-off-road](images/opera-off-road.png)Not many people use [Opera](www.opera.com) as their primary browsers – not as much as Firefox and chrome anyways. But those who use it can’t deny that it doesn’t fall very close to these browsers. Opera is well known for its features, and one of them is Opera Turbo or _Off Road_ Mode. Once you enable it, Opera Turbo uses Opera’s servers to compress any webpages that you want, by as much as 70-90%, thereby reducing the amount of data you consumed compared to any other browser. It also automatically compresses images from websites.
 
 To enable Off Road Mode, click on the Opera Logo on the top left corner and Select Off Road Mode.
 
@@ -34,7 +34,7 @@ To enable Off Road Mode, click on the Opera Logo on the top left corner and Sele
 ## b) Disable your Anti-Virus’ Auto Update:
 
 
-![auto-update-off](http://img.techcovered.org/tc/auto-update-off.png)All antiviruses use auto update to download virus definitions and keep track of ways to detect latest malware. While this is a good thing in general, it is not quite so when you are on a limited data connection. Some popular antiviruses, like Bitdefender (which I use) have very large updates,as much as 50 MB. You should disable your antivirus’ auto update feature.
+![auto-update-off](images/auto-update-off.png)All antiviruses use auto update to download virus definitions and keep track of ways to detect latest malware. While this is a good thing in general, it is not quite so when you are on a limited data connection. Some popular antiviruses, like Bitdefender (which I use) have very large updates,as much as 50 MB. You should disable your antivirus’ auto update feature.
 
 However,do not forget to update it manually every once a week to keep yourself safe.
 
@@ -42,7 +42,7 @@ However,do not forget to update it manually every once a week to keep yourself s
 ## c) Remove Startup Programs which Update:
 
 
-![startup-list](http://img.techcovered.org/tc/startup-list.png)Many programs that you have installed have separate update programs which constantly checks for updates in the background and also updates them automatically. Chrome, for instance, has a Google Updater service running in the background which monitors for latest Chrome updates.
+![startup-list](images/startup-list.png)Many programs that you have installed have separate update programs which constantly checks for updates in the background and also updates them automatically. Chrome, for instance, has a Google Updater service running in the background which monitors for latest Chrome updates.
 
 For Windows, Click on Start, Type _msconfig_ and click on the Startup tab. Disable all update services (also your torrent clients). But remember to keep your antivirus turned on. (_Wouldn’t want to catch an infection, do we?_). You can follow this [guide](http://www.switched.com/2009/02/19/how-to-turn-off-startup-programs-on-your-mac-os-x/) for Mac OSX.
 
@@ -50,7 +50,7 @@ For Windows, Click on Start, Type _msconfig_ and click on the Startup tab. Disab
 ## d) Watch YouTube Videos in the lowest possible resolution:
 
 
-![youtube-low-res-video](http://img.techcovered.org/tc/youtube-low-res-video.png)No one can resist not watching lulcatz videos on YouTube, data limitations or not.You can too, but with the lowest possible video resolution that is available for the video. The lowest resolution is usually 144p or sometimes 240p. Watching videos in HD is a strict no.
+![youtube-low-res-video](images/youtube-low-res-video.png)No one can resist not watching lulcatz videos on YouTube, data limitations or not.You can too, but with the lowest possible video resolution that is available for the video. The lowest resolution is usually 144p or sometimes 240p. Watching videos in HD is a strict no.
 
 If you watch the same video a lot of times, it is recommended that you download the video to your computer and watch it whenever you want to, without incurring data costs. [YTD Downloader](http://www.ytddownloader.com/) is a good app to do this, though you should avoid downloading a high quality resolution of the video.
 
@@ -58,7 +58,7 @@ If you watch the same video a lot of times, it is recommended that you download 
 ## e) Browse Internet in Text Mode:
 
 
-![text-only-chrome](http://img.techcovered.org/tc/text-only-chrome.png)If basic internet is what you require and your surfing consists of only browsing Wikipedia or related sites with text as majority content, then you might not have any problems by using a text only browser. The best part is, you do not have to download anything at all. You can change settings in browsers like Firefox and Chrome and images and JavaScript.
+![text-only-chrome](images/text-only-chrome.png)If basic internet is what you require and your surfing consists of only browsing Wikipedia or related sites with text as majority content, then you might not have any problems by using a text only browser. The best part is, you do not have to download anything at all. You can change settings in browsers like Firefox and Chrome and images and JavaScript.
 
 In Chrome, go to Settings, click on “Show Advanced Settings”, click on “Content Settings” and select the “Do not show any images” and “Do not show any JavaScript” and click Done.
 

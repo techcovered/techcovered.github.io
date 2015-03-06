@@ -31,7 +31,7 @@ Before you cringe at the thought of Internet Explorer, think about it. IE has im
 
 To pin a site to the taskbar, simply drag the window in IE to the task bar. As simple as that. Besides, IE opens up with a special window which has that website as its home page and a favicon on its left.
 
-[![Internet Explorer Shortcuts](http://img.techcovered.org/tc/Internet-Explorer-Shortcuts_thumb.gif)](http://img.techcovered.org/tc/Internet-Explorer-Shortcuts.gif)
+[![Internet Explorer Shortcuts](images/Internet-Explorer-Shortcuts_thumb.gif)](http://img.techcovered.org/tc/Internet-Explorer-Shortcuts.gif)
 
 
 ## The Moderate way – If you use any other browser
@@ -45,7 +45,7 @@ In case of Firefox, the directory is _C:\Program Files\Mozilla\Firefox.exe_. If 
 
 After entering the location of your browser, type the URL you want to open. Take this picture for example.
 
-![shortcut-website](http://img.techcovered.org/tc/shortcut-website.png)
+![shortcut-website](images/shortcut-website.png)
 
 Click on Next, type the websites name and click Ok. Now, right click on that shortcut and select Properties and click on Change Icon. Before you select an icon, head up to [iconarchive](http://www.iconarchive.com) or [iconfinder](http://www.iconfinder.com) to get a suitable icon for that shortcut. Then browse to the icon and click Ok. Now, drag the shortcut to the taskbar or quick launch.
 
@@ -55,7 +55,7 @@ Click on Next, type the websites name and click Ok. Now, right click on that sho
 
 So far, these sites pinned to the task bar open up the whole browser. This way, they act like a local bookmark. How would you like these websites to be opened in a minimal browser window which is exclusively made for that website? There is a way to do this, but it is a bit lengthy.
 
-![google-chrome-popup](http://img.techcovered.org/tc/google-chrome-popup.png)
+![google-chrome-popup](images/google-chrome-popup.png)
 
 This method makes use of the _window.open() _function in JavaScript. Both Chrome and Firefox supports this code, though the codes vary a bit.
 

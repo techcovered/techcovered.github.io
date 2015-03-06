@@ -20,9 +20,9 @@ As soon as the USB was plugged in, I was expecting MSE to throw up a big red mon
 
 Surprise! Malware was indeed present in the USB and now, on my computer.
 
-[caption id="attachment_170" align="aligncenter" width="600"]![virus-ineffective](http://img.techcovered.org/tc/virus-ineffective.png) MSE detects no threat[/caption]
+[caption id="attachment_170" align="aligncenter" width="600"]![virus-ineffective](images/virus-ineffective.png) MSE detects no threat[/caption]
 
-[caption id="attachment_169" align="aligncenter" width="600"]![bitdefender-does-it](http://img.techcovered.org/tc/bitdefender-does-it.png) Bitdefender detects it immediately[/caption]
+[caption id="attachment_169" align="aligncenter" width="600"]![bitdefender-does-it](images/bitdefender-does-it.png) Bitdefender detects it immediately[/caption]
 
 
 

@@ -17,7 +17,7 @@ tags:
 Nexus 5 was released today and has the potential to be a huge success. Android 4.4, aka, KitKat was also launched simultaneously. Among many other improvement to UI and performance, a major change was the lack of a messaging app in KitKat. Instead, all your messages are sent with the Hangouts app from KitKat.
 
 
-![nexusae0_hangouts1](http://img.techcovered.org/tc/nexusae0_hangouts1.png)![Hangouts-SMS-settings](http://img.techcovered.org/tc/Hangouts-SMS-settings.png)
+![nexusae0_hangouts1](images/nexusae0_hangouts1.png)![Hangouts-SMS-settings](http://img.techcovered.org/tc/Hangouts-SMS-settings.png)
 
 
 As you would have guessed, the Hangouts app is the default messaging app for all the future versions of Android. Before getting upset about this, like I initially did, I would suggest you to try out the app.

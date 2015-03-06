@@ -26,7 +26,7 @@ Here is a list of few modern WordPress alternatives:
 
 From the founders of Twitter, Medium has slowly, but surely emerged as one of the most talked about blogging platform. Unlike the conventional platforms, Medium focuses solely on the content, providing you with a rich set of tools like its very impressive WYSIWYG editor and its simplistic design, which looks somewhat similar to this website.  (Guilty as charged, I did take inspiration from their design).
 
-![Medium-Blog](http://img.techcovered.org/tc/medium.png)
+![Medium-Blog](images/medium.png)
 
 However, unlike WordPress, Medium doesn't allow you to customize your "blog" at all. As a matter of fact, you don't even have a blog to start with - imagine it to be something like twitter, except you write blog posts instead of tweets.
 
@@ -42,7 +42,7 @@ Ghost is similar to WordPress. It is an open source project and you need to down
 
 One interesting feature of Ghost blog editor if the way you post - through markups.
 
-![ghost blog post editor](http://img.techcovered.org/tc/ghost-blog-editor.png)
+![ghost blog post editor](images/ghost-blog-editor.png)
 
 There are also plenty of themes being made and sold for this platform, and is being touted by everyone as the WordPress killer. While that is not entirely true, it does seem to be a strong contender.
 
@@ -70,7 +70,7 @@ Squarespace is paid. However, Squarespace lets you create totally [professional 
 
 It offers a 14 day trial for you to "experience" Squarespace before you sign up for their services.
 
-![squarespace-blog](http://img.techcovered.org/tc/squarespace.png)
+![squarespace-blog](images/squarespace.png)
 
 That being said, if you think you need a unique professional looking blog/website and dont mind paying for it, then Squarespace is what you were looking for.
 
@@ -82,7 +82,7 @@ Here are a few blogs hosted by Squarespace: [Darren Booth](http://darrenbooth.co
 
 Svbtle is another blogging platform, which recently moved from a free-to-use to a $6-a-month fee. Svbtle uses a content-first design, and that is pretty much worth talking about this platform.
 
-![svbtle-blog](http://img.techcovered.org/tc/svbtle.png)
+![svbtle-blog](images/svbtle.png)
 
 Svbtle first used an invitation-only system to register bloggers - allowing only popular celebrities to blog and opened up to public only very recently. A lot of features are missing for the general population. There are also many complaints about new features being added or changed without users being notified.
 

@@ -22,7 +22,7 @@ tags:
 - Website
 ---
 
-![studying_computer](http://img.techcovered.org/tc/studying_computer.jpg)
+![studying_computer](images/studying_computer.jpg)
 
 If you ever wanted to memorize something, you would probably read and re-read the given material a couple of times till you capable of remembering it fluently. However, this is not the most efficient way to learn. Study shows that you may forget as much as 75% of what you read, within hours after memorizing it.
 
@@ -30,11 +30,11 @@ Spaced repetition is a technique in which you use flash cards to memorize. These
 
 [Anki ](http://ankisrs.net/)is an open source software, available for Windows, Mac, Linux, Android, iOS and (even) Blackberry. The software is a little bit confusing to use for the inexperienced. Anki allows you to create a "deck" of cards (which is basically a collection of cards) and allows you to create sub-decks, or deck within decks.
 
-![studynow_anki](http://img.techcovered.org/tc/studynow_anki.png)
+![studynow_anki](images/studynow_anki.png)
 
 You can also study cards of the same topic, by moving them under the same deck, or better - moving decks under a single parent deck. Anki also has a [web version](https://ankiweb.net/), where you don't even need to install the software to your computer.
 
-![anki_sample](http://img.techcovered.org/tc/anki_sample.png)
+![anki_sample](images/anki_sample.png)
 
 Anki works on the technique of spaced repetition, where you grade flash cards as "again", "good" or "easy", depending on whether the cards are tough, average or easy to memorize. Depending on what you select, the cards will be shown again after a fixed interval.
 

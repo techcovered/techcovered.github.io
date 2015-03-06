@@ -31,7 +31,7 @@ It may be a bit difficult to type large walls of text from your phone without ev
 ### 1. [Fleksy Keyboard](https://play.google.com/store/apps/details?id=com.syntellia.fleksy.kb)
 
 
-![Fleksy](http://img.techcovered.org/tc/Fleksy.png)
+![Fleksy](images/Fleksy.png)
 
 There is something about this keyboard which sets it apart from the rest. The keyboard, as it advertises, is pretty forgiving on almost all sorts of spelling mistakes you make while typing. In fact, this keyboard has been known to correct the word even if all the characters have been typed wrong. It also has gestures which include swiping left for backspace, right for space, etc, which makes it all the more easy to use.
 
@@ -41,7 +41,7 @@ This keyboard is so good, you can comfortably type without looking, but only if 
 ### 2. [SwiftKey Keyboard](https://play.google.com/store/apps/details?id=com.touchtype.swiftkey.phone.trial)
 
 
-![swiftkey](http://img.techcovered.org/tc/swiftkey.png)
+![swiftkey](images/swiftkey.png)
 
 SwiftKey is one of those apps which has come to define the android app industry. It is one of the few apps which constantly tops the list of top paid apps in Google’s Play Store, and for a reason.
 
@@ -51,7 +51,7 @@ Though swiftkey is mainly a swype keyboard, where you have to constantly look at
 ### b. Typing without looking at all
 
 
-![google_tap](http://img.techcovered.org/tc/google_tap.png)
+![google_tap](images/google_tap.png)
 
 If there is no way you can type/text in a situation, but you desperately need to, then fret not – there’s a way.
 

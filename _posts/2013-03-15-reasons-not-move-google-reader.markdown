@@ -19,7 +19,7 @@ tags:
 Google announced its plans to close down Google Reader for good, from July 1st, 2013. However, unlike other Google-product-closure announcements, this created a lot of anger around the internet, with hundreds of tweets and almost the same number of blog posts venting out against Google and also giving out a list of alternatives to Google Reader.
 
 
-[![Google Reader retires](http://img.techcovered.org/tc/reader-shutdown.png)](http://img.techcovered.org/tc/reader-shutdown.png)
+[![Google Reader retires](images/reader-shutdown.png)](http://img.techcovered.org/tc/reader-shutdown.png)
 
 
 But don't move away from Reader just yet! Here are the reasons why:
@@ -56,7 +56,7 @@ Another reader worth mentioning is [Digg's yet-to-be-named reader](http://blog.d
 ## 2) Google may change its mind and not close it:
 
 
-While this is highly unlikely, chances are that Google may change its mind and not close down Reader. Reasons? Because the whole internet is scorning at Google, in Twitter ([see picture](http://img.techcovered.org/tc/google-reader-twitter-complain.png)), [Blog posts](https://www.google.com/search?q=google+reader&tbm=nws), and even in many [national ](http://timesofindia.indiatimes.com/tech/tech-news/internet/Google-draws-users-ire-for-killing-Reader/articleshow/18986061.cms)[media](http://blogs.wsj.com/digits/2013/03/14/alternatives-to-google-reader/) [newspapers](http://bits.blogs.nytimes.com/2013/03/14/the-end-of-google-reader-sends-internet-into-an-uproar/).
+While this is highly unlikely, chances are that Google may change its mind and not close down Reader. Reasons? Because the whole internet is scorning at Google, in Twitter ([see picture](images/google-reader-twitter-complain.png)), [Blog posts](https://www.google.com/search?q=google+reader&tbm=nws), and even in many [national ](http://timesofindia.indiatimes.com/tech/tech-news/internet/Google-draws-users-ire-for-killing-Reader/articleshow/18986061.cms)[media](http://blogs.wsj.com/digits/2013/03/14/alternatives-to-google-reader/) [newspapers](http://bits.blogs.nytimes.com/2013/03/14/the-end-of-google-reader-sends-internet-into-an-uproar/).
 
 Another reason is [Google Reader has a bigger user base than Google+](http://www.buzzfeed.com/jwherrman/google-reader-still-sends-far-more-traffic-than-google). There is also an [online petition ](https://www.change.org/petitions/google-keep-google-reader-running)with as many as 107,000+ signatures opposing the removal of Google Reader (Don't forget to sign the petition yourself!).
 

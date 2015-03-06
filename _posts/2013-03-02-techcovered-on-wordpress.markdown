@@ -15,7 +15,7 @@ tags:
 
 After using Blogger for nearly two years, I finally made the shift from Blogger to WordPress. This step came after I was not satisfied with the search ranking that Google gave to my blog. After as much as 200 high quality articles, the search results no where contained links to my blog, even after the use of VERY specific keywords. Shame on Google, I'd say.
 
-![Reasons why I shifted from Blogger to Wordpress](http://img.techcovered.org/tc/2013/03/blogger-to-wordpress.jpg)
+![Reasons why I shifted from Blogger to Wordpress](images/2013/03/blogger-to-wordpress.jpg)
 
 But Google is not really to blame here. Google's algorithm has a mind of its own, not that its a bad thing. Most of the blogger blogs out there are spam and short lived ones, and it is not Google's fault if it treats every blogspot link with the same amount of suspicion.
 

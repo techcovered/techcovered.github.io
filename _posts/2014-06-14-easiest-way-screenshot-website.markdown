@@ -18,7 +18,7 @@ tags:
 
 If you ever wanted to take a screenshot of an entire webpage or even a part of it, you had to use certain browser plugins or visit some website and type in the web page's name to get the scrrenshot. However, there is a much easier way to do it, without the need of downloading anything.
 
-[![screen.jpg](http://img.techcovered.org/tc/screen.jpg.png)](http://img.techcovered.org/tc/screen.jpg.png)
+[![screen.jpg](images/screen.jpg.png)](http://img.techcovered.org/tc/screen.jpg.png)
 
 If you use Firefox, all you need to do to get the screenshot of the entire website is to press **Shift+F2** and then, type "screenshot —-fullpage" (without quotes) in the text field.
 

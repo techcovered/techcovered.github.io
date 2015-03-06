@@ -18,7 +18,7 @@ tags:
 
 If you have ever left your phone charging all night, and woken up to a 100% charged phone, then you are at a risk of reducing the efficiency of your mobile phones battery life. Imagine your phone running out of juice, when you are far away from home, and cannot find a charging port! Nightmare.
 
-![phone-battery-dead](http://img.techcovered.org/tc/phone-battery.jpg)
+![phone-battery-dead](images/phone-battery.jpg)
 
 You can extend the battery life of your phone by using these simple tips:
 

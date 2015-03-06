@@ -20,7 +20,7 @@ Facebook is more than a platform where people share status updates – it is als
 
 Facebook Messenger is Facebook’s app meant only for Messaging purposes. The app is available for almost all mobile platforms. However, if you wish to take your conversations to your desktop, then you have the social version of Facebook, with news feeds and Farmville requests. There is no stand-alone version of Facebook Messenger for Desktop.
 
-![Deface to Show Facebook Chat only](http://img.techcovered.org/tc/deface.png)
+![Deface to Show Facebook Chat only](images/deface.png)
 
 This is where [Deface ](http://www.deface.xyz)comes in. Deface is an open source add-on for Firefox and Chrome, which blacks out every part of Facebook, except for Facebook chat.
 

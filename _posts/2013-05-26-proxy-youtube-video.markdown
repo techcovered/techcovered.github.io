@@ -21,7 +21,7 @@ Many people have fast internet connections, but it is often useless as some ISPâ
 
 Yes, you heard it right! While a proxy is notorious for its slow speed in which it loads web pages, you would be _amazed_ at the speed some proxy sites load YouTube videos (or any internet video in general). The proxy sites not only provide their own custom video player for YouTube videos, but also tend to cloak the packets you receive from YouTube into their own.
 
-![youtube-in-proxy](http://img.techcovered.org/tc/youtube-in-proxy.png)
+![youtube-in-proxy](images/youtube-in-proxy.png)
 
 The proxy site I recommend is **[Proxfree](http://www.proxfree.com/)**, which is a swell service, considering the proxied pages load fast, without the site forcing its ads on the page. The website uses flowplayer as its video player (so your YouTube shortcuts wont work there), ensuring a hitch-free video experience.
 

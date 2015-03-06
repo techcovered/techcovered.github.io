@@ -23,7 +23,7 @@ Some apps which amazon offers for free aren’t that great or popular – howeve
 
 To get any of these paid apps for free, you need to install [Amazon’s App Store](http://www.amazon.com/mobile-apps/b?node=2350149011) on your phone, and check the app everyday for free apps. But how would you like to get notifications of these free paid apps everyday,without installing the app store on your phone or without bothering to check the app or the website daily?
 
-![push_notif](http://img.techcovered.org/tc/push_notif.png)
+![push_notif](images/push_notif.png)
 
 IFTTT offers a channel based on the [pushbullet app for android](https://play.google.com/store/apps/details?id=com.pushbullet.android), through which you can push notifications from anywhere, to your phone and vice versa. To get notifications to your phone for every free paid app amazon releases, you need to use the following recipe, after installing the pushbullet app on your phone.
 

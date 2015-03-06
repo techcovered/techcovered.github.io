@@ -18,7 +18,7 @@ tags:
 - Wordpress
 ---
 
-![no-updated-footer](http://img.techcovered.org/tc/no-updated-footer.png)
+![no-updated-footer](images/no-updated-footer.png)
 
 It's the last few days of December. The year is soon coming to an end. If you are a webmaster and if you have the current year displayed on your footer, one of your worries would be updating your website's footer every year so that the site shows the current year as soon as the 31st December strikes 12:00 AM.
 

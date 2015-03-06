@@ -20,9 +20,9 @@ Do you ever get messages and calls from your mobile carriers (or mobile networks
 
 So how do you get these updates without relying on your mobile carrier?
 
-![Screenshot_2013-07-07-18-10-52](http://img.techcovered.org/tc/Screenshot_2013-07-07-18-10-52.png)
+![Screenshot_2013-07-07-18-10-52](images/Screenshot_2013-07-07-18-10-52.png)
 
-![twitter_logo](http://img.techcovered.org/tc/twitter_logo.jpg)Subscribing to SMS alerts at **[Twitter](http://www.twitter.com)** is the best answer this question can get. Twitter, since long, provides mobile SMS service with which you can get updates of people who you follow directly via SMS. Twitter SMS works in almost all countries and most probably supports your carrier as well. The best part of Twitter SMS is that, it is free of charge.
+![twitter_logo](images/twitter_logo.jpg)Subscribing to SMS alerts at **[Twitter](http://www.twitter.com)** is the best answer this question can get. Twitter, since long, provides mobile SMS service with which you can get updates of people who you follow directly via SMS. Twitter SMS works in almost all countries and most probably supports your carrier as well. The best part of Twitter SMS is that, it is free of charge.
 
 
 ## Setting up SMS alerts from Twitter

@@ -24,7 +24,7 @@ Have you ever thought what you’d do when you lose any one of your devices like
 
 Prey is an open source anti-theft application for almost all your devices, including Windows, Mac, Ubuntu, Linux, Android and iOS (No word on when the Windows Phone or Blackberry version is out).This app lets you remote control your device, automatically providing you the location of your device and screenshots of your device. As mentioned earlier, you can also remotely secure your data.
 
-![prey-features](http://img.techcovered.org/tc/prey-features.png)
+![prey-features](images/prey-features.png)
 
 As soon as you download it and install it to your device, laptop or mobile or anything, you must create an account with prey. Once you did so, you will have to configure your device, like changing the frequency in which Prey runs, automatically connecting to an open Wi-Fi etc. To control the device, you will have to go to Prey’s Control Panel.
 

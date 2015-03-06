@@ -23,7 +23,7 @@ How would you like to know if somebody’s computer is turned on, at any given t
 
 First, you need a TeamViewer account. To create one, simply download TeamViewer for your device and then click on “Sign up” to register yourself. To check on a particular computer, it is important for that computer to have TeamViewer installed too. Once teamviewer is installed on both computers, the target computer’s ID should be noted down.
 
-[![teamviewer-status-check](http://img.techcovered.org/tc/teamviewer-status-check_thumb.png)](http://img.techcovered.org/tc/teamviewer-status-check.png)
+[![teamviewer-status-check](images/teamviewer-status-check_thumb.png)](http://img.techcovered.org/tc/teamviewer-status-check.png)
 
 On your TeamViewer account, Click on the “Add a computer” button and type the ID of the target computer. Type in an alias to identify the computer and click Ok.
 

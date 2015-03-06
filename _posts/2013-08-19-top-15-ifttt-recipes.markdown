@@ -15,7 +15,7 @@ categories:
 
 If this then that (IFTTT) is a very useful service, offering you their services across multiple mediums, which you can use to do anything you want, only limited by your imagination. Now that this service involves your creativity, you may run out of ideas creating recipes. Here are a list of top 15 recipes that you can make IFTTT do.
 
-![ifttt-channels](http://img.techcovered.org/tc/ifttt-channels.png)
+![ifttt-channels](images/ifttt-channels.png)
 
 
 ### 1. Get an SMS when it is about to rain (or any weather change)

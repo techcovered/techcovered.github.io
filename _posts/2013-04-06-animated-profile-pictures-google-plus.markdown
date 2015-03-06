@@ -16,7 +16,7 @@ tags:
 
 Google showed its love for .gif animations, adding support for gif profile pictures in Google+. This means that you can make an animated version of your profile picture, like a waving gesture or a flying kiss gesture (the possibilities are endless), for Google+.
 
-![googleplus](http://img.techcovered.org/tc/googleplus.gif)
+![googleplus](images/googleplus.gif)
 
 Not only would the animated profile picture be displayed whenever someone views your profile, but it'll be displayed even on the homepage of Google, where your avatar usually appears. The animation works even when viewed from a mobile phone, with the exception of iOS.
 
@@ -37,7 +37,7 @@ Another less bothersome move is to use Camcastia to record the screencast of you
 **[ Hint:** If you do not want to use your video as an animation, you can search for other gif animations by using Google Image Search and selecting **Animation** from the** Search Tools > Any Type **option. **]**
 
 
-[![google-animated-search](http://img.techcovered.org/tc/google-animated-search-300x144.png)](http://img.techcovered.org/tc/google-animated-search.png)
+[![google-animated-search](images/google-animated-search-300x144.png)](http://img.techcovered.org/tc/google-animated-search.png)
 
 
 **d) **Login to your Google+ account and upload the new gif animation as your profile picture.

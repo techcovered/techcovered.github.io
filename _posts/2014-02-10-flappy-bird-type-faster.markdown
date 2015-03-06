@@ -21,7 +21,7 @@ Flappy Bird, the former #1 game in the App store and the Play store (before bein
 
 Another coder, by the name of “Mr. Speaker”, has stolen the design ideas of flappy bird, to create a game exactly like flappy bird, online. However, unlike the actual mobile game, you have to constantly type the letters of a given word, to keep the flappy bird in flight.
 
-![flappy-bird-online-typing](http://img.techcovered.org/tc/flappy-bird-online-typing.png)
+![flappy-bird-online-typing](images/flappy-bird-online-typing.png)
 
 The game, as you might have guessed, is exceedingly difficult and was almost next to impossible for me to score beyond a 3. However, looking on the bright side, this game brings flappy bird to your browser. This game was written in JavaScript and on inspection of the code on the website, you can get access to the game files: the author has not encrypted/obfuscated the code for some reasons.
 
