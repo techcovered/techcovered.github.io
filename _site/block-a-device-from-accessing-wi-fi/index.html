@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>        
+		
+			How to block a particular device from accessing your Wi-Fi - TechCovered
+		
+    </title> 
+
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header class="container-fluid header">
+  <div class="container">
+
+  <div class="row" id="hero">
+    <div id="logo">
+      <h1><strong>TECHCOVERED</strong></h1>
+    </div>
+    <div id="rightelementsheader">
+      <span><a href="http://www.facebook.com/techcovered" target="_blank"><i class="fa fa-facebook-square"></i></a></span>
+      <span><a href="http://www.twitter.com/techcoveredblog" target="_blank"><i class="fa fa-twitter-square"></i></a></span>
+      <span><a href="http://plus.google.com/+TechcoveredOrg/" target="_blank"><i class="fa fa-google-plus-square"></i></a></span>
+      <span><i class="fa fa-search"></i></span>
+
+    </div>
+  </div>
+</div>
+</header>
+<div class="container">
+<div class="row">
+
+    <div class="col-xs-8">
+    <h1>How to block a particular device from accessing your Wi-Fi</h1>
+    <p class="muted">23 May 2013</p>
+	<hr>
+    <p>If you own a Wi-Fi connection at home or if you manage the company Wi-Fi connection, then you’d probably want to restrict certain devices – computers, laptops, tablets, or even mobile phones from connecting to your precious Wi-Fi. There is a way to do this, directly from your router itself.</p>
+
+<h2 id="step-1-login-to-your-router">Step 1: Login to your Router</h2>
+
+<p>The first step is to login to your router’s administrator page, using the default (or set) username and password. Open your web browser and type in the URL of your modem. This URL varies from one router (or modem-cum-router) to another. If you look in your routers manual, you’d find the URL of the admin page.</p>
+
+<p><a href="http://img.techcovered.org/tc/url-router-admin-page.png"><img src="http://img.techcovered.org/tc/url-router-admin-page_thumb.png" alt="url-router-admin-page" /></a>If you are lazy, then click on the <em>Start</em> button and type <em>cmd</em> and press enter. In the command prompt, type _ipconfig _and press enter. The address in the _Default Gateway _is the URL for your routers admin page. Type this in your browser’s URL bar.</p>
+
+<p>You will be prompted for your username and password. If this is the first time you visited your router’s admin page (and didn’t change the password), the default username and password is mostly _admin _and _admin _respectively.</p>
+
+<h2 id="step-2-check-the-devices-connected-to-your-wi-fi">Step 2: Check the devices connected to your Wi-Fi</h2>
+
+<p>Depending on your router, you will land on the admin page. From there, you will find an option called “<em>Wireless</em>” which will enable you to manage your router’s wireless settings. I use a router from TP-Link, which has such options in the admin page. Most routers have the same options, but if you can’t find the said options, all you need to do is search further in the admin panel till you come across them.</p>
+
+<p>Your modem will have a** <em>Wireless Statistics</em>** or a similar page, which shows you the MAC address of all devices connected to your Wi-Fi. Some modems also show how much packets they have exchanged, which will give you an idea of how much internet they use.</p>
+
+<p><a href="http://img.techcovered.org/tc/mac-address-wireless.png"><img src="http://img.techcovered.org/tc/mac-address-wireless_thumb.png" alt="mac-address-wireless" /></a></p>
+
+<h2 id="step-3-identify-which-device-you-want-to-block">Step 3: Identify which device you want to block</h2>
+
+<p>Now that you know the devices that are currently connected to your Wi-Fi, it is time to identify which one is the unwanted device. The method to identify unwanted devices is to disconnect or power off all your devices connected to the Wi-Fi, except your computer. In the <em>Wireless Statistics</em> page, if you see only one device, it probably means you have no unwanted connections. If you get more than one device, then you may have a problem.</p>
+
+<p><a href="http://img.techcovered.org/tc/mac-address-computer.png"><img src="http://img.techcovered.org/tc/mac-address-computer_thumb.png" alt="mac-address-computer" /></a></p>
+
+<p>You should now identify your computers MAC address. In Windows, open command prompt and type “<em>ipconfig /all</em>” (without quotes). In the list that follows, your computer’s MAC address is listed under the _Physical Address _of your network card. If you happen to have a lot of virtual/real network card, then the one displayed here, which matches the one in your Wireless Statistics page, is your computers MAC address.</p>
+
+<p>The other MAC address is the one that needs to be blocked.</p>
+
+<h2 id="step-4-blocking-the-unwanted-device">Step 4: Blocking the unwanted device</h2>
+
+<p><a href="http://img.techcovered.org/tc/mac-filtering-router.png"><img src="http://img.techcovered.org/tc/mac-filtering-router_thumb.png" alt="mac-filtering-router" /></a>Now that you have the MAC address of the device you want to block, search for anything similar to <em>Wireless MAC Filtering</em>. It would be Disabled by default. Click on <em>Enable</em> to enable it. You may also encounter something called <em>Filtering Rules</em>. The basic rules are if you want to deny Wi-Fi to all the MAC address you enter, or if you want to enable Wi-Fi for only those MAC Addresses. You can go both ways (your call) but I suggest you stick with the default.</p>
+
+<p>Select “<em>Add New</em>” and enter the MAC address of the device you want to block. This is applicable for all Wi-Fi enabled devices, including but not limited to phones, tablets, computers, laptops, smart watches, etc.</p>
+
+<p>Click on Save or Ok and then reboot your router.</p>
+
+<h2 id="step-5-change-your-wi-fi-and-router-password">Step 5: Change your Wi-Fi and Router password</h2>
+
+<p>To be on the safer side, since your Wi-Fi was compromised in the first place, it is very advisable to change your Wi-Fi password. Another wise move would be to change your router’s default login from admin to something else, along with your password. Better safe than sorry.</p>
+
+<p>Is your router any different? Can’t you find the required settings? Email me and we’ll sort it out.</p>
+
+    </div>
+    <div class="col-xs-4">
+        <div id="sidebar">
+	<h3>Sidebar</h3>
+	<hr>
+	<p>Use semantic HTML tags here.</p>
+	<br>
+	<h3>About me</h3>
+	<hr>
+	<p>Me being narcisstic here.</p>	
+	<br>
+	<h3>Contents</h3>
+	<hr>
+	<ul>
+  		
+    		<li><a href="/First-Post">Lorem Ipsum Dolor Sit Amet</a></li>
+  		
+    		<li><a href="/stream-music-chrome-without-restrictions">Stream Music in Chrome without Any Restrictions</a></li>
+  		
+    		<li><a href="/check-website-shared-on-reddit">Check if your Website is Being Shared on Reddit</a></li>
+  		
+    		<li><a href="/replace-youtube-comments-with-reddit">Remove YouTube Comments and Replace it with Reddit</a></li>
+  		
+    		<li><a href="/footer-upto-date-without-updating-every-year">Keep your Footer up to date without Updating it Every Year</a></li>
+  		
+	</ul>
+</div>
+
+    </div>
+
+</div>
+
+
+</div><!-- /.container -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+
+
+

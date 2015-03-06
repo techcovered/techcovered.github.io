@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>        
+		
+			Microsoft Security Essentials is no good. Install a good anti-virus instead. - TechCovered
+		
+    </title> 
+
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header class="container-fluid header">
+  <div class="container">
+
+  <div class="row" id="hero">
+    <div id="logo">
+      <h1><strong>TECHCOVERED</strong></h1>
+    </div>
+    <div id="rightelementsheader">
+      <span><a href="http://www.facebook.com/techcovered" target="_blank"><i class="fa fa-facebook-square"></i></a></span>
+      <span><a href="http://www.twitter.com/techcoveredblog" target="_blank"><i class="fa fa-twitter-square"></i></a></span>
+      <span><a href="http://plus.google.com/+TechcoveredOrg/" target="_blank"><i class="fa fa-google-plus-square"></i></a></span>
+      <span><i class="fa fa-search"></i></span>
+
+    </div>
+  </div>
+</div>
+</header>
+<div class="container">
+<div class="row">
+
+    <div class="col-xs-8">
+    <h1>Microsoft Security Essentials is no good. Install a good anti-virus instead.</h1>
+    <p class="muted">13 May 2013</p>
+	<hr>
+    <p>I’ve been using Microsoft Security Essentials on my XP and Windows 7 (and also my brief time in Windows 8 – where Security Essentials is built in). It served me well, even earning my recommendation to many friends and family members. MSE is as simple as an antivirus can get – no cluttered interface, simple UI, fast update and quick scanning. In fact, the UI is so simple I even began doubting the actual working of the product. But it just works. I liked it and so did my XP computer with less RAM, as did my Windows 7 laptop, as MSE wasn’t a battery drainer.</p>
+
+<p>Enter a USB drive.</p>
+
+<p>My sister, one day, came up with a USB drive which, confirmedly, had malware on it. It had been previously used in an infected computer, and now some of that malware spread to this, and now was waiting for me to insert the host drive in my computer – to infect it too. Forgive my dramatic narration here - but I knew, just knew, that my bare bones MSE was enough to keep my computer immune to the malware. I had never been this wrong before.</p>
+
+<p>As soon as the USB was plugged in, I was expecting MSE to throw up a big red monitor alerting me of malware and thus quarantining/removing it for me. To my surprise, nothing happened. I began to question the credibility of the USB having any malware at all, and then opened the drive to check.</p>
+
+<p>Surprise! Malware was indeed present in the USB and now, on my computer.</p>
+
+<p>[caption id=”attachment_170” align=”aligncenter” width=”600”]<img src="http://img.techcovered.org/tc/virus-ineffective.png" alt="virus-ineffective" /> MSE detects no threat[/caption]</p>
+
+<p>[caption id=”attachment_169” align=”aligncenter” width=”600”]<img src="http://img.techcovered.org/tc/bitdefender-does-it.png" alt="bitdefender-does-it" /> Bitdefender detects it immediately[/caption]</p>
+
+<p>The malware  (which I later found out to be a generic Win32 Trojan) duplicated itself in every single file of every single drive in my computer. Had I not enabled the “Show extension of known File types” option in Windows Explorer, I’d have been easily fooled. The duplicated copies of the folder ended with a exe extension. How convenient. All this happened, while MSE was running in the background.</p>
+
+<p>Then the inevitable happened, the folders on my desktop were also duplicated. I could now see a “Images.exe” file on my desktop, that somehow had very high privileges, thereby not allowing me to delete them. I scanned it, with MSE – showing no threat was detected. This was it. MSE is of no good. I decided to remove it and install something better.</p>
+
+<p>And then the life saver – <a href="http://www.bitdefender.com/solutions/antivirus.html">Bitdefender</a>. [<em>Note that I’m not promoting anything for revenue here, just narrating my experience. Honestly, I googled “Best Antivirus 2013” and it led me to Bitdefender Antivirus Plus 2013. Kaspersky was also mentioned</em>]. After spending a considerable amount of time downloading the 300-odd MB offline installation file (For some reasons, the online installer didn’t work), I finally got the trail version to run. The first thing it did was to scan the memory  (thus removing any currently-running malware) and then do a quick scan, which quickly detected and quartined the “Images.exe” (<em>what a treacherous name</em>) from my desktop.</p>
+
+<p>Now, as I write this post, it is running in the background, doing a full system scan, detecting a very large amount of malware, none of which was detected by – yours sincerely – Microsoft Security Essentials.</p>
+
+<p>Finally, my point is laid out. Microsoft Security Essential sucks. It looks barebones and works that way too (<em>I guess sometimes you have to judge a book by its cover too</em>). Failing to detect a major malware infection was the limit for me. I am now happy with Bitdefender, also seriously contemplating buying a license (<em>I have my credit card next to me</em>).</p>
+
+<p>For those of who that like things for free, I’d also recommend <a href="http://www.avast.com">Avast</a>, <a href="free.avg.com">AVG</a> or even <a href="http://www.malwarebytes.org">MalwareByte’s AntiMalware</a>. Happy malware hunting!</p>
+
+    </div>
+    <div class="col-xs-4">
+        <div id="sidebar">
+	<h3>Sidebar</h3>
+	<hr>
+	<p>Use semantic HTML tags here.</p>
+	<br>
+	<h3>About me</h3>
+	<hr>
+	<p>Me being narcisstic here.</p>	
+	<br>
+	<h3>Contents</h3>
+	<hr>
+	<ul>
+  		
+    		<li><a href="/First-Post">Lorem Ipsum Dolor Sit Amet</a></li>
+  		
+    		<li><a href="/stream-music-chrome-without-restrictions">Stream Music in Chrome without Any Restrictions</a></li>
+  		
+    		<li><a href="/check-website-shared-on-reddit">Check if your Website is Being Shared on Reddit</a></li>
+  		
+    		<li><a href="/replace-youtube-comments-with-reddit">Remove YouTube Comments and Replace it with Reddit</a></li>
+  		
+    		<li><a href="/footer-upto-date-without-updating-every-year">Keep your Footer up to date without Updating it Every Year</a></li>
+  		
+	</ul>
+</div>
+
+    </div>
+
+</div>
+
+
+</div><!-- /.container -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+
+
+

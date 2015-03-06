@@ -1,0 +1,8 @@
+name: TechCovered
+description: The Technology Blog
+timezone: Asia/Kolkata
+encoding: utf-8
+permalink: /:title
+paginate: 10
+paginate_path: "page/:num"
+highlighter: true

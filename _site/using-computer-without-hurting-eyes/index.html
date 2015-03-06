@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>        
+		
+			How to use the computer at night without eye strain - TechCovered
+		
+    </title> 
+
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header class="container-fluid header">
+  <div class="container">
+
+  <div class="row" id="hero">
+    <div id="logo">
+      <h1><strong>TECHCOVERED</strong></h1>
+    </div>
+    <div id="rightelementsheader">
+      <span><a href="http://www.facebook.com/techcovered" target="_blank"><i class="fa fa-facebook-square"></i></a></span>
+      <span><a href="http://www.twitter.com/techcoveredblog" target="_blank"><i class="fa fa-twitter-square"></i></a></span>
+      <span><a href="http://plus.google.com/+TechcoveredOrg/" target="_blank"><i class="fa fa-google-plus-square"></i></a></span>
+      <span><i class="fa fa-search"></i></span>
+
+    </div>
+  </div>
+</div>
+</header>
+<div class="container">
+<div class="row">
+
+    <div class="col-xs-8">
+    <h1>How to use the computer at night without eye strain</h1>
+    <p class="muted">14 March 2013</p>
+	<hr>
+    <p>A computer monitor is a bright screen and even if the brightness is set to the very minimum, you can still strain your eyes, if you use your computer for long hours in the night. So how exactly do you prevent your eyes from strain and avoid ending up wearing spectacles or contact lenses?</p>
+
+<p>For starters, whenever you use the computer, it is advised to be seated in a proper place, which is brightly lit. This prevents strain to your eyes, when compared to sitting in a dark room.</p>
+
+<h2 id="computer-nightmodehttpimgtechcoveredorgtccomputer-nightmodepng"><img src="http://img.techcovered.org/tc/computer-nightmode.png" alt="computer-nightmode" /></h2>
+
+<h2 id="for-windows">For Windows</h2>
+
+<p>If a bright room during night time is not an option for you, then you can enable the Night mode on your Windows PC. To enable night mode, use the keyboard shortcut <strong>Left Alt + Left Shift + Print Screen</strong>. By doing so, Windows will automatically switch to a “High Contrast” theme, which is less harmful on the eye, but is not exactly that good looking either.</p>
+
+<p>To go back to your actual previous theme, just use the same keyboard shortcut and you are back where you started from. You can also customize this option from the “Ease of Access” Control center in Windows. (Click the Windows button and type “Ease of Access” in the search bar or access it directly from the control panel).</p>
+
+<h2 id="for-web-browsing">For Web Browsing</h2>
+
+<p><strong>a) Google Chrome </strong>- Google Chrome surprises us once again. When you open Google Chrome while Windows Night mode is on, it automatically suggests you to install its Official <a href="https://chrome.google.com/webstore/detail/high-contrast/djcfdncoelnlbldjfhinnjlhdjlikmph/">“High Contrast” extension</a> from the Google web store. After installing it, you get the extension icon next to the URL bar which you can toggle to enable or disable night mode (with various options too!<strong>)</strong></p>
+
+<p><strong>b) Firefox</strong> - Firefox starts to get more awesome than chrome, in this regard. When you enable High Contrast in Windows, Firefox automatically turns to High Contrast theme and all the web pages it loads also starts to follow the same scheme. No add-on/extension required.</p>
+
+<p><strong>c)</strong> <strong>For everything else</strong> - If you use any other browser which doesn’t support High Contrast, then your best bet is to use this bookmarklet. Drag this bookmarklet to your bookmarks bar and click on it whenever you want to enable night mode, though it has to be done manually on each page.</p>
+
+<p><a href="javascript:(function(){function RGBtoHSL(RGBColor){with(Math){var R,G,B;var cMax,cMin;var sum,diff;var Rdelta,Gdelta,Bdelta;var H,L,S;R=RGBColor[0];G=RGBColor[1];B=RGBColor[2];cMax=max(max(R,G),B);cMin=min(min(R,G),B);sum=cMax+cMin;diff=cMax-cMin;L=sum/2;if(cMax==cMin){S=0;H=0;}else{if(L&lt;=(1/2))S=diff/sum;else S=diff/(2-sum);Rdelta=R/6/diff;Gdelta=G/6/diff;Bdelta=B/6/diff;if(R==cMax)H=Gdelta-Bdelta;else if(G==cMax)H=(1/3)+Bdelta-Rdelta;else H=(2/3)+Rdelta-Gdelta;if(H&lt;0)H+=1;if(H&gt;1)H-=1;}return[H,S,L];}}function getRGBColor(node,prop){var rgb=getComputedStyle(node,null).getPropertyValue(prop);var r,g,b;if(/rgb\((\d+),\s(\d+),\s(\d+)\)/.exec(rgb)){r=parseInt(RegExp.$1,10);g=parseInt(RegExp.$2,10);b=parseInt(RegExp.$3,10);return[r/255,g/255,b/255];}return rgb;}function hslToCSS(hsl){return" title="hsl(&quot;+Math.round(hsl[0]*360)+&quot;, &quot;+Math.round(hsl[1]*100)+&quot;%, &quot;+Math.round(hsl[2]*100)+&quot;%)&quot;;}var props=[&quot;color&quot;,&quot;background-color&quot;,&quot;border-left-color&quot;,&quot;border-right-color&quot;,&quot;border-top-color&quot;,&quot;border-bottom-color&quot;];var props2=[&quot;color&quot;,&quot;backgroundColor&quot;,&quot;borderLeftColor&quot;,&quot;borderRightColor&quot;,&quot;borderTopColor&quot;,&quot;borderBottomColor&quot;];if(typeof getRGBColor(document.documentElement,&quot;background-color">Toggle Night Mode</a>==”string”)document.documentElement.style.backgroundColor=”white”;revl(document.documentElement);function revl(n){var i,x,color,hsl;if(n.nodeType==Node.ELEMENT_NODE){for(i=0;x=n.childNodes[i];++i)revl(x);for(i=0;x=props[i];++i){color=getRGBColor(n,x);if(typeof(color)!=”string”){hsl=RGBtoHSL(color);hsl[2]=1-hsl[2];n.style[props2[i]]=hslToCSS(hsl);}}}}})())</p>
+
+<p>Update: The High Contrast of Windows is tested on Windows 7 and Windows 8. If any of you use Windows XP or Vista, do let us know! Thanks!</p>
+
+    </div>
+    <div class="col-xs-4">
+        <div id="sidebar">
+	<h3>Sidebar</h3>
+	<hr>
+	<p>Use semantic HTML tags here.</p>
+	<br>
+	<h3>About me</h3>
+	<hr>
+	<p>Me being narcisstic here.</p>	
+	<br>
+	<h3>Contents</h3>
+	<hr>
+	<ul>
+  		
+    		<li><a href="/First-Post">Lorem Ipsum Dolor Sit Amet</a></li>
+  		
+    		<li><a href="/stream-music-chrome-without-restrictions">Stream Music in Chrome without Any Restrictions</a></li>
+  		
+    		<li><a href="/check-website-shared-on-reddit">Check if your Website is Being Shared on Reddit</a></li>
+  		
+    		<li><a href="/replace-youtube-comments-with-reddit">Remove YouTube Comments and Replace it with Reddit</a></li>
+  		
+    		<li><a href="/footer-upto-date-without-updating-every-year">Keep your Footer up to date without Updating it Every Year</a></li>
+  		
+	</ul>
+</div>
+
+    </div>
+
+</div>
+
+
+</div><!-- /.container -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+
+
+

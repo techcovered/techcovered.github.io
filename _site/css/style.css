@@ -1,0 +1,101 @@
+/*********************************
+	TechCovered on Jekyll
+*********************************/
+
+/* Fonts */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+a {
+	color:#0080AA;
+}
+body {
+	margin:0;
+	padding:0;
+	background:#eee;
+	font-family: "Open Sans",​"Helvetica Neue",​sans-serif;
+	/*letter-spacing: -1px;*/
+}
+
+/* Index.html */ 
+.container-fluid.header {
+	padding:0;
+	background-color: #0080aa;
+	color:#fff;
+	font-family: "Open Sans",​"Helvetica Neue",​sans-serif;
+}
+
+#hero {
+	padding:35px;
+}
+#logo h1 strong{
+	font-size: 35px;
+	float:left;
+}
+#rightelementsheader {
+	float:right;
+	font-size:30px;
+}
+#rightelementsheader > span > a{
+	font-size:30px;
+	margin-right: 10px;
+	color:#fff;
+}
+
+.posts.container {
+	padding:10px 50px;
+	border:1px solid #ccc;
+	background:#fff;
+}
+
+/* Widgets in index.html */
+
+#widgets {
+	float:right;
+}
+
+.widget {
+	margin-bottom: 50px;
+}
+
+#postlist {
+	float:left;
+}
+.postslist {
+	margin-bottom: 50px;
+}
+
+#date {
+	width:75px;
+	height:100px;
+	float:left;
+	padding:2px;
+	}
+
+/* Pagination */
+.pagination > ul {
+	width:auto;
+	margin-left:100px;
+	margin-right: auto;
+}
+
+.pagination > ul > li {
+	float:left;
+	list-style: none;
+	padding:10px;
+	border-left:1px solid #0080AA;
+	border-top:1px solid #0080AA;
+	border-bottom:1px solid #0080AA;
+}
+.pagination > ul > li:last-child {
+	border-right:1px solid #0080AA;
+}
+
+.pagination {
+	text-align: center;
+	width:100%;
+}

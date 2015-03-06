@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>        
+		
+			How to Pin Websites to your Taskbar or Quick Launch for Easier Access - TechCovered
+		
+    </title> 
+
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header class="container-fluid header">
+  <div class="container">
+
+  <div class="row" id="hero">
+    <div id="logo">
+      <h1><strong>TECHCOVERED</strong></h1>
+    </div>
+    <div id="rightelementsheader">
+      <span><a href="http://www.facebook.com/techcovered" target="_blank"><i class="fa fa-facebook-square"></i></a></span>
+      <span><a href="http://www.twitter.com/techcoveredblog" target="_blank"><i class="fa fa-twitter-square"></i></a></span>
+      <span><a href="http://plus.google.com/+TechcoveredOrg/" target="_blank"><i class="fa fa-google-plus-square"></i></a></span>
+      <span><i class="fa fa-search"></i></span>
+
+    </div>
+  </div>
+</div>
+</header>
+<div class="container">
+<div class="row">
+
+    <div class="col-xs-8">
+    <h1>How to Pin Websites to your Taskbar or Quick Launch for Easier Access</h1>
+    <p class="muted">31 July 2013</p>
+	<hr>
+    <p>With a large number of interesting web apps, I recently realized that I use these web apps more than I use any of my desktop software. For instance, I heavily rely on Google Keep (Google’s note taking service) and since it has no desktop app, I would have to manually log in with my web browser every time I wanted to use it. A more easy alternative is to keep a shortcut on your taskbar, if you use Windows 7 or 8 or quick launch, if you use Windows XP or Vista.</p>
+
+<h2 id="the-easiest-way--using-internet-explorer-windows-7-or-8">The Easiest Way – Using Internet Explorer (Windows 7 or 8)</h2>
+
+<p>Before you cringe at the thought of Internet Explorer, think about it. IE has improved drastically since the past years and has been closely following the heels of Firefox and Chrome, if not at the same level. This method works for Internet Explorer 9+ versions.</p>
+
+<p>To pin a site to the taskbar, simply drag the window in IE to the task bar. As simple as that. Besides, IE opens up with a special window which has that website as its home page and a favicon on its left.</p>
+
+<p><a href="http://img.techcovered.org/tc/Internet-Explorer-Shortcuts.gif"><img src="http://img.techcovered.org/tc/Internet-Explorer-Shortcuts_thumb.gif" alt="Internet Explorer Shortcuts" /></a></p>
+
+<h2 id="the-moderate-way--if-you-use-any-other-browser">The Moderate way – If you use any other browser</h2>
+
+<p>A lot of people still don’t prefer IE and if you are one of those who use Chrome or Firefox or Opera, there is another way. The first step is to create an shortcut to the website. To do this, right click and select New&gt;Shortcut. Then in the location bar, click on Browse and navigate to the location of the browser you’d like to open it with.</p>
+
+<p>In case of Google Chrome, the directory is <em>C:\Users&lt;your username&gt;\appdata\local\Google</em>. However, on some computers, it is at <em>C:\Program Files\Google\Chrome\Application\Chrome.exe</em>. If you can’t find yours, you should search for it.</p>
+
+<p>In case of Firefox, the directory is <em>C:\Program Files\Mozilla\Firefox.exe</em>. If you have a 64 bit system, change it to Program Files (x86).</p>
+
+<p>After entering the location of your browser, type the URL you want to open. Take this picture for example.</p>
+
+<p><img src="http://img.techcovered.org/tc/shortcut-website.png" alt="shortcut-website" /></p>
+
+<p>Click on Next, type the websites name and click Ok. Now, right click on that shortcut and select Properties and click on Change Icon. Before you select an icon, head up to <a href="http://www.iconarchive.com">iconarchive</a> or <a href="http://www.iconfinder.com">iconfinder</a> to get a suitable icon for that shortcut. Then browse to the icon and click Ok. Now, drag the shortcut to the taskbar or quick launch.</p>
+
+<h2 id="the-slightly-difficult-way--using-javascript-and-html">The slightly Difficult way – Using JavaScript and HTML</h2>
+
+<p>So far, these sites pinned to the task bar open up the whole browser. This way, they act like a local bookmark. How would you like these websites to be opened in a minimal browser window which is exclusively made for that website? There is a way to do this, but it is a bit lengthy.</p>
+
+<p><img src="http://img.techcovered.org/tc/google-chrome-popup.png" alt="google-chrome-popup" /></p>
+
+<p>This method makes use of the _window.open() _function in JavaScript. Both Chrome and Firefox supports this code, though the codes vary a bit.</p>
+
+<p>First, open notepad and save the file as html. Paste the following code if you want to use <strong>Google Chrome</strong> to open the websites. Change the website URL to your specification and follow the icon change method in the earlier method to customize it. Then drag it to the taskbar.</p>
+
+<pre><code>&lt;html&gt;
+&lt;head&gt;&lt;title&gt;Launcher&lt;/title&gt;&lt;/head&gt;
+&lt;body&gt;
+&lt;script type="text/javascript"&gt;
+window.open('http://www.techcovered.org','Techcovered','toolbar=1,scrollbars=1,location=1,status=1,menubar=1,resizable=1,width=800,height=600');
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>If you use <strong>Firefox</strong>. then paste this code.</p>
+
+<pre><code>&lt;html&gt;
+&lt;head&gt;&lt;title&gt;Launcher&lt;/title&gt;&lt;/head&gt;
+&lt;body&gt;
+&lt;script type="text/javascript"&gt;
+window.open('http://www.techcovered.org','TechCovered', 'directories=no,titlebar=no,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no,width=800,height=600');
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p><strong>Important</strong>: It is to be noted that the first time you run this, Chrome and Firefox won’t open the window because it blocks the pop up. So the first time you run this, add an exception to the html page and then add the code _window.close(); _after line #5.</p>
+
+<p>Did this work for you? Do you have an easier method? Do comment.</p>
+
+<p><strong>UPDATE: **Apparently, this is much easier to do in Chrome. To pin a site, open that website in Google Chrome, click on the settings button in the top right and select **Tools &gt; Create Application Shortcuts</strong>. In the dialog box, select “<strong>Pin to Taskbar</strong>” and click Ok. You now have the website bookmarked to your taskbar directly!</p>
+
+<p><strong>EDIT</strong>: Chrome now has a <a href="http://www.techcovered.org/438/chrome-app-launcher">App Launcher</a> that lets you do this even more easily.</p>
+
+    </div>
+    <div class="col-xs-4">
+        <div id="sidebar">
+	<h3>Sidebar</h3>
+	<hr>
+	<p>Use semantic HTML tags here.</p>
+	<br>
+	<h3>About me</h3>
+	<hr>
+	<p>Me being narcisstic here.</p>	
+	<br>
+	<h3>Contents</h3>
+	<hr>
+	<ul>
+  		
+    		<li><a href="/First-Post">Lorem Ipsum Dolor Sit Amet</a></li>
+  		
+    		<li><a href="/stream-music-chrome-without-restrictions">Stream Music in Chrome without Any Restrictions</a></li>
+  		
+    		<li><a href="/check-website-shared-on-reddit">Check if your Website is Being Shared on Reddit</a></li>
+  		
+    		<li><a href="/replace-youtube-comments-with-reddit">Remove YouTube Comments and Replace it with Reddit</a></li>
+  		
+    		<li><a href="/footer-upto-date-without-updating-every-year">Keep your Footer up to date without Updating it Every Year</a></li>
+  		
+	</ul>
+</div>
+
+    </div>
+
+</div>
+
+
+</div><!-- /.container -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+
+
+

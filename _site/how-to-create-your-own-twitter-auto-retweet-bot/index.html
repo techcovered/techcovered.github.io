@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>        
+		
+			How to Create Your Own Twitter Auto Retweet Bot - TechCovered
+		
+    </title> 
+
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header class="container-fluid header">
+  <div class="container">
+
+  <div class="row" id="hero">
+    <div id="logo">
+      <h1><strong>TECHCOVERED</strong></h1>
+    </div>
+    <div id="rightelementsheader">
+      <span><a href="http://www.facebook.com/techcovered" target="_blank"><i class="fa fa-facebook-square"></i></a></span>
+      <span><a href="http://www.twitter.com/techcoveredblog" target="_blank"><i class="fa fa-twitter-square"></i></a></span>
+      <span><a href="http://plus.google.com/+TechcoveredOrg/" target="_blank"><i class="fa fa-google-plus-square"></i></a></span>
+      <span><i class="fa fa-search"></i></span>
+
+    </div>
+  </div>
+</div>
+</header>
+<div class="container">
+<div class="row">
+
+    <div class="col-xs-8">
+    <h1>How to Create Your Own Twitter Auto Retweet Bot</h1>
+    <p class="muted">08 June 2014</p>
+	<hr>
+    <p>In this elaborate tutorial, you will be able to create a twitter auto retweet bot, which will automatically search the whole of twitter for any topic of your interest and will automatically tweet them for you. Also, you can also make this bot retweet your favorite accounts, lists, your favorites, etc. <img src="http://img.techcovered.org/tc/sample-retweet.png" alt="sample-retweet" /> To see this bot in action, if you tweet something with the word “techcovered”, <del>it will automatically be retweeted by this blog’s twitter account </del>(I have disabled this, at the moment, because of too much spam). You can also create a similar one, following the instructions given below:</p>
+
+<h2 id="what-we-will-be-using">What we will be using:</h2>
+
+<ol>
+  <li>
+    <p>A Twitter account for your bot (or even your own twitter account if you wish to retweet yourself)</p>
+  </li>
+  <li>
+    <p><a href="http://script.google.com/">Google Scripts </a>(You don’t have to code anything, though)</p>
+  </li>
+  <li>
+    <p><a href="http://www.ifttt.com">IFTTT </a>(For retweeting)</p>
+  </li>
+</ol>
+
+<h2 id="how-will-we-be-doing-it">How will we be doing it?</h2>
+
+<p>Twitter has disabled RSS feeds for profiles, so the major step to do this is obtaining tweets in RSS form. <a href="http://ctrlq.org/code/19491-embed-twitter-rss">A script </a>from Amit Agarwal, a well known blogger, solves this issue. With a little modification to the script, we create a non-repeating version (i.e, same tweet will not be retweeted multiple times). With the help of IFTTT, we tweet these feeds. Hence, the auto-retweet bot. <img src="http://img.techcovered.org/tc/twitter-activity-retweet.png" alt="twitter-activity-retweet" /></p>
+
+<h2 id="lets-start-then">Let’s start, then..</h2>
+
+<p>First, you need to create a twitter widget. Log in to your twitter account and click on Settings and select <a href="http://www.twitter.com/settings/widgets">Widgets</a>. Click on Create. Now, you should create a widget with what content you would like to retweet. If you would like to retweet whatever a particular user has tweeted, then click on “User Timeline” and enter that user’s name.  Or if you would like to retweet tweets of a particular group of people, create a list and make a widget of it. If you would like to know about a particular topic on twitter, click on the “Search” tab and enter your search query. Click on “Create Widget” after you finish. In the URL bar, copy the ID of your widget, which will look something like “363815745370191000”.</p>
+
+<h2 id="converting-your-widget-to-rss-feed">Converting your Widget to RSS Feed.</h2>
+
+<p><a href="http://ctrlq.org/code/19491-embed-twitter-rss">This script </a>from <a href="http://www.labnol.org/about/">Amit Agarwal </a>converts your twitter feed to RSS. However, with minor modifications, the below script can be used for this purpose. To execute this script, go to Google Scripts and open a blank project. Copy and paste the following code. Then, click on Run&gt; getTweets. When asked to Authorize, click on the authorize button. (This is a one time procedure only).</p>
+
+<pre><code>function Twitter_RSS() {
+  return; 
+}
+ 
+function doGet(e) {
+   
+  var widgetID = e.queryString? e.queryString : "ERROR_NO_ID_FOUND";
+  var cache = CacheService.getPublicCache();
+  var id = "Twitter" + widgetID;
+  var rss = cache.get(id);
+   
+  if ( ! rss ) {
+    rss = getTweets(widgetID);
+    cache.put(id, rss, 120); // Expire in 2 minutes
+  }
+   
+  return ContentService.createTextOutput(rss)
+  .setMimeType(ContentService.MimeType.XML);
+}
+ 
+ 
+function getTweets(id) {
+     
+  try {
+             
+    var widget, json, tweets, regex, tweet, list, time, url, when, rss, heading, title, link, alltweets, permalink, permatitle; 
+     
+    title = "Twitter RSS Feed : " + id;
+    link  = "http://www.techcovered.org/#" + id;              
+    url   = "http://cdn.syndication.twimg.com/widgets/timelines/" + id;
+     
+    widget  = UrlFetchApp.fetch(url);
+    json    = Utilities.jsonParse(widget);   
+     
+    if ( ! json.body ) {
+      return;
+    }
+     
+    list = json.body.replace(/(\r\n|\n|\r)/gm," ")
+                    .replace(/\s+/g, " ")
+                    .replace(/&lt;div class=\"(h-card|footer|detail-expander|retweet-credit)[^&gt;]*&gt;(.*?)&lt;\/div&gt;/gi, "")
+                    .replace(/&lt;time[^&gt;]*&gt;(.*?)&lt;\/time&gt;/gi, "");
+     
+    regex = new RegExp(/&lt;h1[^&gt;]*&gt;(.*?)&lt;\/h1&gt;/ig);
+     
+    if ((heading = regex.exec(list)) !== null) {
+       
+      regex = RegExp(/href="(.*?)"/ig);
+      if ((permalink = regex.exec(heading[1])) !== null) {
+        link = permalink[1];
+      }
+       
+      regex = RegExp(/title="(.*?)"/ig);
+      if ((permatitle = regex.exec(heading[1])) !== null) {
+        title = permatitle[1];
+      }
+    }
+     
+    var self = ScriptApp.getService().getUrl() + "?" + id;
+     
+    rss  = '&lt;?xml version="1.0"?&gt;&lt;rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"&gt;';
+    rss += ' &lt;channel&gt;&lt;title&gt;' + title + '&lt;/title&gt;';
+    rss += ' &lt;link&gt;' + link + '&lt;/link&gt;';
+    rss += ' &lt;atom:link href="' + self + '" rel="self" type="application/rss+xml" /&gt;';
+    rss += ' &lt;description&gt;' + title + ' :: RSS Generator available at http://www.labnol.org/?p=28149&lt;/description&gt;';
+     
+    regex = RegExp(/&lt;ol[^&gt;]*&gt;(.*?)&lt;\/ol&gt;/ig);
+     
+    if ((alltweets = regex.exec(list)) !== null) {
+       
+      alltweets = alltweets[1].replace(/\s+/g, " ");
+       
+      var re = /&lt;a class=".*?permalink.*?" href="(.*?)" data-datetime="(.*?)"[^&gt;]*&gt;(.*?)&lt;\/a&gt;(.*?)&lt;p[^&gt;]*&gt;(.*?)&lt;\/p&gt;/gm;
+       
+      while (tweet = re.exec(alltweets)) {
+         
+        url   = tweet[1];
+        when  = Utilities.formatDate(parseDate(tweet[2]), "UTC", "EEE, d MMM yyyy HH:mm:ss");
+ 
+        tweet = tweet[5].replace(/&lt;\s*(div|span|b|p)[^&gt;]*&gt;/gi, "")
+                        .replace(/&lt;\s*\/\s*(div|span|b|p)[^&gt;]*&gt;/gi, "")
+                        .replace(/class=".*?"|rel=".*?"|title=".*?"|target=".*?"|data-expanded-url=".*?"|data-query-source=".*?"|dir=".*?"|data-scribe=".*?"/gi, "")
+                        .replace(/\s+/g, " ");
+        if(tweet.substring(0,2)!="RT") {
+        rss += "&lt;item&gt;";
+        rss += " &lt;title&gt;"+ tweet.replace(/&lt;a[^&gt;]*&gt;(.*?)&lt;\/a&gt;/gi, "") + "&lt;/title&gt;";
+        rss += " &lt;pubDate&gt;" + when + " +0000&lt;/pubDate&gt;";
+        rss += " &lt;guid&gt;" + url + "&lt;/guid&gt;";
+        rss += " &lt;link&gt;" + url + "&lt;/link&gt;";
+        rss += " &lt;description&gt;&lt;![CDATA[ @"+url.split("/")[3] + ": " + tweet + "]]&gt;&lt;/description&gt;";
+        rss += "&lt;/item&gt;";            
+        } 
+        
+      }
+             
+      rss += "&lt;/channel&gt;&lt;/rss&gt;";
+      return rss;
+    }
+     
+  } catch (e) {
+    Logger.log(e.toString());
+  }
+}
+ 
+function parseDate(d) {
+ 
+  var date = /(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2})/;
+  var m = date.exec(d);
+  var year   = +m[1];
+  var month  = +m[2];
+  var day    = +m[3];
+  var hour   = +m[4];
+  var minute = +m[5];
+  var second = +m[6];
+   
+  return new Date(year, month - 1, day, hour, minute, second);
+}
+</code></pre>
+
+<p>After that, go to Publish&gt; Deploy as a web app. Enter a version number and in the “Who has access to the app” select “<strong>Anyone, Even Anonymous</strong>”. Click Create. Copy the link in the box. To test your feed, paste this URL in the address bar and in the end, add “?” followed by your twitter widget ID. It will look something like this: <em>https://script.google.com/macros/s/AKfycbufejQanpLBnFIelEaq5e774Ya7GIFFd33OE-srjTF8n7Pi3sc/exec?363815745370191000</em> In the URL, you will be able to see the twitter feed you asked for. Do note that it is displayed as just code in Chrome, but is displayed as RSS in Firefox and Internet Explorer.</p>
+
+<h2 id="the-final-step">The Final Step</h2>
+
+<p>After you have the RSS link, its now time to go <a href="http://ifttt.com">IFTTT</a>, the awesome website that you can use to make trigger-action based events and more. Create an account and select the “Create” link on the top. Select “this” and click on the RSS feed icon. In the next step, click on “New Feed Item” and type in the URL you copied. Then, select “that” Next, select Twitter in the next list and click on “Activate” button to link your twitter profile in which you would like to post your retweets. In the next step, click on “Post a tweet”. In the “What’s happening box”?”, type the following: _RT _ Click on “Create Action”.</p>
+
+<h2 id="and-youre-done">And, you’re done…</h2>
+
+<p>After this, whenever your twitter widget gets updated automatically according to your preferences, your feeds will also be updated and hence, your linked twitter account will automatically retweet the tweet. You now have your own auto retweet bot for twitter. If you have any problems, or would like suggest any modifications, do comment!</p>
+
+<p><strong>UPDATE 1 </strong>: IFTTT doesn’t allow ‘@’ now, so there is a slight modification in the script. Delete the previous copy in your Google Drive account and use the new one. Thanks!</p>
+
+<p><strong>UPDATE 2</strong>: If you have problems using IFTTT, you can also use other feed-to-twitter services like <a href="http://twitterfeed.com/">TwitterFeed</a>, etc. But remember to change the <strong>line 71</strong> and add a RT right next to ‘@’. <a href="http://img.techcovered.org/rss-twitter-autobot.png">Here is how it will look like</a>.</p>
+
+<p><strong>UPDATE 3 </strong>: I have modified the script according to the many requests I got. It is fully working now. (Thanks a lot, Amit). Delete the previous copy in your Google Drive account and use the new one. Thanks!</p>
+
+<p><strong>UPDATE 4:</strong> Fixed a minor bug. It should work well with IFTTT now.</p>
+
+<p><strong>UPDATE 5:</strong> Fixed the bug which causes it to loop itself. It works properly now. Really guys, I double-checked.</p>
+
+    </div>
+    <div class="col-xs-4">
+        <div id="sidebar">
+	<h3>Sidebar</h3>
+	<hr>
+	<p>Use semantic HTML tags here.</p>
+	<br>
+	<h3>About me</h3>
+	<hr>
+	<p>Me being narcisstic here.</p>	
+	<br>
+	<h3>Contents</h3>
+	<hr>
+	<ul>
+  		
+    		<li><a href="/First-Post">Lorem Ipsum Dolor Sit Amet</a></li>
+  		
+    		<li><a href="/stream-music-chrome-without-restrictions">Stream Music in Chrome without Any Restrictions</a></li>
+  		
+    		<li><a href="/check-website-shared-on-reddit">Check if your Website is Being Shared on Reddit</a></li>
+  		
+    		<li><a href="/replace-youtube-comments-with-reddit">Remove YouTube Comments and Replace it with Reddit</a></li>
+  		
+    		<li><a href="/footer-upto-date-without-updating-every-year">Keep your Footer up to date without Updating it Every Year</a></li>
+  		
+	</ul>
+</div>
+
+    </div>
+
+</div>
+
+
+</div><!-- /.container -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+
+
+

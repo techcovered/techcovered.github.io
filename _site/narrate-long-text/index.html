@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>        
+		
+			How to Make your Computer Narrate Long Pages of Text - TechCovered
+		
+    </title> 
+
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header class="container-fluid header">
+  <div class="container">
+
+  <div class="row" id="hero">
+    <div id="logo">
+      <h1><strong>TECHCOVERED</strong></h1>
+    </div>
+    <div id="rightelementsheader">
+      <span><a href="http://www.facebook.com/techcovered" target="_blank"><i class="fa fa-facebook-square"></i></a></span>
+      <span><a href="http://www.twitter.com/techcoveredblog" target="_blank"><i class="fa fa-twitter-square"></i></a></span>
+      <span><a href="http://plus.google.com/+TechcoveredOrg/" target="_blank"><i class="fa fa-google-plus-square"></i></a></span>
+      <span><i class="fa fa-search"></i></span>
+
+    </div>
+  </div>
+</div>
+</header>
+<div class="container">
+<div class="row">
+
+    <div class="col-xs-8">
+    <h1>How to Make your Computer Narrate Long Pages of Text</h1>
+    <p class="muted">28 September 2013</p>
+	<hr>
+    <p>Wouldn’t it be nice if you selected a long “wall” of text (that’s what the internet calls it) and click a button (or so), and the computer reads it to you? Of course it is. Here are a few ways to get through with reading some text. Optionally, you can also save the text as an mp3 and listen to it later, all of which is detailed below.</p>
+
+<p><img src="http://img.techcovered.org/tc/talk.jpg" alt="talk" /></p>
+
+<h2 id="the-easy-way--browser-extensions">The Easy way – Browser Extensions</h2>
+
+<p>There are extensions for Firefox and Google Chrome for a text-to-speech service.</p>
+
+<p>For <strong>Firefox</strong>, <a href="https://addons.mozilla.org/En-us/firefox/addon/text-to-voice/">Text-to-Voice</a> does a fairly good job of translating the selected text and also offers you a link to download the file as an mp3. <a href="https://addons.mozilla.org/en-US/firefox/addon/foxvox">FoxVox</a> is another addon for Firefox which does a similar job, but provides you with superior translation, but without the option to pause the audio or provide download link.</p>
+
+<p><strong>Chrome</strong> has the best tools for speaking out text. <a href="https://chrome.google.com/webstore/detail/chrome-speak/diagnfimeecdcecjpnkjgbnlelkclcpj">Chrome Speak</a> is an awesome extension (or app). Once installed, an icon appears in your app screen where you can personalize all your settings. Once done, right click on a selected text and Select Chrome Speak&gt;Read the selected text. iSpeech is another extension (no, it is not from Apple. They don’t make chrome extensions.) which speaks out selected text when you click the browser extension button.</p>
+
+<p>For <strong>safari</strong>, an extension is not required. You can use your Mac OS’s Voiceover (Command + F5), or highlight a text and select start speaking.</p>
+
+<p>For all other browsers (if you are one of those who still do not want to change), use this <a href="http://vozme.com/bookmarklet.php?lang=en">bookmarklet</a>.</p>
+
+<h2 id="doing-it-offline">Doing it Offline</h2>
+
+<p>If you want something to be read offline, like something from a Word document, or a pdf file (which has selectable text), then there is a much simpler way.</p>
+
+<p>If you are on a <strong>Mac</strong>, you can press Command + F5 and use Voice over to read stuff for you.</p>
+
+<p>For <strong>Windows</strong>, you can do something similar too, but in a not-so-easy way. First, open notepad and type the following code, and save it as a “.vbs” file.</p>
+
+<pre><code>Dim msg, sapi
+msg=InputBox("Enter your text","Talk-it by TechCovered.org")
+Set sapi=CreateObject("sapi.spvoice")
+sapi.Speak msg
+</code></pre>
+
+<p>Once done, open the file and paste the text you want to be read and click Ok. If you want this text to be stopped, the only way is to open this file again and click Ok, leaving the text field blank.</p>
+
+<h2 id="having-it-perfectly-pronounced">Having it perfectly pronounced</h2>
+
+<p><img src="http://img.techcovered.org/tc/google-translate-dictation.png" alt="google-translate-dictation" />A lot of these text-to-speech engines aren’t really that accurate. So if you want to listen to the text with precise pronunciation, then <a href="http://translate.google.com">Google Translate</a> is a good option. Paste the desired text in Google translate and click on the Speaker icon in the lower left side of the right side. Voila! Perfectly pronounced text!</p>
+
+<h2 id="saving-it-as-an-mp3-file">Saving it as an mp3 file</h2>
+
+<p>If you have come across some huge piece of text that you really want to listen to, then an option is to save it as an mp3 file, which you could then download to your mobile phone, tablet or your portable device and listen to it on the go.</p>
+
+<p>“<a href="http://ctrlq.org/listen">Listen</a>” is a service which speaks the given text and also gives you a link to save the audio as an mp3 file. (When I last checked, it could not handle huge audio files). <a href="http://vozme.com/">Vozme</a> is another text to speech service, which offers you link to download the audio of the pasted text, no matter how large the text file size is. However, the audio isn’t exactly up to the mark, but still understandable nevertheless.</p>
+
+    </div>
+    <div class="col-xs-4">
+        <div id="sidebar">
+	<h3>Sidebar</h3>
+	<hr>
+	<p>Use semantic HTML tags here.</p>
+	<br>
+	<h3>About me</h3>
+	<hr>
+	<p>Me being narcisstic here.</p>	
+	<br>
+	<h3>Contents</h3>
+	<hr>
+	<ul>
+  		
+    		<li><a href="/First-Post">Lorem Ipsum Dolor Sit Amet</a></li>
+  		
+    		<li><a href="/stream-music-chrome-without-restrictions">Stream Music in Chrome without Any Restrictions</a></li>
+  		
+    		<li><a href="/check-website-shared-on-reddit">Check if your Website is Being Shared on Reddit</a></li>
+  		
+    		<li><a href="/replace-youtube-comments-with-reddit">Remove YouTube Comments and Replace it with Reddit</a></li>
+  		
+    		<li><a href="/footer-upto-date-without-updating-every-year">Keep your Footer up to date without Updating it Every Year</a></li>
+  		
+	</ul>
+</div>
+
+    </div>
+
+</div>
+
+
+</div><!-- /.container -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+
+
+

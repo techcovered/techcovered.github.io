@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>        
+		
+			How to Prevent Other Websites from iframing your Website - TechCovered
+		
+    </title> 
+
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header class="container-fluid header">
+  <div class="container">
+
+  <div class="row" id="hero">
+    <div id="logo">
+      <h1><strong>TECHCOVERED</strong></h1>
+    </div>
+    <div id="rightelementsheader">
+      <span><a href="http://www.facebook.com/techcovered" target="_blank"><i class="fa fa-facebook-square"></i></a></span>
+      <span><a href="http://www.twitter.com/techcoveredblog" target="_blank"><i class="fa fa-twitter-square"></i></a></span>
+      <span><a href="http://plus.google.com/+TechcoveredOrg/" target="_blank"><i class="fa fa-google-plus-square"></i></a></span>
+      <span><i class="fa fa-search"></i></span>
+
+    </div>
+  </div>
+</div>
+</header>
+<div class="container">
+<div class="row">
+
+    <div class="col-xs-8">
+    <h1>How to Prevent Other Websites from iframing your Website</h1>
+    <p class="muted">27 November 2014</p>
+	<hr>
+    <p>If you own a website, then you are probably wary of other websites copying your content. You can usually deal with these websites by filing DMCA notices to them and then to Google, so that the quality of the website which copies your website, doesn’t affect your site’s rankings on Google.</p>
+
+<p>However, a few websites go the extra mile. They directly embed your website within their website, using iframes. If you don’t want anybody using iframes with your websites, all you need to do is to add a small line of javascript code to your website (or more specifically, to each web page of your website) .</p>
+
+<pre><code>&lt;script type="text/javascript"&gt;
+   if (top.location != location) {
+      top.location.href = document.location.href ;
+   }
+&lt;/script&gt;
+</code></pre>
+
+<p>This code checks whether the browser address is the same as the address of your page. If it is not (which is true in case of iframes), then the browser redirects to your website’s original address.</p>
+
+<p>However, it is not all that simple. When this trick was more frequently used, another bypass was found. Assume that the malicious site is A, and your website is B. Using this ‘hack’, everytime B uses the script to get away from A, A forces it to stay in its own website. This happens during every iteration, until the browser gives up and displays a 204 (Content not found) error.</p>
+
+<p>This ‘hack’ is almost impossible to bypass. There is no way B can get away from A. However, if B can’t get away, then it can at least display a suitable message, so that the visitors from A could be made aware that A is a malicious site and ask them to proceed to B. This is a mechanism that even Facebook uses, to protect its data from unwitting users.</p>
+
+<p>The following code first checks if it is an iframe or not, and then proceeds to display a “Copied” message if it detects an iframe. It also tries to get outside the iframe 5 times.</p>
+
+<pre><code>&lt;script type="text/javascript"&gt;
+  var tries=0;
+  if (top.location != location) {
+     document.getElementById("&lt;span style="color: #ff0000;"&gt;print&lt;/span&gt;").innerHTML= "&lt;span style="color: #ff0000;"&gt;COPIED&lt;/span&gt;";
+     var trys = setInterval(function() {
+         top.location.href = document.location.href;
+         tries++;
+         if(tries&gt;5) clearInterval(trys);
+      }, 1);
+  }
+&lt;/script&gt;
+</code></pre>
+
+<p>In this code, replace the red color “print” with the ID of any div element where you wish to display the error message. Also change the red “COPIED” message, with whatever message you please.</p>
+
+<p>There is another method to achieve this, however, it requires editing the configuration files of your server and also, only modern browsers support this. To try this method, take a look at <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/X-Frame-Options">Mozilla’s Developer Network page</a>.</p>
+
+
+    </div>
+    <div class="col-xs-4">
+        <div id="sidebar">
+	<h3>Sidebar</h3>
+	<hr>
+	<p>Use semantic HTML tags here.</p>
+	<br>
+	<h3>About me</h3>
+	<hr>
+	<p>Me being narcisstic here.</p>	
+	<br>
+	<h3>Contents</h3>
+	<hr>
+	<ul>
+  		
+    		<li><a href="/First-Post">Lorem Ipsum Dolor Sit Amet</a></li>
+  		
+    		<li><a href="/stream-music-chrome-without-restrictions">Stream Music in Chrome without Any Restrictions</a></li>
+  		
+    		<li><a href="/check-website-shared-on-reddit">Check if your Website is Being Shared on Reddit</a></li>
+  		
+    		<li><a href="/replace-youtube-comments-with-reddit">Remove YouTube Comments and Replace it with Reddit</a></li>
+  		
+    		<li><a href="/footer-upto-date-without-updating-every-year">Keep your Footer up to date without Updating it Every Year</a></li>
+  		
+	</ul>
+</div>
+
+    </div>
+
+</div>
+
+
+</div><!-- /.container -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+
+
+

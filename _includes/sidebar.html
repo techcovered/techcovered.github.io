@@ -1,0 +1,17 @@
+<div id="sidebar">
+	<h3>Sidebar</h3>
+	<hr>
+	<p>Use semantic HTML tags here.</p>
+	<br>
+	<h3>About me</h3>
+	<hr>
+	<p>Me being narcisstic here.</p>	
+	<br>
+	<h3>Contents</h3>
+	<hr>
+	<ul>
+  		{% for post in site.posts limit: 5 %}
+    		<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  		{% endfor %}
+	</ul>
+</div>

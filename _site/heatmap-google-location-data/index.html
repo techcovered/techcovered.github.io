@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>        
+		
+			Create a Heatmap from your Google Location Data - TechCovered
+		
+    </title> 
+
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header class="container-fluid header">
+  <div class="container">
+
+  <div class="row" id="hero">
+    <div id="logo">
+      <h1><strong>TECHCOVERED</strong></h1>
+    </div>
+    <div id="rightelementsheader">
+      <span><a href="http://www.facebook.com/techcovered" target="_blank"><i class="fa fa-facebook-square"></i></a></span>
+      <span><a href="http://www.twitter.com/techcoveredblog" target="_blank"><i class="fa fa-twitter-square"></i></a></span>
+      <span><a href="http://plus.google.com/+TechcoveredOrg/" target="_blank"><i class="fa fa-google-plus-square"></i></a></span>
+      <span><i class="fa fa-search"></i></span>
+
+    </div>
+  </div>
+</div>
+</header>
+<div class="container">
+<div class="row">
+
+    <div class="col-xs-8">
+    <h1>Create a Heatmap from your Google Location Data</h1>
+    <p class="muted">09 October 2014</p>
+	<hr>
+    <p>Google maps and Google Search tends to store your location information and links it with your account - to offer better and localized search results. You can view all the location data that Google has stored from your, in <a href="https://www.google.com/settings/takeout">Google Takeouts</a>. Your location data is stored in a json file, and where there is data, there are many web services which offer you their super helpful service.</p>
+
+<p>One such service, <a href="http://theopolis.me/location-history-visualizer/">TheoPolis’ Location History Visualizer</a>, allows you to view a heat map of all the locations you have been to.</p>
+
+<p><img src="http://img.techcovered.org/tc/google-location-heatmap.png" alt="Google Location History Heatmap " /></p>
+
+<p>All you have to do is to go to Google Takeout, uncheck all options except the Location History option and click on Next &gt; Create Archive. You need to enter your password to verify your identity and then wait for it to finish and press Download. In the archive, search for a file named “LocationHistory.json” and extract it. In the website, click on browse and navigate to the json file you just extracted.</p>
+
+<p>After the website takes a little time to process your data, you get a heat map of all the places you have been to (which Google knows, anyways). The places more frequented to are marked in increasing order of warm colors and less frequented areas are marked with colder blue colors.</p>
+
+<h3 id="is-my-google-data-safe">Is my Google Data Safe?</h3>
+
+<p>Yes. It is.</p>
+
+<p>If you are worried whether uploading data to a third party website is a good idea, then fret not, because the data you upload only consists of latitude and longitude details, their time stamps, how sure Google is of the location, and whether you are on vehicle or on foot. No details which denote your account information, such as your real name, your email address, or any personal information, is stored in the file.</p>
+
+<p>There were many web services which offered the same details, but most of them stopped working when Google Latitude retired.</p>
+
+    </div>
+    <div class="col-xs-4">
+        <div id="sidebar">
+	<h3>Sidebar</h3>
+	<hr>
+	<p>Use semantic HTML tags here.</p>
+	<br>
+	<h3>About me</h3>
+	<hr>
+	<p>Me being narcisstic here.</p>	
+	<br>
+	<h3>Contents</h3>
+	<hr>
+	<ul>
+  		
+    		<li><a href="/First-Post">Lorem Ipsum Dolor Sit Amet</a></li>
+  		
+    		<li><a href="/stream-music-chrome-without-restrictions">Stream Music in Chrome without Any Restrictions</a></li>
+  		
+    		<li><a href="/check-website-shared-on-reddit">Check if your Website is Being Shared on Reddit</a></li>
+  		
+    		<li><a href="/replace-youtube-comments-with-reddit">Remove YouTube Comments and Replace it with Reddit</a></li>
+  		
+    		<li><a href="/footer-upto-date-without-updating-every-year">Keep your Footer up to date without Updating it Every Year</a></li>
+  		
+	</ul>
+</div>
+
+    </div>
+
+</div>
+
+
+</div><!-- /.container -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+
+
+
