@@ -21,9 +21,9 @@ tags:
 
 If you use Windows Live Writer* for publishing blog posts to Wordpress (or even Blogger), then you might have noticed that Wordpress tends to upload multiple versions of the same image to your servers. While you are on an unlimited storage space, this might be okay, but if you have a restricted space provided by your host, then you have to know how to stop this to avoid exhausting your limit.
 
-![wlw-duplicate-in-wordpress](images/wlw-duplicate.png)
+![wlw-duplicate-in-wordpress](https://techcovered.github.io/images/wlw-duplicate.png)
 
-![wlw-no-link](images/wlw-no-link.png)When you insert an image by default in Windows Live Writer, it automatically links the image to the “Source Picture” in the Format button in the ribbon toolbar. By this, windows live writer uploads two copies of the image – one the original and one the other image which live writer will be viewed when you click the image.
+![wlw-no-link](https://techcovered.github.io/images/wlw-no-link.png)When you insert an image by default in Windows Live Writer, it automatically links the image to the “Source Picture” in the Format button in the ribbon toolbar. By this, windows live writer uploads two copies of the image – one the original and one the other image which live writer will be viewed when you click the image.
 
 While this is rarely useful, it is advisable to disable this altogether. To do this, click on “Link to: Source Picture” and select “No Link”. The next time you publish a post, two copies of the image wont be uploaded.
 

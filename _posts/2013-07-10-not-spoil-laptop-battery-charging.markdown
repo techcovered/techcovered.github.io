@@ -17,7 +17,7 @@ tags:
 
 If you own a laptop, you would have experienced times when you would have continuously kept the laptop for charging for hours together, despite the battery reaching 100% charge capacity or being fully charged. Whether you know it or not, this is immensely dangerous for your laptop’s Lithium ion (Li-ion) battery and doing so frequently will affect your battery life permanently.
 
-[![battery-power](images/battery-power_thumb.png)](http://img.techcovered.org/tc/battery-power.png)
+[![battery-power](https://techcovered.github.io/images/battery-power_thumb.png)](http://img.techcovered.org/tc/battery-power.png)
 
 So what do you do to prevent this? The answer is simple. You should **remove your laptop battery** whenever you are **connected to AC power** source and plan on using it for long hours.
 

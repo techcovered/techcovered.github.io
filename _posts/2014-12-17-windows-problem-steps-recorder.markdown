@@ -27,13 +27,13 @@ If you use a Windows 7 or 8, there is an inbuilt tool which helps you create scr
 
 This inbuilt tool, aptly named "Problem Steps Recorder", is almost like a screen recording software - except, it produces images with captions instead of a video output.
 
-![problem_step_recorder](images/problem_step_recorder.png)
+![problem_step_recorder](https://techcovered.github.io/images/problem_step_recorder.png)
 
 All you have to do is to press "Start Record" and the tool will automatically capture your screens every time you perform an action and also _describes_ what action the user performed in the notes.
 
 For instance, if you drag your mouse across the screen, the caption to that particular screenshot would be something like "_User mouse drag start in <Title of your current window>_" and "_User mouse drag end in <Title of your current window>_" along with the relevant time and date.
 
-![problem_steps_output](images/problem_steps_output.png)
+![problem_steps_output](https://techcovered.github.io/images/problem_steps_output.png)
 
 PSR doesn't record any of the keystrokes you make, but it does record any special function keys or shortcuts you make.
 

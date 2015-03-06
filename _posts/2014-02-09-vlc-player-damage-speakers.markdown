@@ -17,7 +17,7 @@ tags:
 - Windows
 ---
 
-![vlc-full-volume](images/vlc-full-volume.png)
+![vlc-full-volume](https://techcovered.github.io/images/vlc-full-volume.png)
 
 I am an avid fan of VLC media player. It is my default media player and I use it all the time, whenever opening and playing a media file is required. But here is some very interesting news – using VLC media player can cause damage to speakers and some companies are refusing warranty if they find VLC installed on your computer!
 

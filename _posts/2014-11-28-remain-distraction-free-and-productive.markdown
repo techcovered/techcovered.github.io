@@ -57,7 +57,7 @@ To block the host file, simply type your computer’s local address, followed by
 ## b. Stop IM
 
 
-![google-hangout-620xa](images/google-hangout-620xa.jpg)
+![google-hangout-620xa](https://techcovered.github.io/images/google-hangout-620xa.jpg)
 This next step is more common sense than ‘tip’. If you plan on working with full concentration, you cannot afford to lose your productivity by whiling away you time, texting and chatting with your friends.
 
 If you use Skype, Hangouts, MSN, Yahoo Messenger, then either sign out of them or disable notifications from these apps. Also, do not use the browser version of Gmail - hangouts is integrated in Gmail, so you would be much better off using IMAP or POP version of Gmail in your email client.
@@ -82,7 +82,7 @@ It is also recommended that you have at least 6 to 7 hours of sleep every day, t
 ## d. Play the right music
 
 
-![video-game-music](images/video-game-music.png)If you plan to be ‘wired in’ to your computer, you might as well put on your headphones and listen to some motivational music tracks that really pump up your energy levels.
+![video-game-music](https://techcovered.github.io/images/video-game-music.png)If you plan to be ‘wired in’ to your computer, you might as well put on your headphones and listen to some motivational music tracks that really pump up your energy levels.
 
 The music you choose for this, is also a factor which can affect your productivity. For instance, if you listen to music tracks with lyrics, they get stuck in your head and get repetitive and irritating to listen to. For long working hours, jazz music and classical music like Beethoven, Bach, Chopin, etc. are recommended.
 

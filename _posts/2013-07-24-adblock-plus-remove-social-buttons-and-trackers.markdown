@@ -23,7 +23,7 @@ As a blogger and a web publisher, I only advise people to not use Adblock as man
 
 Of late, **[Adblock](http://adblockplus.org/)** has started to allow ads (by default) which are less intrusive and less likely to bother you in any way. However, this default “whitelist” is a very short list and only a few ad slots of a few top sites are whitelisted. If you would like to show support for any website or blog that you follow or you like, then please do turn adblock off.
 
-![adblock](images/adblock.png)
+![adblock](https://techcovered.github.io/images/adblock.png)
 
 The most interesting feature is Adblock’s ability to disable social networking plugins and share buttons, which is optional, however. According to Adblock plus, since these social networks track your browser habits and an accidental (or thoughtless) click on these plugins or share buttons might reveal your “browsing habits” to all your friends and followers.
 

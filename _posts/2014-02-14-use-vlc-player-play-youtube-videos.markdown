@@ -18,7 +18,7 @@ tags:
 
 One of the most underrated feature of VLC media player is its ability to easily play YouTube videos. Now, playing a YouTube video with VLC requires a bit more effort than watching a YouTube video online. The process involves you opening VLC and then pasting the YouTube video link, but if you do take the pain to do this, the video viewing experience is rewarding enough.
 
-![VLC_youtube](images/VLC_youtube.png)
+![VLC_youtube](https://techcovered.github.io/images/VLC_youtube.png)
 
 To play a YouTube video with VLC, copy the URL of the YouTube video, open VLC and Press Ctrl + N (or go to File > Network Stream) and paste the url and click on the play button. It is as easy as it looks.
 

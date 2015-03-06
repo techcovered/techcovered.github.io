@@ -17,7 +17,7 @@ tags:
 
 Have you ever noticed how some ads are creepily the same as your search history? For example, if you browse for a product on a shopping site, then you can see some ads related to what you have seen on the shopping site, displayed everywhere on the internet. Recently, this is starting to show even on Facebook. How does this happen? Are they even related?
 
-![fb-ads](images/fb-ads.jpg)
+![fb-ads](https://techcovered.github.io/images/fb-ads.jpg)
 
 A while back, I had written about how [websites seem to share information with ad servers](http://www.techcovered.org/404/websites-share-information-with-google-ads). I had also mentioned that this happens through cookie exchanges taking place in the browser. While this gets only the basic facts right, there seems to be a much more complicated backend running all this.
 

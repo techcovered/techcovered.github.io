@@ -19,7 +19,7 @@ If your blogger blog is connected to your Google+ account, then you can enable G
 
 A WordPress developer has recently made a WordPress plugin, which will allow you to use Google+ comments for WordPress. You can download the plugin from the [developers website ](http://www.cloudhero.net/misc/gplus-comments.zip)or from [WordPress plugin directory](http://wordpress.org/extend/plugins/gplus-comments/). You can also see it in action in the [developers blog](http://www.cloudhero.net/gplus-comments).
 
-![wordpress-g+](images/wordpress-g+.jpg)
+![wordpress-g+](https://techcovered.github.io/images/wordpress-g+.jpg)
 
 The questions boils down to this - Should you use Google+ for WordPress? While the social integration with Google+ will be a huge plus for your website, the cons outweigh the pros. You should stick with your current commenting system, instead of migrating to Google+ commenting system.
 

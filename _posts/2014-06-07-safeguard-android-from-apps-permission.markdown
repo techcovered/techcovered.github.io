@@ -19,7 +19,7 @@ Facebook's Android app has a new "feature", which automatically uses your phone'
 
 At this stage, you would need a kind of permission manager, which would control how much permission to your phone's resources you'd grant for an app. Enter [XPrivacy](https://play.google.com/store/apps/details?id=biz.bokhorst.xprivacy.installer). XPrivacy is a one of a kind app, which restricts apps from accessing your data.
 
-[![xprivacy](images/xprivacy.png)](http://img.techcovered.org/tc/xprivacy.png)
+[![xprivacy](https://techcovered.github.io/images/xprivacy.png)](http://img.techcovered.org/tc/xprivacy.png)
 
 To install XPrivacy, you would first need to have a rooted phone. Then, you would have to install the [Xposed framework](http://repo.xposed.info/module/de.robv.android.xposed.installer)*****. Then, install XPrivacy, and within the Xposed framework, enable XPrivacy and then hit reboot.
 

@@ -25,7 +25,7 @@ If you read an ebook the right way, the pleasure and convenience is greater than
 ## 1. Kindle
 
 
-![Kindle](images/Kindle.jpg)
+![Kindle](https://techcovered.github.io/images/Kindle.jpg)
 
 The latest generation of [Amazon Kindle](https://kindle.amazon.com/) costs around $79 (with ads) and it is easily one of the best ways to read your ebooks. The e-ink display is easy on the eyes and Amazon's whispernet delivery and very large collection of ebooks make Kindle a must-buy for ebook enthusiasts.
 
@@ -37,7 +37,7 @@ Kindle is also super lightweight and can easily fit into any not-large-but-not-m
 ## 2. Tablets
 
 
-![tablet_reading](images/tablet_reading.jpg)
+![tablet_reading](https://techcovered.github.io/images/tablet_reading.jpg)
 
 If you own a tablet, you have the next best way to read an ebook. A tablet's large screen is ideal for reading an ebook without scrolling too much. There are also a large number of ebook reading apps for Android and iOS.
 
@@ -51,7 +51,7 @@ The two major disadvantages with reading your ebook on your tablet is that the b
 ## 3. Computer
 
 
-![computer-reading](images/computer-reading.jpg)
+![computer-reading](https://techcovered.github.io/images/computer-reading.jpg)
 
 You read that right. When you read a book (say, at home), all you do is remain stationary and concentrate on the text. You can do the same on your computer. So, your computer can also be used as an ebook reader. As simple as that.
 
@@ -65,7 +65,7 @@ If you would like your progress to be synced across devices, you can use [Kindle
 ## 4. Mobile Phone
 
 
-![phone-reading](images/phone-reading.jpg)
+![phone-reading](https://techcovered.github.io/images/phone-reading.jpg)
 
 Do you remember what happened when J.K Rowling released the final book of her Harry Potter series? Thousands of Harry Potter fans called in sick and spent the whole time reading the book. Those who were unfortunate enough to not be able to escape from their routines read the books whenever and wherever they could. You could at least spot a few people commuting on public transport reading the 800 page novel. If Rowling had published the book this year, these people would read the ebook on their phones instead of carrying the 800 page monster.
 

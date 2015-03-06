@@ -24,7 +24,7 @@ The internet just got paranoid after the leaks from NSA revealed that the US gov
 
 Many websites track your website activity using the harmless Google Analytics, and many other analytic programs like Omniture, DoubleClick, and also many revenue advertising programs, like AdSense, DoubleClick (again), etc. There are, however, some websites with malicious intent that track you online, for some malicious reasons, of course.
 
-![Detect-tracking-websites](images/Detect-tracking-websites.png)
+![Detect-tracking-websites](https://techcovered.github.io/images/Detect-tracking-websites.png)
 
 [**Ghostery**](http://www.ghostery.com/download)** **is a popular browser extension for [Firefox](https://addons.mozilla.org/en-US/firefox/downloads/latest/ghostery), [Chrome](https://chrome.google.com/webstore/detail/mlomiejdfkolichcflejclcbmpeaniij), [Opera](https://addons.opera.com/addons/extensions/details/ghostery/), [Safari](http://www.ghostery.com/safari/Ghostery.safariextz) and even [Internet Explorer](http://www.ghostery.com/download-ie).   This extension sits as a background process throughout your browsing session. It monitors all websites for trackers, tracking cookies, beacons, etc. which it maintains in a blacklist. As soon as it is encountered in a websites, you can block it individually or set it to block such privacy invasions, automatically.
 

@@ -21,7 +21,7 @@ No matter how beautifully your website is designed, it still would look incomple
 
 A few vendors like Apple need you to use a particular code, for Apple devices to use your favicon as an icon. The same applies for various devices of different resolution screens. The devices which have a higher resolution screen need a higher quality favicon, whereas a lower resolution device can make do with a lower resolution of your favicon.
 
-![favicon_various](images/favicon_various.png)
+![favicon_various](https://techcovered.github.io/images/favicon_various.png)
 
 If you are a web developer, then it gets pretty difficult to deal with this issue on a device-to-device scale. [RealFaviconGenerator ](http://realfavicongenerator.net/)is a website which lets you easily create code for your website, so that all devices get their fair share of your favicon.
 

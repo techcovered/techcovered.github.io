@@ -18,7 +18,7 @@ tags:
 
 Since its inception till yesterday, Gmail had always provided its users with the “Show images (or Always show images)” whenever you receive an email which contains an image or many images. But now, Google has started to automatically display all the images of your emails, regardless of whether you want to see it or not.
 
-![gmail-images](images/gmail-images.png)
+![gmail-images](https://techcovered.github.io/images/gmail-images.png)
 
 From now on, Google renders all images in Gmail from Google’s servers itself, meaning- if you send a person an email containing images, Google is first going to download these images and store it on their servers. This means, when you open the email, you are going to get the images delivered to you from Google’s own servers, instead of the server used by the person who sent the email.
 

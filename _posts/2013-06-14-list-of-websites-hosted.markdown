@@ -19,7 +19,7 @@ Servers can host multiple websites. If the hosting plan that you chose for your 
 
 If you use shared hosting, then you can find the list of other websites that you are sharing your server with. While this may not be that helpful in your website activity, it is still useful to know them. For example, if your website doesn’t load, you can try the other websites to see if its just your website or the server, which is down.
 
-[![dedicated](images/dedicated_thumb.png)](http://img.techcovered.org/tc/dedicated.png)
+[![dedicated](https://techcovered.github.io/images/dedicated_thumb.png)](http://img.techcovered.org/tc/dedicated.png)
 
 To do this, [Dedicated or Not](dedicatedornot.com) is the best option, providing all details about the server you host your website in, along with all the neighboring websites.  It also fetches your Alexa Backlinks and Alexa Website Rank. [Neighborhood Checker](http://www.majesticseo.com/reports/neighbourhood-checker) is another useful tool by majestic seo, which provides the list of websites in a table. However, some of the sites didn’t seem to load.
 

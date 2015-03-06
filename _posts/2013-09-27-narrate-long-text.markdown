@@ -20,7 +20,7 @@ tags:
 
 Wouldn’t it be nice if you selected a long “wall” of text (that’s what the internet calls it) and click a button (or so), and the computer reads it to you? Of course it is. Here are a few ways to get through with reading some text. Optionally, you can also save the text as an mp3 and listen to it later, all of which is detailed below.
 
-![talk](images/talk.jpg)
+![talk](https://techcovered.github.io/images/talk.jpg)
 
 
 ## The Easy way – Browser Extensions
@@ -59,7 +59,7 @@ Once done, open the file and paste the text you want to be read and click Ok. If
 ## Having it perfectly pronounced
 
 
-![google-translate-dictation](images/google-translate-dictation.png)A lot of these text-to-speech engines aren’t really that accurate. So if you want to listen to the text with precise pronunciation, then [Google Translate](http://translate.google.com) is a good option. Paste the desired text in Google translate and click on the Speaker icon in the lower left side of the right side. Voila! Perfectly pronounced text!
+![google-translate-dictation](https://techcovered.github.io/images/google-translate-dictation.png)A lot of these text-to-speech engines aren’t really that accurate. So if you want to listen to the text with precise pronunciation, then [Google Translate](http://translate.google.com) is a good option. Paste the desired text in Google translate and click on the Speaker icon in the lower left side of the right side. Voila! Perfectly pronounced text!
 
 
 ## Saving it as an mp3 file

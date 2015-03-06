@@ -27,7 +27,7 @@ If, due to some reasons, you cannot place them close to your devices, either bec
 
 **[inSSIDer](http://www.metageek.net/products/inssider/)** is a Wi-Fi analyzer tool for Windows and [Mac](http://www.metageek.net/products/inssider-for-mac/) which you can use to view and analyze all the Wi-Fi connections your computer’s network adapter can find. The most important function of this tool is that it can also find out the different frequencies (or channels) of the detected networks. For example, if many networks are using the same channel, then that particular channel becomes congested and your Wi-Fi signal will end up facing lots of interference, thereby declining its performance.
 
-![inssider](images/inssider.png)
+![inssider](https://techcovered.github.io/images/inssider.png)
 
 **WirelessMon** is another tool, but not a free one. There is a 30 day trail version, however, that will suit our needs at the moment. This tool gives more information than inSSIDer. You get many graphs regarding network speeds, strengths, etc. All the channels occupied is also graphically shown.
 

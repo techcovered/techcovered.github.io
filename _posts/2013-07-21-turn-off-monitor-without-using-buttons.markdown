@@ -17,7 +17,7 @@ tags:
 - Windows
 ---
 
-![nircmd_monitor_off](images/nircmd_monitor_off.png)Monitors come with a power button (laptops’ displays don’t, however) which you can use to turn off the monitor, to save power or any other purposes. In case your monitor’s power button is broken, or you would just like an easier way to turn off your monitor, there is a way.
+![nircmd_monitor_off](https://techcovered.github.io/images/nircmd_monitor_off.png)Monitors come with a power button (laptops’ displays don’t, however) which you can use to turn off the monitor, to save power or any other purposes. In case your monitor’s power button is broken, or you would just like an easier way to turn off your monitor, there is a way.
 
 To do this, you first have to download [**NirCmd**](http://nirsoft.net/utils/nircmd.zip). NirCmd is a command line utility using which you can perform some incredible tasks. First, download the utility and extract its contents into a directory, say C: drive. To turn the monitor off, open command prompt and go to the directory where you extracted the utility and run the following line:
 
@@ -27,7 +27,7 @@ To do this, you first have to download [**NirCmd**](http://nirsoft.net/utils/nir
 
 As simple as that! However, if you want an easier way to do this, then on your desktop, right click anywhere and select New > Shortcut. In the location, click on Browse, and navigate to location where you extracted nircmd. In the end of the location, type monitor off. It should look something like this.
 
-[![nircmd_shortcut_desktop](images/nircmd_shortcut_desktop_thumb.png)](http://img.techcovered.org/tc/nircmd_shortcut_desktop.png)
+[![nircmd_shortcut_desktop](https://techcovered.github.io/images/nircmd_shortcut_desktop_thumb.png)](http://img.techcovered.org/tc/nircmd_shortcut_desktop.png)
 
 Click on next and name the shortcut with something apt, like “Turn off Monitor”. Additionally, you can also right click and select properties and click on “Change icon” to change it to something suitable.
 

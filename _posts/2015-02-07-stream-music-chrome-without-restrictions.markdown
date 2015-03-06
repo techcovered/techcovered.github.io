@@ -21,7 +21,7 @@ You have Spotify, Pandora, etc where you pay a small fee for unlimited access to
 
 In India, sites like gaana and saavn are streaming services which have a large local variety of music. Then, there is always [Youtube Music](https://www.youtube.com/music) where you can stream music videos for free.
 
-![streamus](images/streamus.png)
+![streamus](https://techcovered.github.io/images/streamus.png)
 
 [Streamus ](https://streamus.com)is a Google Chrome extension which lets you stream music from YouTube. It is all very simple: All you have to do is install the extension and then click on search and type a song name and click on the search results to play the song.
 

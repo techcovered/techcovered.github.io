@@ -23,7 +23,7 @@ Khan's goal is to provide free quality education to the masses, but not everyone
 
 One possible solution is to download these videos, individually, for offline watching - but there are also many lessons which do not use videos for learning. Besides, Khan Academy also provides you with lots of practise tests, which you cannot simply _download_. However, a [summer intern](http://jamiealexandre.com/about/) at Khan's academy came up with a service which lets you use Khan Academy, without an internet connection.
 
-![KhanAcademy](images/KhanAcademy.png)
+![KhanAcademy](https://techcovered.github.io/images/KhanAcademy.png)
 
 [K.A Lite](https://learningequality.org/ka-lite/), which stands for Khan Academy Lite, is the basically what its name implies - a lightweight version of Khan Academy. K.A Lite works well offline, emulating Khan Academy by setting up a server on your computer (or even a Raspberry Pi) and allowing you to add Students, Faculties, etc, and track their progress. KA Lite allows you to have the complete online experience of Khan Academy. Here is a [demo ](http://demo.learningequality.org/)of how it looks.
 

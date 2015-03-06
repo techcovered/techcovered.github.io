@@ -18,7 +18,7 @@ If you download files through torrent (legally or not), then you would have come
 
 The solution is surprisingly simple. However, the exact solution will vary from one torrent client to another, but will undoubtedly work for most clients. I will be using the popular μTorrent to demonstrate.
 
-![utorrent-remove-torrent](images/utorrent-remove-torrent.png)
+![utorrent-remove-torrent](https://techcovered.github.io/images/utorrent-remove-torrent.png)
 
 
 ## Case 1: Restoring the download

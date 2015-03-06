@@ -20,7 +20,7 @@ Whenever someone talks about encoding secret messages, they always talk about en
 
 [Spam Mimic](http://www.spammimic.com/) is the (only) website that lets you convert your text into – spam. You heard it right. This website encodes your secret message into a spam message, which you can send it to any person without any need of encryption. The spam mail can then be decoded by that person via the same website to get the original message.
 
-![Spam_decoding](images/Spam_decoding.gif)
+![Spam_decoding](https://techcovered.github.io/images/Spam_decoding.gif)
 
 Since this message is not encrypted, there is a high possibility that if someone comes to know that this message hides another text, it can be easily decoded. However, the idea is to prevent these people from knowing that there is a secret message in the first place.
 

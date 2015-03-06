@@ -20,7 +20,7 @@ tags:
 
 I recently downloaded a few .iso files of a few Linux distributions. They were all around 4 GB each, and downloaded without a problem. However, I still wasn’t sure whether these iso files were completely downloaded and since I didn’t want to risk a failed OS installation, I had to do something to make sure that these files were intact. If you are in a similar position, then you are in luck, because there is something you can do, instead of re-downloading the whole file again.
 
-![md5-checksum](images/md5-checksum.png)
+![md5-checksum](https://techcovered.github.io/images/md5-checksum.png)
 
 MD5 and SHA1 are cryptographic algorithms, which are used to check the integrity of data and most commonly – large files which are downloaded off the internet. The idea employed here is to find out the MD5 (or SHA1) hash of a downloaded file and then verify this hash with the hash of the original file (which you downloaded).
 

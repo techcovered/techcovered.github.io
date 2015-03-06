@@ -20,7 +20,7 @@ It is always much easier to register yourself on websites, than to delete yourse
 
 Skype, for example, has no direct link which you can visit, to delete your account. To delete your Skype account, you would have to chat with customer support and ask them to delete your account. iTunes also follows the same procedure: you first have to deactivate your account and then contact Apple to deactivate your iTunes account. There are  far more worse websites, like Buzz feed, CNN, Flipkart, Hacker News, where you cannot delete your account, once you create one.
 
-![delete-account](images/pinterest-delete-account.jpg)
+![delete-account](https://techcovered.github.io/images/pinterest-delete-account.jpg)
 
 This is where [Account Killer](http://www.accountkiller.com/) is a god-send. This website isn't a service which deletes account for you, but it provides a detailed description of how to delete your account, on a very wide range of websites. Websites have been divided into white list, blacklist and grey list, depending on how hard it is to delete your account on that website.
 

@@ -26,7 +26,7 @@ There are a very less percentage of people who still use Instant Messengers on t
 
 This is where Tox comes in. Tox is a still-in-development instant messenger, which lets you send and receive chats, which is completely encrypted and cannot be read by any third party while the chat is being transmitted. Tox is a distributed chat messenger, which means that there is no server involved in between the two or more people in conversation.
 
-![Tox Instant Messenger](images/ToxIm.png)
+![Tox Instant Messenger](https://techcovered.github.io/images/ToxIm.png)
 
 Tox is also feature rich. The desktop client of Tox allows you to make audio and video calls for free. Tox also allows multiple recipient styled group chat.
 

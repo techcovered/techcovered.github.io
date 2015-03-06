@@ -23,7 +23,7 @@ A computer monitor is a bright screen and even if the brightness is set to the v
 For starters, whenever you use the computer, it is advised to be seated in a proper place, which is brightly lit. This prevents strain to your eyes, when compared to sitting in a dark room.
 
 
-## ![computer-nightmode](images/computer-nightmode.png)
+## ![computer-nightmode](https://techcovered.github.io/images/computer-nightmode.png)
 
 
 

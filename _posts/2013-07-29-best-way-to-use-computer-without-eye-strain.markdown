@@ -20,11 +20,11 @@ tags:
 
 If you use computer at night, you must be under a lot of eye strain. There are ways to prevent them, [by using other methods](http://www.techcovered.org/63/using-computer-without-hurting-eyes), but then – here is the best one.
 
-![flux-ab](images/flux-ab.jpg)F.lux is a eye-saving piece of software which you may term insanely helpful if your eyes hurt a lot, when you are constantly staring at your computer screen for too long. This wonderful piece of software adjusts your monitors brightness (and also – its color and temperature) automatically, depending on which time of the day it is, according to your location.
+![flux-ab](https://techcovered.github.io/images/flux-ab.jpg)F.lux is a eye-saving piece of software which you may term insanely helpful if your eyes hurt a lot, when you are constantly staring at your computer screen for too long. This wonderful piece of software adjusts your monitors brightness (and also – its color and temperature) automatically, depending on which time of the day it is, according to your location.
 
 After you download the less-than-an-MB application, it instantly detects your location by the time zone you have applied in your Windows installation (or your Mac, Linux, iPhone or even iPad) and changes your display’s temperature settings according to the sunlight of that region. For example, in the default settings, during the day time, you get the normal usual display settings and when the day turns to an evening, you see your screen slowly growing yellower and paler in contrast.
 
-![flux](images/flux.png)
+![flux](https://techcovered.github.io/images/flux.png)
 
 This app has received a lot of appreciation for what it is and what it does. Many people call it the best application they have ever used, while some have even gone to the extent of calling it a life-saver for removing a dagger from their eyes.
 

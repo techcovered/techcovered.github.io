@@ -19,7 +19,7 @@ After Google updated their terms and conditions, which most of you would not hav
 
 This may not exactly be a problem, but if you consider the number of plus ones you have given accidentally and it being advertised to all the people who know you, you may want to turn this off.
 
-[![google-sponsored](images/google-sponsored_thumb.png)](http://img.techcovered.org/tc/google-sponsored.png)
+[![google-sponsored](https://techcovered.github.io/images/google-sponsored_thumb.png)](http://img.techcovered.org/tc/google-sponsored.png)
 
 To turn it off, simply head to the [Shared Endorsements](https://plus.google.com/settings/endorsements) page and uncheck the box below, which says “Based upon my activity, Google may show my name and profile photo in shared endorsements that appear in ads” and click Save. Click “Continue” when Google still pleads for you to not turn it off.
 

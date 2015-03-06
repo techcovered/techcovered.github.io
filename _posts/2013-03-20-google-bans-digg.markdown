@@ -20,14 +20,14 @@ It was a bizarre day for all the Digg readers on the internet, when Google retur
 To verify the claim, the search query "_site:digg.com_" which returns all the links of Digg indexed by Google, returned no results at all!
 
 
-![digg-google-banned](images/digg-google-banned.png)
+![digg-google-banned](https://techcovered.github.io/images/digg-google-banned.png)
 
 
 Digg is a very popular website, ranking about 600 in the world, in Alexa. Though it has been losing a fair share of readers to other competing sites like Reddit, etc., it still attracts millions of page views a month.
 
 Apparently, this was an unintentional mistake from Google's part. As [CNET ](http://news.cnet.com/8301-1023_3-57575389-93/google-admits-to-accidentally-eliminating-digg-from-search/)reported, the whole website was cleared off from Google's memory, when actually, the intended action was to just remove one spam link. This issue has been cleared, and now Google does include Digg in its [search results](http://www.google.com/search?q=digg).
 
-![digg-traffic-down](images/digg-traffic-down.png)**Did this event impact the traffic of Digg? **Apparently, yes. It did! Digg's traffic decreased by a record 23% in a day, according to Alexa.
+![digg-traffic-down](https://techcovered.github.io/images/digg-traffic-down.png)**Did this event impact the traffic of Digg? **Apparently, yes. It did! Digg's traffic decreased by a record 23% in a day, according to Alexa.
 
 Most of Digg's traffic is from direct visit, from users who visit the site regularly. The extra load of users are organic, that is, originate from search engines. When Google didn't load any search results for Digg, the traffic reduced to a dramatic extent.
 

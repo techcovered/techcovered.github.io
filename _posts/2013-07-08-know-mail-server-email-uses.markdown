@@ -28,7 +28,7 @@ $ nslookup -query=mx testdomain.com
 
 When you run the command, you’ll see the following output.
 
-![mail-server-nslookup](images/mail-server-nslookup.png)
+![mail-server-nslookup](https://techcovered.github.io/images/mail-server-nslookup.png)
 
 As expected, Microsoft's email IDs use outlook mail servers. Similarly, AOL uses its own mail servers (Anyone here remembers AOL mail?). This can also be extended to check various websites’ mail servers. It is surprising how many of them use Gmail (Including this blog), partly because of the Google Apps package Google offers. Outlook is also a serious alternative to be considered.
 

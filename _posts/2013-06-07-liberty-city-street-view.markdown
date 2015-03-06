@@ -18,7 +18,7 @@ Liberty City, the city of sins in the Grand Theft Auto series, can now be thorou
 
 Yes, you heard it right. The kind geeks at [Gta4.net](http://www.gta4.net), a GTA 4 fan site, has used Google Maps’ API to implement a map of Liberty City, with street view. The map not only includes this goodness, but also specifies various points on the map, where you get health, armor, weapon pickups along with window cleaning platforms.
 
-![gta4-street-view](images/gta4-street-view.png)
+![gta4-street-view](https://techcovered.github.io/images/gta4-street-view.png)
 
 You can view the map **[here](http://www.gta4.net/map/)**. Like Google Maps, click on  ![](http://media.gtanet.com/gta4/images/streetview/streetview-marker.png) and drag it on to the map.
 

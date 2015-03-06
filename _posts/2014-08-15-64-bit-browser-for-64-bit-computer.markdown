@@ -20,7 +20,7 @@ tags:
 
 Let me lay down the facts for you - 64 bit is the future. As more and more computers and even phones moves towards a 64 bit architecture, you still find that the whole software side is reluctant to move on. A very important category of software, Web Browsers, still reside in the good old 32 bit ecosystem. While 64 bit systems support 32 bit software, the support is not vice-versa, so any software made for 64 bit wouldn't run on 32 bit computers.
 
-![Firefox_has_crashed](images/Firefox_has_crashed.jpg)
+![Firefox_has_crashed](https://techcovered.github.io/images/Firefox_has_crashed.jpg)
 
 So, why would you need a 64 bit browser? First, the performance of a 64 bit browser would be much smoother than a 32 bit browser. For instance, Firefox 32-bit  has a memory limit of around 2 GB, and if the browser exceeds the limit, Firefox would either crash or be sluggishly slow.
 

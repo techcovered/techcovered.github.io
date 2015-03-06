@@ -16,7 +16,7 @@ tags:
 
 No matter where you are on the internet, you will always stumble upon ads from Google. This is unless, of course, you use an Ad Blocker, which [makes you a bad person](http://www.techcovered.org/161/detect-and-block-adblock). You can fight against the ads, but instead, you might as well join them instead and [get better related ads](http://www.techcovered.org/404/websites-share-information-with-google-ads).
 
-![google-ads-opt](images/google-ads-opt.png)
+![google-ads-opt](https://techcovered.github.io/images/google-ads-opt.png)
 
 Google has now revamped its Ads Settings, allowing you to add more information about yourself, such as your age, gender, language and interests. Google now divides ads shown into two parts, ads shown on Google websites, which will contain information from your Google account. The other part are the ads shown by Google on other websites, which will be the data which you enter.
 
