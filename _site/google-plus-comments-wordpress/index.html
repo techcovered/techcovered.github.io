@@ -23,19 +23,34 @@
     <![endif]-->
   </head>
   <body>
+
+<nav id="slide-menu">
+    <div class="inmenu-trigger"><span class="glyphicon glyphicon-remove"></span>CLOSE</div>
+  <ul id="appendable">
+    <li><a href="/about">About TechCovered</a></li>
+    <li><a href="/setup">Setup</a></li>
+    <li><a href="/changelog">Changelog</a></li>
+    <li><a href="/search">Search</a></li>
+    <li><a href="/keep-in-touch">Contact us</a></li>
+  </ul>
+</nav>
+
+
     <header class="container-fluid header">
   <div class="container">
 
   <div class="row" id="hero">
-    <div id="logo">
+    <div id="logo" class="col-md-6">
       <h1><strong><a href="http://www.techcovered.org">TECHCOVERED</a></strong></h1>
     </div>
-    <div id="rightelementsheader">
+    <div class="col-md-6" style="margin-top:20px;">
+      <div id="rightelementsheader">
+      <span><a class="menu-trigger" href="#"><div id="MenuButton"><i class="fa fa-bars"></i></div></a></span>
       <span><a href="http://www.facebook.com/techcovered" target="_blank"><i class="fa fa-facebook-square"></i></a></span>
       <span><a href="http://www.twitter.com/techcoveredblog" target="_blank"><i class="fa fa-twitter-square"></i></a></span>
       <span><a href="http://plus.google.com/+TechcoveredOrg/" target="_blank"><i class="fa fa-google-plus-square"></i></a></span>
       <span><i class="fa fa-search"></i></span>
-
+      </div>
     </div>
   </div>
 </div>
@@ -43,7 +58,7 @@
 <div class="posts container">
 <div class="row">
 
-    <article class="col-xs-8" id="thepost">
+    <article class="col-md-8" id="thepost">
     <h1>Should you use Google+ Comments for Wordpress?</h1>
     <p class="muted">24 April 2013</p>
 	<hr>
@@ -107,7 +122,7 @@ function load_disqus() {
     <noscript>Enable JavaScript to view comments.</noscript>
 
     </article>
-    <div class="col-xs-4">
+    <div class="col-md-4">
         <div id="sidebar">
 	<h3>Sidebar</h3>
 	<hr>
@@ -335,6 +350,7 @@ function load_disqus() {
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/wookie.js"></script>
   </body>
 </html>
 
