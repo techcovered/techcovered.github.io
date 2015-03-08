@@ -20,7 +20,14 @@ body {
 	font-family: "Open Sans",​"Helvetica Neue",​sans-serif;
 	/*letter-spacing: -1px;*/
 }
-
+::selection {
+    background-color: #0080AA;
+    color:#FFFFFF;
+}
+::-moz-selection {
+    background-color: #0080AA;
+    color:#FFFFFF;
+}
 /* Index.html */ 
 .container-fluid.header {
 	padding:0;
