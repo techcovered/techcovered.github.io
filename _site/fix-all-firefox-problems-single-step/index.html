@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:fb="http://ogp.me/ns/fb#">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -43,7 +43,7 @@
     <div id="logo" class="col-md-6">
       <h1><strong><a href="http://www.techcovered.org">TECHCOVERED</a></strong></h1>
     </div>
-    <div class="col-md-6" style="margin-top:20px;">
+    <div class="col-md-6 rightside">
       <div id="rightelementsheader">
       <span><a class="menu-trigger" href="#"><div id="MenuButton"><i class="fa fa-bars"></i></div></a></span>
       <span><a href="http://www.facebook.com/techcovered" target="_blank"><i class="fa fa-facebook-square"></i></a></span>
@@ -55,6 +55,7 @@
   </div>
 </div>
 </header>
+
 <div class="posts container">
 <div class="row">
 
@@ -77,6 +78,10 @@
 <p>Also read: <a href="http://techcovered.blogspot.com/2012/11/how-to-remove-toolbars-from-all.html">How to Remove Toolbars from All Browsers Easily</a></p>
 
     <hr>
+    <span style="float: left;margin: 0 10px 0 0;padding: 2px 0 0;">
+<a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></span>
+<span><div class="fb-share-button" data-layout="button"></div></span>
     <!-- Comments and email signup -->
   <div id="mc_embed_signup">
 
@@ -85,10 +90,10 @@
 		  <h2>Subscribe for more: </h2><br>
 		  <div style="clear: both;"></div>
 		<div class="mc-field-group leftfloat">
-		  <input type="text" id="mce-FNAME" class="" name="FNAME" value="NAME">
+		  <input type="text" id="mce-FNAME" class="" name="FNAME" placeholder="NAME" value="">
 		</div>
 		<div class="mc-field-group rightfloat">
-		  <input type="email" id="mce-EMAIL" class="required email" name="EMAIL" value="EMAIL">
+		  <input type="email" id="mce-EMAIL" class="required email" name="EMAIL" placeholder="EMAIL" value="">
 		</div>
 		<div style="clear: both;"></div>
 		  <div id="mce-responses">
@@ -124,23 +129,11 @@ function load_disqus() {
 	<br>
 	<hr>
 
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=301593553359997&version=v2.0";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
 
 <div class="fb-like-box" data-href="https://www.facebook.com/techcovered" data-width="300" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
 
 	<br>
 	
-
-
-
 
 
 
@@ -294,6 +287,21 @@ function load_disqus() {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </ul>
 </div>
  
@@ -303,7 +311,11 @@ function load_disqus() {
 </div>
 
 <footer>
-	<a href="/sitemap.xml" class="button" title="Sitemap of Techcovered" target="_blank">SITEMAP</a>
+	<span><a href="/sitemap.xml"  title="Sitemap of Techcovered" target="_blank">SITEMAP</a></span>
+	<span>&#8210;</span>
+	<span><a href="/about" title="About Techcovered" target="_blank">ABOUT</a></span>
+	<span>&#8210;</span>
+	<span><a href="/keep-in-touch" title="Contact Techcovered" target="_blank">CONTACT</a></span>
 	<br><br>
 	<p>	&copy;2011-2015. Content cannot be reproduced without permission from the author. </p>
 </footer>
@@ -317,6 +329,15 @@ function load_disqus() {
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/wookie.js"></script>
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=301593553359997&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
   </body>
 </html>
 

@@ -47,6 +47,11 @@ body {
         position: relative;
         left:100px;	
 }
+#hero > .col-md-6.rightside {
+    margin-top: 20px;
+    width:auto;
+    float:right;
+}
 #rightelementsheader {
 	float:right;
 	font-size:30px;
@@ -55,6 +60,11 @@ body {
 	font-size:30px;
 	margin-right: 10px;
 	color:#fff;
+}
+
+#rightelementsheader > span > a >i {
+     transition:all 0.5s ease;
+
 }
 #rightelementsheader > span > a >i:hover{
 	    -webkit-transform: scale(2);
@@ -140,7 +150,14 @@ footer {
 	color:#888;
 	text-align: center;
 }
+footer ul li {
+    margin-right: 50px;
+    float:left;
+}
 
+footer ul li:first-child {
+list-style: none;
+}
 .button {
 	padding:7px;
 	border:2px solid #0080AA;
@@ -213,9 +230,10 @@ footer {
 }
 .mc-field-group.leftfloat {
 	float:left;
+    margin-right: 20px;
 }
 .mc-field-group.rightfloat {
-	float:right;
+	float:left;
 
 }
 #mc-embedded-subscribe {
@@ -413,15 +431,17 @@ nav#slide-menu>ul li.sep {
     cursor: pointer;
 }
 #MenuButton {
-	background-color: #ffffff;
+    background-color: #0080AA;
     border-radius: 5px;
-    color: #0080aa;
+    border: 1px solid #fff;
+    color: #FFFFFF;
     float: left;
     font-size: 18px;
     margin-right: 10px;
-    margin-top: 7px;
-    padding: 0 11px;
+    margin-top: 8px;
+    padding: 0 10px 2px;    
     text-transform: uppercase;
+    transition:all 0.5s ease;
 }
 #MenuButton:hover {
 	 -webkit-transform: scale(2);
@@ -444,4 +464,43 @@ nav#slide-menu>ul li.sep {
 .inmenu-trigger:hover{
 	background-color: #fff;
 	color:#0080aa;
+}
+
+@media screen and (max-width: 992px) {
+    #hero > .col-md-6.rightside {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    #logo.col-md-6 {
+        margin: 0 auto;
+        width: 306px;
+    }
+    #logo a:hover {
+        transform:none;
+        position:static;
+    }
+    #hero > .col-md-6.rightside {
+        width:250px;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        float:none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #date {
+        border-radius: 0;
+        color: #555;
+        background-color: transparent;
+        width:100%;
+        margin-bottom: -45px;
+        text-align: left;
+    }
+    #date:hover {
+        transform:none;
+    }
 }

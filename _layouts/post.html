@@ -1,4 +1,5 @@
 {% include header.html %}
+
 <div class="posts container">
 <div class="row">
 
@@ -8,6 +9,10 @@
 	<hr>
     {{ content }}
     <hr>
+    <span style="float: left;margin: 0 10px 0 0;padding: 2px 0 0;">
+<a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></span>
+<span><div class="fb-share-button" data-layout="button"></div></span>
     <!-- Comments and email signup -->
   <div id="mc_embed_signup">
 
@@ -16,10 +21,10 @@
 		  <h2>Subscribe for more: </h2><br>
 		  <div style="clear: both;"></div>
 		<div class="mc-field-group leftfloat">
-		  <input type="text" id="mce-FNAME" class="" name="FNAME" value="NAME">
+		  <input type="text" id="mce-FNAME" class="" name="FNAME" placeholder="NAME" value="">
 		</div>
 		<div class="mc-field-group rightfloat">
-		  <input type="email" id="mce-EMAIL" class="required email" name="EMAIL" value="EMAIL">
+		  <input type="email" id="mce-EMAIL" class="required email" name="EMAIL" placeholder="EMAIL" value="">
 		</div>
 		<div style="clear: both;"></div>
 		  <div id="mce-responses">
