@@ -14,6 +14,9 @@ categories:
 tags:
 - GMail
 - Google
+redirect_from:
+- /489/gmail-automatic-images/
+
 ---
 
 Since its inception till yesterday, Gmail had always provided its users with the “Show images (or Always show images)” whenever you receive an email which contains an image or many images. But now, Google has started to automatically display all the images of your emails, regardless of whether you want to see it or not.

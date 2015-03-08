@@ -13,6 +13,9 @@ categories:
 tags:
 - Android
 - Mobile Phone
+redirect_from:
+- /424/hide-last-seen-whatsapp-phones/
+
 ---
 
 There may be many many mobile messengers out there, but nothing beats whatsapp (yet). But what is annoying, is that every time you use whatsapp, your friends can see your “Last seen” time when you had been active on whatsapp. This would really suck, especially when your boss adds you on whatsapp and he sees you online at a very late time, or when you called in sick.

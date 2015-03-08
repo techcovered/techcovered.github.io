@@ -12,6 +12,9 @@ categories:
 - Downloads
 tags:
 - Android
+redirect_from:
+- /471/new-hangout-app/
+
 ---
 
 Nexus 5 was released today and has the potential to be a huge success. Android 4.4, aka, KitKat was also launched simultaneously. Among many other improvement to UI and performance, a major change was the lack of a messaging app in KitKat. Instead, all your messages are sent with the Hangouts app from KitKat.

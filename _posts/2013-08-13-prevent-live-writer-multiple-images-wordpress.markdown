@@ -17,6 +17,9 @@ tags:
 - Blogging
 - Website
 - Wordpress
+redirect_from:
+- /369/prevent-live-writer-multiple-images-wordpress/
+
 ---
 
 If you use Windows Live Writer* for publishing blog posts to Wordpress (or even Blogger), then you might have noticed that Wordpress tends to upload multiple versions of the same image to your servers. While you are on an unlimited storage space, this might be okay, but if you have a restricted space provided by your host, then you have to know how to stop this to avoid exhausting your limit.

@@ -12,6 +12,9 @@ categories:
 - Software
 tags:
 - Web Browsers
+redirect_from:
+- /36/fix-all-firefox-problems-single-step/
+
 ---
 
 Firefox has slowly become a browser that is slow and bulky, to something that is slim and well, -almost- snappy. But what if Firefox starts to slow down? Or what if someone downloaded a lot of unwanted toolbars and set options so that you could never change your homepage at all? Re-installing Firefox could be one way to solve this problem. The other way is much simpler - reset Firefox.

@@ -13,6 +13,9 @@ categories:
 - Tips
 tags:
 - Windows
+redirect_from:
+- /750/windows-problem-steps-recorder/
+
 ---
 
 Helping out friends or family with computer problems isn't the most enjoyable thing to do.

@@ -12,6 +12,9 @@ categories:
 - Internet
 tags:
 - YouTube
+redirect_from:
+- /458/youtube-without-distraction/
+
 ---
 
 There are [many](http://www.techcovered.org/414/youtube-buffer-when-paused) plugins for YouTube that promise to offer you a distraction free, clear YouTube , but there is a way to get a much more clean, and much more faster YouTube, without any of that.

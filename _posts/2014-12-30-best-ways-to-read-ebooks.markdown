@@ -15,6 +15,9 @@ tags:
 - Comics
 - ebooks
 - Eye Strain
+redirect_from:
+- /760/best-ways-to-read-ebooks/
+
 ---
 
 So you bought an ebook? Great! Now, how do you intend to read it? Everyone knows that an ebook is not a real substitute for the reading experience you get from reading a hardbound book. However, ebooks have advantages over printed books too. For instance, you can read the same book on multiple devices, add notes, share excerpts with your friends, sync your bookmarks across multiple devices, look up meaning of words, etc.

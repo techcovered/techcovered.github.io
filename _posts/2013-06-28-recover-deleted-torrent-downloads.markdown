@@ -12,6 +12,9 @@ categories:
 - Tips
 tags:
 - Torrent
+redirect_from:
+- /241/recover-deleted-torrent-downloads/
+
 ---
 
 If you download files through torrent (legally or not), then you would have come across situations where you’d have mistakenly deleted some of your torrents and wanted it back. Most of you would have also restarted their download from fresh, giving up hope to resume the deleted download. This is especially painful if you are downloading a very large amount of data.

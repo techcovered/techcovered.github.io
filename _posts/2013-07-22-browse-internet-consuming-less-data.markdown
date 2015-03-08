@@ -16,6 +16,9 @@ tags:
 - Web Browsers
 - Website
 - YouTube
+redirect_from:
+- /329/browse-internet-consuming-less-data/
+
 ---
 
 Broadband is common these days. Many people have such high speed internet in their homes and offices with almost unlimited download capacity. However, there are still parts of the world that do not get high speed internet, unlimited download cap, etc. Also, people who travel a lot use their mobile phone’s data connection for their laptops, or other computers. As data charges are much costlier for phones, they might want to reduce the amount of data consumed.

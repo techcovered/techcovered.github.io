@@ -15,6 +15,9 @@ categories:
 tags:
 - Torrent
 - utorrent
+redirect_from:
+- /378/transfer-torrent-downloads/
+
 ---
 
 Imagine you are downloading a big torrent, and halfway, due to some reason, you want the torrent to stop its download in your computer and resume in another computer. There is a simple way to do this, without losing any of the data you spent long hours downloading.

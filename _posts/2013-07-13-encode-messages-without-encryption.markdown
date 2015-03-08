@@ -14,6 +14,9 @@ tags:
 - Email
 - encryption
 - security
+redirect_from:
+- /299/encode-messages-without-encryption/
+
 ---
 
 Whenever someone talks about encoding secret messages, they always talk about encrypting it while it is being sent from one person to another. Sending such encryptions can only arouse suspicions by people who are trying to snoop into your email. So how can you send secret messages (through email, for example) without arousing any doubt?

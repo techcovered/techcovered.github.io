@@ -13,6 +13,9 @@ categories:
 tags:
 - Android
 - Web Browsers
+redirect_from:
+- /493/dolphin-zero/
+
 ---
 
 If you are often worried about your privacy and always paranoid if someone would go through your browsing history on your mobile device, a safe option is to always delete your browsing history, cache, cookies and other data every time you complete your browsing session. However, that would prove to be too tedious for you to do every time you use your mobile browser.

@@ -11,6 +11,9 @@ wordpress_id: 504
 categories:
 - Featured
 - How to
+redirect_from:
+- /504/stay-social-on-internet/
+
 ---
 
 Regardless of your real life social life, it is always a bit tough to remain actively social on the internet. From constant twitter updates, Facebook status updates, instagram photos, blog updates/comment responses, you might find yourself juggling the online and offline lives.

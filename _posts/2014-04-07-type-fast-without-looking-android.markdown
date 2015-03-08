@@ -15,6 +15,9 @@ categories:
 tags:
 - Android
 - Apps
+redirect_from:
+- /587/type-fast-without-looking-android/
+
 ---
 
 Typing fast on your keyboard is cool, but you what what’s cooler? Typing fast on your phone! With the advent of full-touch screen phones, typing hasn’t exactly been a strong point of those phones. Nothing could replace the versatility of a physical keyboard. However, things got more easier when Android phones could support third party keyboard apps, and a new app in town “Swype” could help you type faster without lifting your finger off the screen.

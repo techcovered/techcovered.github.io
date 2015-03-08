@@ -15,6 +15,9 @@ categories:
 tags:
 - Videos
 - Website
+redirect_from:
+- /395/download-new-episodes/
+
 ---
 
 If you love watching sitcoms and cannot afford to miss out on even one episode, there is a simple way to automatically download episodes to your computer via torrent and watch them when you have free time.

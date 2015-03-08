@@ -9,6 +9,9 @@ title: Twitter now supports Drag and Drop Photo Uploads
 wordpress_id: 215
 categories:
 - Internet
+redirect_from:
+- /215/twitter-drag-and-drop-photo/
+
 ---
 
 Among the recent interface changes by Twitter, the most welcomed addition is the support for dragging and dropping images to the twitter status to upload it.

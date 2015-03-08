@@ -14,6 +14,9 @@ categories:
 tags:
 - Web Browsers
 - Website
+redirect_from:
+- /631/easiest-way-screenshot-website/
+
 ---
 
 If you ever wanted to take a screenshot of an entire webpage or even a part of it, you had to use certain browser plugins or visit some website and type in the web page's name to get the scrrenshot. However, there is a much easier way to do it, without the need of downloading anything.

@@ -14,6 +14,9 @@ categories:
 tags:
 - Fax
 - Website
+redirect_from:
+- /566/send-fax-for-free/
+
 ---
 
 Faxes are more than 50 years old and still finds frequent use in offices around the world. The internet can be used to easily replace them, but yet, the convenience of directly obtaining a hard copy of a document is worth the trouble of paying extra for a fax machine and a phone line. However, you don’t always have to pay for sending faxes: the internet lets you send faxes for free!

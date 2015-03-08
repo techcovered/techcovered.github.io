@@ -15,6 +15,9 @@ categories:
 tags:
 - Website
 - Wordpress
+redirect_from:
+- /626/right-set-of-favicons-website/
+
 ---
 
 No matter how beautifully your website is designed, it still would look incomplete without a good favicon. Favicons have grown to be of more importance ever since websites started implementing responsive web designs. Because of this, mobile browsers use your website's favicon as an "icon" on mobile displays. If your favicon is of a low resolution, then it would appear hideous on mobile displays.

@@ -14,6 +14,9 @@ categories:
 tags:
 - Reddit
 - YouTube
+redirect_from:
+- /773/replace-youtube-comments-with-reddit/
+
 ---
 
 YouTube comments used to be great and really entertaining to read. Then, Google+ happened and the entire commenting system was replaced with Google+ comments. (Almost) Everyone hated it, but Google still wouldn't change it. However, if you are a Redditor, all you need is a simple extension to bring Reddit to YouTube.

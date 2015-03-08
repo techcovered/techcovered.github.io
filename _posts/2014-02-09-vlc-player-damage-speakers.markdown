@@ -15,6 +15,9 @@ tags:
 - Dell
 - VLC
 - Windows
+redirect_from:
+- /518/vlc-player-damage-speakers/
+
 ---
 
 ![vlc-full-volume](https://techcovered.github.io/images/vlc-full-volume.png)

@@ -15,6 +15,9 @@ categories:
 tags:
 - Proxy
 - YouTube
+redirect_from:
+- /205/proxy-youtube-video/
+
 ---
 
 Many people have fast internet connections, but it is often useless as some ISP’s tend to slow down YouTube video buffering in order for them to save bandwidth. So what do you do to make YouTube videos load faster? Use a proxy!

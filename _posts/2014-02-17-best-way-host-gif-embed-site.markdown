@@ -13,6 +13,9 @@ categories:
 - Tips
 tags:
 - Web Browsers
+redirect_from:
+- /544/best-way-host-gif-embed-site/
+
 ---
 
 Animated GIF files are the pillars of the internet, without whom the people of the internet cannot watch cats trying to dominate the world. However, GIFs are old by a few decades – they stream very slowly (regardless of how fast your internet is), the files are huge in size (often unnecessarily), the colors used are dated, etc. However, there’s a solution to that.

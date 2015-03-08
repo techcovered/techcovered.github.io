@@ -15,6 +15,9 @@ categories:
 tags:
 - Amazon
 - Android
+redirect_from:
+- /571/notifications-free-paid-apps-android/
+
 ---
 
 Amazon has its own Android App store which competes with Google’s Play store. However, what makes Amazon stand apart is its constant giveaways – including the very popular “free app a day”, where Amazon gives you a paid app for free.

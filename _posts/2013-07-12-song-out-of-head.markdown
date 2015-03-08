@@ -13,6 +13,9 @@ categories:
 tags:
 - Music
 - Website
+redirect_from:
+- /294/song-out-of-head/
+
 ---
 
 Have you listened to some song unintentionally and got it stuck in your head all day (or even maybe all week)? This may, for example, happen when you are in a public transport and a person sitting nearby plays the song out loud, or when you accidentally continuously repeat a song in your playlist and sleep listening to the audio again and again. ([Also take Dexter’s example](http://www.youtube.com/watch?v=6vqWVHnDAMk#t=25))

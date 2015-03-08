@@ -16,6 +16,9 @@ categories:
 tags:
 - Downloads
 - Website
+redirect_from:
+- /497/verify-file-md5-sha1-hash/
+
 ---
 
 I recently downloaded a few .iso files of a few Linux distributions. They were all around 4 GB each, and downloaded without a problem. However, I still wasn’t sure whether these iso files were completely downloaded and since I didn’t want to risk a failed OS installation, I had to do something to make sure that these files were intact. If you are in a similar position, then you are in luck, because there is something you can do, instead of re-downloading the whole file again.

@@ -14,6 +14,9 @@ categories:
 tags:
 - Shortcuts
 - YouTube
+redirect_from:
+- /199/control-youtube-with-three-buttons/
+
 ---
 
 YouTube continues to have many interface changes, often changing lots of functionality associated with the site. While most of the changes are often very good, the recent change, however, which changes the way the spacebar and mouse pauses the video, comes as an irritant for many YouTube users who are, over the years, adjusted to it.

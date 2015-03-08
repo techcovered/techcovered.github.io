@@ -14,6 +14,9 @@ categories:
 tags:
 - Android
 - YouTube
+redirect_from:
+- /484/youtube-background-android/
+
 ---
 
 Even if you have the official YouTube app on Android, you do not have the ability of playing YouTube videos in the background. For example, if you do not have  a particular song or audio track on your phone, you can search for that on YouTube and play it in the background, while you perform other tasks on your phone.

@@ -16,6 +16,9 @@ tags:
 - Google Chrome
 - Reddit
 - Twitter
+redirect_from:
+- /648/maximize-productivity-time-saving-tools/
+
 ---
 
 ![facebook-blocked](https://techcovered.github.io/images/facebook-blocked.png)It is very easy to get distracted when working on your computer. If you have a habit of constantly checking Facebook, Twitter or Reddit every few hours, then you bound to be much less productive than what you could potentially be. You could either put yourself under a rigid schedule and use your self control to limit yourself to the boundaries of your work, or you could take an easy path and use some tools which help you save your time.

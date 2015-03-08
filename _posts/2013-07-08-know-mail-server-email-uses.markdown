@@ -12,6 +12,9 @@ categories:
 - Tips
 tags:
 - Email
+redirect_from:
+- /281/know-mail-server-email-uses/
+
 ---
 
 If you own a domain, then you can have your own email ID from that domain, like email@domain.com. Most of the hosting and domain companies provide their own mail server, which they use to send and receive email through these email IDs. However, you can also use Gmail (through Google Apps) and also Outlook, among many others, as a mail server.

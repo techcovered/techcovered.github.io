@@ -16,6 +16,9 @@ tags:
 - Google Chrome
 - Web Browsers
 - Website
+redirect_from:
+- /432/narrate-long-text/
+
 ---
 
 Wouldn’t it be nice if you selected a long “wall” of text (that’s what the internet calls it) and click a button (or so), and the computer reads it to you? Of course it is. Here are a few ways to get through with reading some text. Optionally, you can also save the text as an mp3 and listen to it later, all of which is detailed below.

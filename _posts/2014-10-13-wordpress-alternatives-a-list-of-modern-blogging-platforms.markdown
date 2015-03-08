@@ -14,6 +14,9 @@ categories:
 tags:
 - Blogging
 - Wordpress
+redirect_from:
+- /690/wordpress-alternatives-a-list-of-modern-blogging-platforms/
+
 ---
 
 WordPress is almost a synonym with the word _blogging_, but times are changing and there are many new web services which provide so many different options for a blogger to choose from. WordPress no longer remains the exclusive _go-to_ option if someone wants to blog.

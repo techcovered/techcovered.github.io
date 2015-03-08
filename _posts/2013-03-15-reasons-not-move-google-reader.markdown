@@ -14,6 +14,9 @@ categories:
 tags:
 - Google
 - RSS
+redirect_from:
+- /86/reasons-not-move-google-reader/
+
 ---
 
 Google announced its plans to close down Google Reader for good, from July 1st, 2013. However, unlike other Google-product-closure announcements, this created a lot of anger around the internet, with hundreds of tweets and almost the same number of blog posts venting out against Google and also giving out a list of alternatives to Google Reader.

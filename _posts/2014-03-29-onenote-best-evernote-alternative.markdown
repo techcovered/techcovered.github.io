@@ -19,6 +19,9 @@ tags:
 - Evernote
 - Mobile Phone
 - OneNote
+redirect_from:
+- /580/onenote-best-evernote-alternative/
+
 ---
 
 When it comes to note taking, Evernote has so far been the granddaddy of them all. Even though it comes with a limited bandwidth of a measly 60 MB for free users, its features and compatibility on all devices, including a web version, makes it a note taking service worth using. However, there’s another competitor on the block – Microsoft OneNote.

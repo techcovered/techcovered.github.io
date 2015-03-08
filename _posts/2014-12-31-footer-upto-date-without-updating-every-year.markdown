@@ -16,6 +16,9 @@ tags:
 - JavaScript
 - Website
 - Wordpress
+redirect_from:
+- /769/footer-upto-date-without-updating-every-year/
+
 ---
 
 ![no-updated-footer](https://techcovered.github.io/images/no-updated-footer.png)

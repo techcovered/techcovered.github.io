@@ -13,6 +13,9 @@ categories:
 tags:
 - Google Chrome
 - Web Browsers
+redirect_from:
+- /791/stream-music-chrome-without-restrictions/
+
 ---
 
 Streaming music legally is not that much of a problem anymore.

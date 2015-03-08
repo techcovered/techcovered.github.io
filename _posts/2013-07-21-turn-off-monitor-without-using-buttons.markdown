@@ -15,6 +15,9 @@ categories:
 tags:
 - Command Line
 - Windows
+redirect_from:
+- /322/turn-off-monitor-without-using-buttons/
+
 ---
 
 ![nircmd_monitor_off](https://techcovered.github.io/images/nircmd_monitor_off.png)Monitors come with a power button (laptops’ displays don’t, however) which you can use to turn off the monitor, to save power or any other purposes. In case your monitor’s power button is broken, or you would just like an easier way to turn off your monitor, there is a way.

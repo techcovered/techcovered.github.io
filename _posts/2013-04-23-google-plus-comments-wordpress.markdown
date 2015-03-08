@@ -13,6 +13,9 @@ categories:
 tags:
 - Google Plus
 - Wordpress
+redirect_from:
+- /146/google-plus-comments-wordpress/
+
 ---
 
 If your blogger blog is connected to your Google+ account, then you can enable Google+ comments for you blog. By doing so, all discussions of your blog posts on Google+, as well as your website will be integrated into your site comments. This is officially available only for blogger.

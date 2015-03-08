@@ -14,6 +14,9 @@ categories:
 tags:
 - Monitor
 - Windows
+redirect_from:
+- /535/adjust-monitor-settings-without-buttons/
+
 ---
 
 Lets assume you have an old monitor, with its physical buttons so overused, that it stops working. How then, will you change your monitor’s brightness, color contrast, RGB values, image position/width, etc? Luckily, there are a number of ways to do this.

@@ -14,6 +14,9 @@ categories:
 - Internet
 tags:
 - Music
+redirect_from:
+- /237/find-similar-music/
+ 
 ---
 
 If you happen to like a song and want a list of songs similar to it, then the internet is the best place to do so. Here are some online web services that let you find music similar for your taste. Here are the services, in decreasing order of performance:

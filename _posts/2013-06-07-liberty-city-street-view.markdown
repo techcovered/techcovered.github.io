@@ -12,6 +12,9 @@ categories:
 - Internet
 tags:
 - Gaming
+redirect_from:
+- /220/liberty-city-street-view/
+
 ---
 
 Liberty City, the city of sins in the Grand Theft Auto series, can now be thoroughly explored (in the safety of your home) with… wait for it… Street View!

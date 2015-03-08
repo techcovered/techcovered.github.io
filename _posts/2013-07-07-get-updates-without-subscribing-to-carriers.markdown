@@ -14,6 +14,9 @@ tags:
 - Mobile Phone
 - SMS
 - Twitter
+redirect_from:
+- /272/get-updates-without-subscribing-to-carriers/
+
 ---
 
 Do you ever get messages and calls from your mobile carriers (or mobile networks), asking you to subscribe to sports packages or “follow” updates of celebrities,etc for a fee? If you ever subscribed to these “plans”, you get charged a lot, and also, a lot of carries auto renew your subscription every cycle. The options to unsubscribe to them is not that clear and some carriers deliberately hide them behind a huge list of options.

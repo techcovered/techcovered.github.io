@@ -16,6 +16,9 @@ tags:
 - Downloads
 - ebooks
 - Website
+redirect_from:
+- /306/read-download-comics-legally/
+
 ---
 
 Do you like reading comics? Of course you do. Everyone does! The important question here is, do you like reading (and downloading) comics, for free? Legally? If your answer is yes, then here is a exhaustive list of websites that allow you to download and read comics  online, legally.

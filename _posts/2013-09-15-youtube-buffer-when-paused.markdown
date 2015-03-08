@@ -19,6 +19,9 @@ tags:
 - Web Browsers
 - Y
 - YouTube
+redirect_from:
+- /414/youtube-buffer-when-paused/
+ 
 ---
 
 The older YouTube player was much cooler. If a video started to load slowly, you could just pause the video and YouTube would load the rest of the video and you could just hit the play button to watch the video without any pauses. Then, the new YouTube happened and changes were made to video player. So now, if you pause a video, the buffering (loading of the video) stops.  Fortunately, there is way to overcome it.

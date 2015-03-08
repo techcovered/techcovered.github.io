@@ -15,6 +15,9 @@ categories:
 tags:
 - Reddit
 - RSS
+redirect_from:
+- /124/twitter-updates-reddits/
+
 ---
 
 If you are a redditor and you often go to Reddit's homepage to update yourself, then you can make things more convenient by creating a twitter profile that will tweet all the updates from the custom reddits you chose.

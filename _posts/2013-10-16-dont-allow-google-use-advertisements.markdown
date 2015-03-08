@@ -13,6 +13,9 @@ categories:
 - Tips
 tags:
 - Google
+redirect_from:
+- /453/dont-allow-google-use-advertisements/
+
 ---
 
 After Google updated their terms and conditions, which most of you would not have read, Google enabled itself to use your Google+ profile, your plus – ones, comments, and status updates with the advertisements displayed across the internet.

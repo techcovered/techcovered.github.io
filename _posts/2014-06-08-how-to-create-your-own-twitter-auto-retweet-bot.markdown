@@ -20,6 +20,9 @@ tags:
 - JavaScript
 - Twitter
 - Website
+redirect_from:
+- /358/how-to-create-your-own-twitter-auto-retweet-bot/
+
 ---
 
 In this elaborate tutorial, you will be able to create a twitter auto retweet bot, which will automatically search the whole of twitter for any topic of your interest and will automatically tweet them for you. Also, you can also make this bot retweet your favorite accounts, lists, your favorites, etc. 
@@ -31,10 +34,6 @@ To see this bot in action, if you tweet something with the word “techcovered�
 
 ## What we will be using:
 
-
-
-
-
 	
   1. A Twitter account for your bot (or even your own twitter account if you wish to retweet yourself)
 
@@ -43,8 +42,6 @@ To see this bot in action, if you tweet something with the word “techcovered�
 
 	
   3. [IFTTT ](http://www.ifttt.com)(For retweeting)
-
-
 
 
 ## How will we be doing it?
@@ -64,7 +61,6 @@ First, you need to create a twitter widget. Log in to your twitter account and c
 
 [This script ](http://ctrlq.org/code/19491-embed-twitter-rss)from [Amit Agarwal ](http://www.labnol.org/about/)converts your twitter feed to RSS. However, with minor modifications, the below script can be used for this purpose. To execute this script, go to Google Scripts and open a blank project. Copy and paste the following code. Then, click on Run> getTweets. When asked to Authorize, click on the authorize button. (This is a one time procedure only).
 
-    
     
     function Twitter_RSS() {
       return; 

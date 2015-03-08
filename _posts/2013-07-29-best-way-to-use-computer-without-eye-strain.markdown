@@ -16,6 +16,9 @@ categories:
 tags:
 - Eye Strain
 - Monitor
+redirect_from:
+- /341/best-way-to-use-computer-without-eye-strain/
+
 ---
 
 If you use computer at night, you must be under a lot of eye strain. There are ways to prevent them, [by using other methods](http://www.techcovered.org/63/using-computer-without-hurting-eyes), but then – here is the best one.

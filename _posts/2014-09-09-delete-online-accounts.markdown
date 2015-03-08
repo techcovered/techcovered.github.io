@@ -14,6 +14,9 @@ categories:
 tags:
 - bookmarklet
 - Website
+redirect_from:
+- /668/delete-online-accounts/
+
 ---
 
 It is always much easier to register yourself on websites, than to delete yourself or deregister yourself. Unfortunately, only a very few websites on the internet actually allow you to delete your profile from their website. Thankfully, Facebook and Google are among those websites which let you delete your profile.

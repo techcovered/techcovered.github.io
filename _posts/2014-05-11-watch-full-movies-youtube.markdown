@@ -15,6 +15,9 @@ categories:
 tags:
 - Movies
 - YouTube
+redirect_from:
+- /607/watch-full-movies-youtube/
+
 ---
 
 [YouTube movies](www.youtube.com/user/movies) is a movie streaming service on YouTube, where you can pay a fee for “renting out” a movie, which you can watch within YouTube itself. However, the pricing of the movies aren’t that attractive, with some movies costing as much as $10 per viewing. Other streaming sites like Netflix and even Hulu are considerably better priced.

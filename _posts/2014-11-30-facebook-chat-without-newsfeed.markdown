@@ -14,6 +14,9 @@ categories:
 tags:
 - Facebook
 - Web Browsers
+redirect_from:
+- /734/facebook-chat-without-newsfeed/
+
 ---
 
 Facebook is more than a platform where people share status updates – it is also a robust platform for people to chat. However, due to it being a social networking site, any visit to Facebook is anti-productive. It is easy to get lost in a barrage of updates from friends and family.

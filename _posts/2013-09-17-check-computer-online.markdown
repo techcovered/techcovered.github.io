@@ -15,6 +15,9 @@ categories:
 tags:
 - Hacking
 - Windows
+redirect_from:
+- /421/check-computer-online/
+
 ---
 
 How would you like to know if somebody’s computer is turned on, at any given time*. You can use this to, say, check whether your kids are using the computer, or check if your boyfriend/girlfriend is lying about doing something else but is online, or check if your friends are online for a gaming session, etc.

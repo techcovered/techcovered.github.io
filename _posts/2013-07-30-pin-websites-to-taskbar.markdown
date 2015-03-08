@@ -19,6 +19,9 @@ tags:
 - Google Chrome
 - Website
 - Windows
+redirect_from:
+- /350/pin-websites-to-taskbar/
+
 ---
 
 With a large number of interesting web apps, I recently realized that I use these web apps more than I use any of my desktop software. For instance, I heavily rely on Google Keep (Google’s note taking service) and since it has no desktop app, I would have to manually log in with my web browser every time I wanted to use it. A more easy alternative is to keep a shortcut on your taskbar, if you use Windows 7 or 8 or quick launch, if you use Windows XP or Vista.

@@ -13,6 +13,9 @@ categories:
 - Tips
 tags:
 - buying guide
+redirect_from:
+- /385/properly-research-before-buying/
+
 ---
 
 Everyone loves buying things. But most people out there do so without proper research and in the end, they often end up regretting buying it and not something else, with the money spent. Whether it is a toaster, washing machine, tablet, mobile phone, laptop or even any computer component, a proper research is required before you buy it.

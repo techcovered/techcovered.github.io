@@ -13,6 +13,9 @@ categories:
 tags:
 - Web Development
 - Website
+redirect_from:
+- /291/complexity-website-design-firefox/
+
 ---
 
 When it comes to web developing, I still use Firefox with Firebug add on, despite Firefox, Chrome and Opera having their own “Inspect Element” built in. One of Firefox features can also be used to determine how “complex” or heavy a websites design actually is.

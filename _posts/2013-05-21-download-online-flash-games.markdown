@@ -14,6 +14,9 @@ categories:
 - Tips
 tags:
 - Flash
+redirect_from:
+- /181/download-online-flash-games/
+
 ---
 
 Online games may not exactly win the best game of the year award, but some of them are nonetheless addictive and highly playable games. The biggest disadvantage of online games are – well, they need to be played online. For those without a consistent internet connection or no internet at all, you have an option. You can download them from a computer connected to the internet and play them offline.

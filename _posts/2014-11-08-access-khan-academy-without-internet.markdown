@@ -15,6 +15,9 @@ tags:
 - Education
 - Server
 - Website
+redirect_from:
+- /711/access-khan-academy-without-internet/
+
 ---
 
 Khan Academy has the world's best collection of videos, education material and practise tests, with its subjects ranging from simple algebra to vector animations using computer languages. As you can imagine, this would mean that their servers are huge and the website data possibly occupies terabytes of data.

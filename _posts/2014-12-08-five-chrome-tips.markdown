@@ -14,6 +14,9 @@ categories:
 tags:
 - Google Chrome
 - Web Browsers
+redirect_from:
+- /739/five-chrome-tips/
+
 ---
 
 Chrome is the most widely used browser today, and that too for a reason. It is very fast, highly stable, easy on the eye and has a ton of plugins to go with. One would think Chrome is just a simple browser. However, there are a lot of things Chrome can do.

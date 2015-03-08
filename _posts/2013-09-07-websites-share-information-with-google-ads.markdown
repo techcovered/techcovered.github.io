@@ -14,6 +14,9 @@ tags:
 - Adblock
 - Advertising
 - Website
+redirect_from:
+- /404/websites-share-information-with-google-ads
+
 ---
 
 The most strange thing happened.

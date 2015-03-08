@@ -14,6 +14,9 @@ categories:
 tags:
 - Google Chrome
 - Web Browsers
+redirect_from:
+- /438/chrome-app-launcher/
+
 ---
 
 If you frequently use Chrome, then you would have noticed that the recent version of Chrome (version 29) packs in a lot of new updates and UI changes. One of them is the new, redesigned “New Tab” page (to search Google directly) and the other one is the introduction of the new “App Launcher”. A button you click to list out all your apps. It’s pretty neat.

@@ -16,6 +16,9 @@ tags:
 - Cloud
 - encryption
 - Google
+redirect_from:
+- /597/best-android-apps-sync-photos/
+
 ---
 
 Whether you own an android phone which does not come with expandable memory, or whether you simply want to keep all the photos you capture safe, backing up your photos to the cloud, is always a good idea. There are android apps such as Google Drive, Dropbox, Box, etc, which let you upload photos manually. But if you would like your phone to automatically sync all photos online, there are apps for that as well.

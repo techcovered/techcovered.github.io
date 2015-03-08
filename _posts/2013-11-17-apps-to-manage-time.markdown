@@ -14,6 +14,9 @@ categories:
 - Software
 tags:
 - Productivity
+redirect_from:
+- /478/apps-to-manage-time/
+
 ---
 
 Whether it is a coding session or any other work that requires you to be in front of your computer for a long time, it is always very easy to get distracted and lose track of your valuable time. If you really cannot afford to miss that deadline, here are some apps and online services which help you keep track of your time and also manage it efficiently.

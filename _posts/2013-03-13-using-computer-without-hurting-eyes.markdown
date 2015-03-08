@@ -16,6 +16,9 @@ tags:
 - Firefox
 - Google Chrome
 - Windows
+redirect_from:
+- /63/using-computer-without-hurting-eyes/
+
 ---
 
 A computer monitor is a bright screen and even if the brightness is set to the very minimum, you can still strain your eyes, if you use your computer for long hours in the night. So how exactly do you prevent your eyes from strain and avoid ending up wearing spectacles or contact lenses?

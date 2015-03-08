@@ -13,6 +13,9 @@ categories:
 - Internet
 tags:
 - Google
+redirect_from:
+- /111/google-bans-digg/
+
 ---
 
 It was a bizarre day for all the Digg readers on the internet, when Google returned no search results for the Digg website. On searching the query "Digg", the top search result was the Wikipedia page of Digg.

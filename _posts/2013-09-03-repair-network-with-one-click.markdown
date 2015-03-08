@@ -14,6 +14,9 @@ tags:
 - Downloads
 - Modem
 - Website
+redirect_from:
+- /391/repair-network-with-one-click/
+
 ---
 
 When I was looking up how to solve a very particular problem regarding my network and Internet connectivity, I stumbled across this very awesome tool – the Repair Network tool, from [Shane’s Toolbox](http://www.pcwintech.com/shanes-toolbox). Do note that I am in no way advertising this product, but just advocating it because of my experience with it.

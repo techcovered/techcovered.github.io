@@ -17,6 +17,9 @@ tags:
 - Firefox
 - Google Chrome
 - Web Browsers
+redirect_from:
+- /336/adblock-plus-remove-social-buttons-and-trackers/
+
 ---
 
 As a blogger and a web publisher, I only advise people to not use Adblock as many websites depend on advertising revenue for their sustenance. However, Adblock of late, has evolved to be a much more better extension than the previous versions in which it just unwittingly blocks ads.

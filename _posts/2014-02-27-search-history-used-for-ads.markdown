@@ -13,6 +13,9 @@ categories:
 tags:
 - Advertising
 - Website
+redirect_from:
+- /556/search-history-used-for-ads/
+
 ---
 
 Have you ever noticed how some ads are creepily the same as your search history? For example, if you browse for a product on a shopping site, then you can see some ads related to what you have seen on the shopping site, displayed everywhere on the internet. Recently, this is starting to show even on Facebook. How does this happen? Are they even related?

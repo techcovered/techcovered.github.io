@@ -20,6 +20,9 @@ tags:
 - security
 - Website
 - Windows
+redirect_from:
+- /706/secure-instant-messages-free/
+
 ---
 
 There are a very less percentage of people who still use Instant Messengers on their computers. IMs are made irrelevant, thanks to the advent of online messengers like Facebook, Google Hangouts, and also mobile clients like Whatsapp, Viber, etc. However, as of now, no messenger provides complete encryption of user data and chats, from spying by third party (read: NSA).

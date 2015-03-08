@@ -6,4 +6,5 @@ permalink: /:title
 paginate: 10
 paginate_path: "page/:num"
 highlighter: pygments
-
+gems:
+  - jekyll-redirect-from

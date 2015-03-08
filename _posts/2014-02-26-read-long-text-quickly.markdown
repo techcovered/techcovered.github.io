@@ -17,6 +17,9 @@ tags:
 - Google Chrome
 - iOS
 - Website
+redirect_from:
+- /552/read-long-text-quickly/
+
 ---
 
 If you surf the internet and have ever encountered long “walls” of text which you didn’t have any time to read but wanted to read anyways? Or have you received a very large email but don’t have the time to read? Or if you are into reading books online, then would you like to improve your reading capability to read books faster?

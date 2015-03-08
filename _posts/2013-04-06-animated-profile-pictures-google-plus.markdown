@@ -12,6 +12,9 @@ categories:
 - How to
 tags:
 - Google
+redirect_from:
+- /132/animated-profile-pictures-google-plus/
+
 ---
 
 Google showed its love for .gif animations, adding support for gif profile pictures in Google+. This means that you can make an animated version of your profile picture, like a waving gesture or a flying kiss gesture (the possibilities are endless), for Google+.

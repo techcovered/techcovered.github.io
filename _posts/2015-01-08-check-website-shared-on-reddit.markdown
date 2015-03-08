@@ -14,6 +14,9 @@ categories:
 tags:
 - Reddit
 - Website
+redirect_from:
+- /778/check-website-shared-on-reddit/
+
 ---
 
 Reddit is one of the top 30 websites of the world (source: [alexa](http://www.alexa.com/siteinfo/reddit.com)) and if your website is shared on a popular subreddit, you are bound to get a lot of eyeballs to your content.

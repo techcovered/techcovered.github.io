@@ -13,6 +13,9 @@ categories:
 - Mobile
 tags:
 - Android
+redirect_from:
+- /618/safeguard-android-from-apps-permission/
+
 ---
 
 Facebook's Android app has a new "feature", which automatically uses your phone's microphone to record audio discreetly and then upload it to Facebook's servers along with your status update. Many people are paranoid about this feature, and given the fear that many governments of the world are spying on their citizens, this feature does not sit well. However, Facebook's app is only one  such example. There are scores of other malicious apps which ask for more permission than is required.

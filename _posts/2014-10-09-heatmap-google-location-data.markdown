@@ -14,6 +14,9 @@ categories:
 tags:
 - Google
 - Maps
+redirect_from:
+- /684/heatmap-google-location-data/
+
 ---
 
 Google maps and Google Search tends to store your location information and links it with your account - to offer better and localized search results. You can view all the location data that Google has stored from your, in [Google Takeouts](https://www.google.com/settings/takeout). Your location data is stored in a json file, and where there is data, there are many web services which offer you their super helpful service.

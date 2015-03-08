@@ -18,6 +18,9 @@ tags:
 - Google Chrome
 - Web Browsers
 - Website
+redirect_from:
+- /267/know-websites-tracking-you/
+
 ---
 
 The internet just got paranoid after the leaks from NSA revealed that the US government is spying on the internet. While you may not be able to perfectly block yourself from being monitored by NSA, you can most definitely protect yourself being tracked by the many websites online.

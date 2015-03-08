@@ -15,6 +15,9 @@ categories:
 tags:
 - Google
 - Photos
+redirect_from:
+- /603/unlimited-image-storage-google/
+
 ---
 
 Here is something which a few of us know about – Google provides you unlimited storage space for images and videos, for free! To do this, all you need is a Google account, a ton of images and a Google+ profile.

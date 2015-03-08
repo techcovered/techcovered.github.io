@@ -11,6 +11,9 @@ wordpress_id: 373
 categories:
 - Featured
 - Internet
+redirect_from:
+- /373/top-15-ifttt-recipes/
+
 ---
 
 If this then that (IFTTT) is a very useful service, offering you their services across multiple mediums, which you can use to do anything you want, only limited by your imagination. Now that this service involves your creativity, you may run out of ideas creating recipes. Here are a list of top 15 recipes that you can make IFTTT do.

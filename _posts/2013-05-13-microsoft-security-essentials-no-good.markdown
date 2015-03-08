@@ -8,6 +8,9 @@ title: Microsoft Security Essentials is no good. Install a good anti-virus inste
 wordpress_id: 168
 categories:
 - Blog
+redirect_from:
+- /168/microsoft-security-essentials-no-good/
+
 ---
 
 I’ve been using Microsoft Security Essentials on my XP and Windows 7 (and also my brief time in Windows 8 – where Security Essentials is built in). It served me well, even earning my recommendation to many friends and family members. MSE is as simple as an antivirus can get – no cluttered interface, simple UI, fast update and quick scanning. In fact, the UI is so simple I even began doubting the actual working of the product. But it just works. I liked it and so did my XP computer with less RAM, as did my Windows 7 laptop, as MSE wasn’t a battery drainer.

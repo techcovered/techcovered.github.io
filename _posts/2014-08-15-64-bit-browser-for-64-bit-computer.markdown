@@ -16,6 +16,9 @@ tags:
 - Firefox
 - Google Chrome
 - Web Browsers
+redirect_from:
+- /660/64-bit-browser-for-64-bit-computer/
+
 ---
 
 Let me lay down the facts for you - 64 bit is the future. As more and more computers and even phones moves towards a 64 bit architecture, you still find that the whole software side is reluctant to move on. A very important category of software, Web Browsers, still reside in the good old 32 bit ecosystem. While 64 bit systems support 32 bit software, the support is not vice-versa, so any software made for 64 bit wouldn't run on 32 bit computers.

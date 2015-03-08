@@ -16,6 +16,9 @@ tags:
 - Facebook
 - Twitter
 - Website
+redirect_from:
+- /398/facebook-twitter-interview-ready/
+
 ---
 
 If you are not aware, job interviewers make it a point to check the job candidates’ Facebook profile as a character reference check, before they consider him/her for employment. But if your Facebook account is littered with party pictures, or any other things that are frowned upon by the working class, you might lose your edge for the job post.

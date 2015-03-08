@@ -17,6 +17,9 @@ tags:
 - Facebook
 - Gaming
 - Music
+redirect_from:
+- /722/remain-distraction-free-and-productive/
+ 
 ---
 
 You need the will power of a Zen monk to stay true to yourself and your work, especially when you are sitting in front of a computer or mobile device with internet access. However, with enough dedication, it is actually really simple to remain productive and not be distracted.

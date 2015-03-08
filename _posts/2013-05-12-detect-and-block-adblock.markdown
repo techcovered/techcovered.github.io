@@ -15,6 +15,9 @@ tags:
 - Adblock
 - JavaScript
 - Wordpress
+redirect_from:
+- /161/detect-and-block-adblock/
+
 ---
 
 Adblock is usually a plugin for your browser (or a modified host file) that effectively blocks out all advertisements from websites, intrusive or not. Adblock wasn’t much famous during the previous years, but as of now, many people have it installed in their browsers and [mobile phones too](http://www.techcovered.org/105/install-adblock-plus-android). This is bad news to many web admins and blog authors, whose main income relies on the advertising revenue of their site.

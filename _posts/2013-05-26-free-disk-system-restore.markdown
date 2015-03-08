@@ -12,6 +12,9 @@ categories:
 - Blog
 tags:
 - Windows
+redirect_from:
+- /211/free-disk-system-restore/
+
 ---
 
 If you have an older computer with less storage space, then deleting the older system restore will probably help you save some valuable hard disk space. System restore points (on a single drive) can occupy, by default, as much as 5% of the drives total storage space.

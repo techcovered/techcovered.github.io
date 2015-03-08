@@ -18,6 +18,9 @@ tags:
 - Mobile Phone
 - security
 - Windows
+redirect_from:
+- /354/secure-devices-after-being-stolen/
+
 ---
 
 Have you ever thought what you’d do when you lose any one of your devices like Laptop, Mobile Phone, Tablet or even desktop? You could report it to your nearest police station or local law enforcement. While that would take a lot of time, how would you like to know where your stolen device is currently and how would you like to see what the thief is doing with your device right now and secure your data? There’s an app for that.

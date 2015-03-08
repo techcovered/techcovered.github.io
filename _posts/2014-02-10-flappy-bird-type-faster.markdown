@@ -15,6 +15,9 @@ tags:
 - Gaming
 - Mobile Phone
 - Website
+redirect_from:
+- /528/flappy-bird-type-faster/
+
 ---
 
 Flappy Bird, the former #1 game in the App store and the Play store (before being removed from the stores by its author for some unknown reasons), is an immensely addictive and extremely difficult game. In fact, the game is so tough, my high score is 10. 

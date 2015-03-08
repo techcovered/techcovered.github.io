@@ -14,6 +14,9 @@ tags:
 - Google
 - Google Plus
 - Techcovered
+redirect_from:
+- /151/google-authorship-under-eighteen/
+
 ---
 
 If you own a website or blog, you'd heard of Google Authorship (which makes the author's picture appear next to search results). The easiest way to apply for it is to [follow the instructions ](https://plus.google.com/authorship)prescribed by Google.

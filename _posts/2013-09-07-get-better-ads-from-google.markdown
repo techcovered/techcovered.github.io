@@ -12,6 +12,9 @@ categories:
 - Internet
 tags:
 - Advertising
+redirect_from:
+- /409/get-better-ads-from-google/
+
 ---
 
 No matter where you are on the internet, you will always stumble upon ads from Google. This is unless, of course, you use an Ad Blocker, which [makes you a bad person](http://www.techcovered.org/161/detect-and-block-adblock). You can fight against the ads, but instead, you might as well join them instead and [get better related ads](http://www.techcovered.org/404/websites-share-information-with-google-ads).

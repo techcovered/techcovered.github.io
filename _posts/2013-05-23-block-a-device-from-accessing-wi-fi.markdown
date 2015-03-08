@@ -10,6 +10,9 @@ title: How to block a particular device from accessing your Wi-Fi
 wordpress_id: 194
 categories:
 - How to
+redirect_from:
+- /194/block-a-device-from-accessing-wi-fi/
+
 ---
 
 If you own a Wi-Fi connection at home or if you manage the company Wi-Fi connection, then you’d probably want to restrict certain devices – computers, laptops, tablets, or even mobile phones from connecting to your precious Wi-Fi. There is a way to do this, directly from your router itself.

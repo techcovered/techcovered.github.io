@@ -13,6 +13,9 @@ categories:
 tags:
 - Firefox
 - Google Chrome
+redirect_from:
+- /466/browse-vertical-tree-tabs/
+
 ---
 
 We are all used to the convenient “tabs-on-top” web browsers, where the tabs are on top and the website loads below. Not only are these tabs unorganized, they also consume your monitor’s screen height, especially if you have the newer widescreen monitors. If you browse the web a lot, then you must consider changing your current tab position from horizontal to vertical.

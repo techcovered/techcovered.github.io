@@ -15,6 +15,9 @@ tags:
 - JavaScript
 - SEO
 - Website
+redirect_from:
+- /717/prevent-sites-iframe-your-website/
+
 ---
 
 If you own a website, then you are probably wary of other websites copying your content. You can usually deal with these websites by filing DMCA notices to them and then to Google, so that the quality of the website which copies your website, doesn't affect your site's rankings on Google.

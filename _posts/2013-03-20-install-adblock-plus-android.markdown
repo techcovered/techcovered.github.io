@@ -16,6 +16,9 @@ tags:
 - Android
 - Google
 - Mobile Phone
+redirect_from:
+- /105/install-adblock-plus-android/
+
 ---
 
 Google recently suspended the Adblock Plus app from the Google Play store, for violating its terms and conditions. Several other ad blocking apps were also taken down from the play store, like Adaway, Adfree, etc.

@@ -11,6 +11,9 @@ categories:
 tags:
 - Techcovered
 - Wordpress
+redirect_from:
+- /5/techcovered-on-wordpress/
+
 ---
 
 After using Blogger for nearly two years, I finally made the shift from Blogger to WordPress. This step came after I was not satisfied with the search ranking that Google gave to my blog. After as much as 200 high quality articles, the search results no where contained links to my blog, even after the use of VERY specific keywords. Shame on Google, I'd say.

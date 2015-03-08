@@ -20,6 +20,9 @@ tags:
 - Mobile Phone
 - Study
 - Website
+redirect_from:
+- /610/use-phone-computer-study-more-effectively/
+
 ---
 
 ![studying_computer](https://techcovered.github.io/images/studying_computer.jpg)

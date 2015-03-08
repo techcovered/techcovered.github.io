@@ -14,6 +14,9 @@ tags:
 - Android
 - Downloads
 - Google
+redirect_from:
+- /561/android-needs-anti-virus/
+
 ---
 
 “Android ecosystem has practically no malware and/or viruses. Don’t bother with anti-virus apps, you wont need them. Besides, these anti-virus apps consume lots of RAM and they will eventually slow down your phone.” These are the claims of many people who swear that their phones are free of viruses, without them having an antivirus installed. But how true is this? Is your android phone really not prone to catching any virus at all?

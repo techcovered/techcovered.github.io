@@ -12,6 +12,9 @@ categories:
 tags:
 - GIF
 - Website
+redirect_from:
+- /448/extract-pictures-from-gif/
+
 ---
 
 GIF animations are really awesome. But have you come across a GIF animation file on the internet, but wanted only a single picture extracted from it? You’re in luck, because that’s exactly what I am going to show you here.

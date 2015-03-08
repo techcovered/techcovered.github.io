@@ -13,6 +13,9 @@ categories:
 - Tips
 tags:
 - Website
+redirect_from:
+- /226/list-of-websites-hosted/
+
 ---
 
 Servers can host multiple websites. If the hosting plan that you chose for your website is _Shared_, that means that you share a server with many other websites. The number of websites depend on the hosting company. If the hosting plan is _Dedicated_, implies that yours is the only  website stored on the server.
