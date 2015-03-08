@@ -6,4 +6,4 @@ permalink: /:title
 paginate: 10
 paginate_path: "page/:num"
 highlighter: pygments
- jekyll-sitemap
+
