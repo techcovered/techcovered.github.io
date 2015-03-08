@@ -101,9 +101,7 @@ body {
 #date {
 	width:60px;
 	height: 60px;
-	border-radius:50%; 
-	color:#fff;
-	background-color: #0080AA;
+	color:#999999;
 	float:left;
 	padding:7px;
 	margin-top: 50px;
@@ -444,8 +442,6 @@ nav#slide-menu>ul li.sep {
     transition:all 0.5s ease;
 }
 #MenuButton:hover {
-	 -webkit-transform: scale(2);
-     transform: scale(2);
 
 	}
 
@@ -470,16 +466,16 @@ nav#slide-menu>ul li.sep {
     #hero > .col-md-6.rightside {
         margin-top: 0px;
     }
+    #logo a:hover {
+        transform:none;
+        position:static;
+    }
 }
 
 @media screen and (max-width: 620px) {
     #logo.col-md-6 {
         margin: 0 auto;
         width: 306px;
-    }
-    #logo a:hover {
-        transform:none;
-        position:static;
     }
     #hero > .col-md-6.rightside {
         width:250px;
@@ -488,6 +484,9 @@ nav#slide-menu>ul li.sep {
         margin-right: auto;
         text-align: center;
         float:none;
+    }
+    .postslist {
+        margin-bottom: 5px;
     }
 }
 
@@ -499,6 +498,9 @@ nav#slide-menu>ul li.sep {
         width:100%;
         margin-bottom: -45px;
         text-align: left;
+    }
+    .posts.container {
+        padding:10px;
     }
     #date:hover {
         transform:none;
