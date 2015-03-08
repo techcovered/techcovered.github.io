@@ -97,6 +97,9 @@ body {
 .postslist > .row > .col-xs-10 > h2 > a {
 	text-decoration: none;
 }
+.postslist > .row > .col-xs-10 {
+      padding-right: 0px;  
+    }
 
 #date {
 	width:60px;
@@ -115,30 +118,41 @@ body {
 
 /* Pagination */
 .pagination > ul {
-	width:auto;
-	margin-left:100px;
+	width:90%;
+	margin-left:auto;
 	margin-right: auto;
 }
-
 .pagination > ul > li {
-	float:left;
-	list-style: none;
-	padding:10px;
-	border-left:1px solid #0080AA;
-	border-top:1px solid #0080AA;
-	border-bottom:1px solid #0080AA;
+    list-style: none;
 }
-.pagination > ul > li:last-child {
-	border-right:1px solid #0080AA;
+.pagination > ul > li a {
+	float:left;
+	border:1px solid #0080AA;
+    margin: 5px 10px;
+    background-color: #0080AA;
+    color:#fff;
+    transition:all 0.5s ease;
+}
+.pagination > ul > li a:hover {
+    background-color: #fff;
+    color:#0080AA;
+    text-decoration: none;
 }
 
+.pagination > ul> li a {
+        padding:7px;
+}
 .pagination {
 	text-align: center;
 	width:100%;
 }
 .pagination > ul > li.active {
-	color:#fff;
-	background-color: #0080AA;
+	color:#0080AA;
+	background-color: #FFFFFF;
+    float:left;
+    border:1px solid #0080AA;
+    margin: 5px 10px;
+    padding:7px;
 }
 /* Footer */
 footer {
@@ -308,16 +322,19 @@ margin-top: 20px;
 
 
 .mc-field-group > input {
-	border-color: #0080AA #0080AA #ccc;
+	border-color: #fff;
     border-style: solid;
-    border-width: 1px 1px 2px;
+    border-width: 1px;
     transition:all 1s ease;
     background-color: #0080AA;
+    color:#fff;
+    width:300px;
+    padding:5px;
+    margin-top: 10px;
 }
 
 .mc-field-group > input:hover {
 	border-bottom-color:#fff; 
-	width:300px;
 }
 #disqus_thread input:hover {
         -webkit-animation: swing 1.5s ease;
@@ -460,9 +477,11 @@ nav#slide-menu>ul li.sep {
 .inmenu-trigger:hover{
 	background-color: #fff;
 	color:#0080aa;
-}
+}    
 
-@media screen and (max-width: 992px) {
+
+
+@media screen and (max-width: 990px) {
     #hero > .col-md-6.rightside {
         margin-top: 0px;
     }
@@ -499,9 +518,18 @@ nav#slide-menu>ul li.sep {
         margin-bottom: -45px;
         text-align: left;
     }
+.postslist > .row > .col-xs-10 {
+      width:100%;  
+    }
+    .postslist > .row > .col-xs-10 {
+      padding-right: 5px;  
+    }
+
+
     .posts.container {
         padding:10px;
     }
+    .
     #date:hover {
         transform:none;
     }
