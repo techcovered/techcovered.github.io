@@ -8,4 +8,16 @@ title: Search Results
 wordpress_id: 122
 ---
 
-No Content Found
+<script>
+  (function() {
+    var cx = '008224653405529034230:8tswgrcz3wg';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
