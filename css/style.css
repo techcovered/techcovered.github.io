@@ -541,3 +541,17 @@ nav#slide-menu>ul li.sep {
         transform:none;
     }
 }
+/* Search */
+
+.gsc-input-box {
+    height:32px !important;
+}
+
+.cse .gsc-search-button input.gsc-search-button-v2, input.gsc-search-button-v2 {
+    height:32px !important;
+    width:70px !important;
+}
+
+.gsc-selected-option-container.gsc-inline-block {
+    padding-right: 75px !important;
+}

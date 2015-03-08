@@ -57,6 +57,5 @@ Follow blog on twitter:
 And also, follow us on Google+:
 [Follow on Google+](http://plus.google.com/+TechcoveredOrg/)
 
-###Also,
 
-I do check my emails frequently, so if you have anything important to say or ask, just send me an email at abhilash@techcovered.org
+I also have an email ID. If you have anything really important to say or ask, just send me an email at <a href="mailto:abhilash@techcovered.org">abhilash@techcovered.org</a>.
