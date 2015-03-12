@@ -13,8 +13,13 @@
     <meta prefix="og: http://ogp.me/ns#" property="og:url" content="http://www.techcovered.org{{page.url}}" />
     <meta name="twitter:description" content="{{ page.excerpt | strip_html | truncatewords: 50 }}" />
     <meta name="twitter:title" content="{{page.title}}" />
+
+    <link rel="canonical" href="http://www.techcovered.org{{page.url}}" />
+
+
     {% else %}
-		<title>{{site.name}} - Technology Blog</title>
+		<title>{{site.name}} - Technology Blog, Tech Tips, Tech Guides and How to Tutorials</title>
+    <link rel="canonical" href="http://www.techcovered.org/" />
     <meta name="description" content="TechCovered is a technology blog with tech tips, how-to tutorials and everything tech.">
     <meta prefix="og: http://ogp.me/ns#" property="og:title" content="TechCovered" />
     <meta prefix="og: http://ogp.me/ns#" property="og:url" content="http://www.techcovered.org/" />
