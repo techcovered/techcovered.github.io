@@ -18,7 +18,7 @@ I also use my gateway NE56R laptop, occasionally, for blogging outside in the fr
 ### Software:
 
 
-This blog runs on ~~self hosted wordpress~~ GitHub hosted Jekyll.
+This blog runs on <strike>self hosted wordpress</strike> GitHub hosted Jekyll.
 
 I use gedit with Markdown highlighting for creating and editing posts. I usually use Linux [Distro: Fedora 21] as my OS when updating the blog, but I also use Github's online editing tool when I am too lazy to switch from Windows.
 
@@ -30,6 +30,6 @@ VLC Media player remains the media player of my choice for videos and Foobar for
 ### Mobile phone:
 
 
-I used to earlier own a [Xolo A700](http://gadgets.ndtv.com/xolo-a700-769) but have now shifted over to the (awesome) [Gionee Elife E7](http://gadgets.ndtv.com/gionee-elife-e7-1141). It runs on Android ~~Jellybean 4.2.2~~ Kitkat 4.4 and houses a Snapdragon 800 quad core CPU, along with 2 GB of RAM. The device has become my hub for updating myself with feeds, podcast, news and social networking.
+I used to earlier own a [Xolo A700](http://gadgets.ndtv.com/xolo-a700-769) but have now shifted over to the (awesome) [Gionee Elife E7](http://gadgets.ndtv.com/gionee-elife-e7-1141). It runs on Android <strike>Jellybean 4.2.2</strike> Kitkat 4.4 and houses a Snapdragon 800 quad core CPU, along with 2 GB of RAM. The device has become my hub for updating myself with feeds, podcast, news and social networking.
 
 I also own a Kindle, which I find as an indispensable device I use to read ebooks, as well as the large "walls" of text I encounter on the internet, which I send to my kindle using the (awesome, again) [Kindle Chrome extension](https://chrome.google.com/webstore/detail/send-to-kindle-for-google/cgdjpilhipecahhcilnafpblkieebhea).
