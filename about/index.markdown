@@ -14,6 +14,8 @@ Techcovered was founded as a technology blog, covering all aspects of technology
 
 TechCovered was started on the month of July 2011, on Blogger ([the old website](http://techcovered.blogspot.com/)) and is now shifted to the WordPress (self hosted) platform due to [several issues and benefits ](http://www.techcovered.org/5/techcovered-on-wordpress)of WordPress over Blogger.
 
+[Update: Ironically, the blog has shifted from Wordpress to Jekyll due to many reasons]
+
 You can contact Abhilash any time you want. He will respond to (almost) all your tweets. If you have any queries or tips, [do tweet](http://www.twitter.com/thatabhi). For any other formal or more detailed queries, do send him an email.
 
 **Twitter  **: [@thatabhi](http://twitter.com/thatabhi)
