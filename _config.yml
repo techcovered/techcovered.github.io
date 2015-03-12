@@ -8,3 +8,4 @@ paginate_path: "page/:num"
 highlighter: pygments
 gems:
   - jekyll-redirect-from
+  - jekyll-sitemap
