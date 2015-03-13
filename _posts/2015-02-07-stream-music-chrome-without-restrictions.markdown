@@ -2,8 +2,7 @@
 author: Abhilash
 comments: false
 date: 2015-02-07 16:23:21+00:00
-excerpt: Streamus is an excellent extension to stream music within Google Chrome for
-  free
+excerpt: Streamus is an excellent extension to stream music within Google Chrome for free
 layout: post
 slug: stream-music-chrome-without-restrictions
 title: Stream Music in Chrome without Any Restrictions
