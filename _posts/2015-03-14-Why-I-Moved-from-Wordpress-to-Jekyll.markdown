@@ -1,5 +1,5 @@
 ﻿---
-layout:post
+layout: post
 title: Why I Moved to Jekyll from Wordpress
 excerpt:I recently moved from a self hosted wordpress blog to a Github hosted Jekyll blog. Here are the list of reasons why.
 date: 2015-03-14 01:18:21+05:30
