@@ -2,6 +2,7 @@
 layout:post
 title: Why I Moved to Jekyll from Wordpress
 excerpt:I recently moved from a self hosted wordpress blog to a Github hosted Jekyll blog. Here are the list of reasons why.
+date: 2015-03-14 01:18:21+05:30
 ---
 This is yet another blogging platform level change I’ve made in the past two years. I had been with Blogger for 2 years before, followed by Wordpress for another 2 years. But hopefully, I'll try my best to stick with Jekyll for a while*.
 
