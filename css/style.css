@@ -143,11 +143,11 @@ body {
     color:#fff;
     transition:all 0.5s ease;
 }
-.pagination > ul > li a:hover {
+/*.pagination > ul > li a:hover {
     background-color: #fff;
     color:#0080AA;
     text-decoration: none;
-}
+}*/
 
 .pagination > ul> li a {
         padding:7px;
@@ -188,12 +188,12 @@ list-style: none;
 	text-decoration: none;
 	transition:all 0.5s ease;
 }
-.button:hover{
+/*.button:hover{
 	border:2px solid #0080AA;
 	color:#0080AA;
 	background-color: #fff;
 	text-decoration: none;
-}
+}*/
 
 /* Single Posts */
 
@@ -456,7 +456,7 @@ nav#slide-menu>ul li.sep {
     cursor: pointer;
 }
 #MenuButton {
-    background-color: #0080AA;
+    background-color: transparent;
     border-radius: 5px;
     border: 1px solid #fff;
     color: #FFFFFF;
@@ -484,10 +484,10 @@ nav#slide-menu>ul li.sep {
     padding:5px;
 }
 
-.inmenu-trigger:hover{
+/*.inmenu-trigger:hover{
 	background-color: #fff;
 	color:#0080aa;
-}    
+}    */
 
 
 
