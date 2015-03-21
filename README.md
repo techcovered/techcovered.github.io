@@ -1,6 +1,5 @@
-# techcovered.github.io
+#Hello there!
 
-Hello!
 
 This is the source code of the Technology blog - [Techcovered.org](http://www.techcovered.org). You are free to take a look at the code which powers the blog.
 
