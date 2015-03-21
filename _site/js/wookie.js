@@ -26,9 +26,8 @@
 
 //Adblock appeal function
 (function(){ 
-          console.log("Executed1");
+
     setTimeout(function() { 
-              console.log("Executed2");
 
       // We are targeting the first banner ad of AdSense
       var ad = document.querySelector("ins.adsbygoogle");
@@ -39,7 +38,7 @@
         ad.style.cssText = 'display:block !important'; 
         
         // You can put any text, image or even IFRAME tags here
-        ad.innerHTML = '<img src="http://img.techcovered.org/adblock.png"/>';
+        ad.innerHTML = '<img src="http://www.techcovered.org/images/adblock-plead.png"/>';
         //document.getElementById("showadblock").innerHTML='<img src="http://img.techcovered.org/adblock.png"/>';
         console.log("Executed3");
       }

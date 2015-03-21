@@ -13,6 +13,10 @@
     <meta prefix="og: http://ogp.me/ns#" property="og:url" content="http://www.techcovered.org/changelog/index.html" />
     <meta name="twitter:description" content="" />
     <meta name="twitter:title" content="Changelog" />
+
+    <link rel="canonical" href="http://www.techcovered.org/changelog/index.html" />
+
+
     
     <meta name="author" content="Abhilash Rejanair">
     <link rel="alternate" type="application/rss+xml" title="TechCovered RSS2 Feed" href="http://feeds.feedburner.com/Techcovered" />
@@ -100,6 +104,59 @@
 	<hr>
     <p>This page is the log of the changes which have been applied to Techcovered.</p>
 
+<p><strong>12th March, 2015</strong></p>
+
+<p>It has been almost a year since I last changed the blog design and this time, I was planning to do something radical - change the very foundation of the blogs. I migrated my blog from Wordpress to Jekyll, hosted by Github.</p>
+
+<p>While everybody has heard of Wordpress, only a few know of Jekyll. Jekyll is not exactly a Wordpress alternate, but it does do CMS, but with a little effort.</p>
+
+<ul>
+  <li>
+    <p>Moved from Wordpress to Jekyll.</p>
+  </li>
+  <li>
+    <p>Changed the site’s design from single colum white and black minimalistic design to a blue-esque colored simplistic theme, which has almost (if not more) the same level of readability.</p>
+  </li>
+  <li>
+    <p>Migrated hosting from the slow and sometimes down Hostgator to Github. For free.</p>
+  </li>
+  <li>
+    <p>Added a meta redirect and canonical tags to redirect older Wordpress pages to new Jekyll pages, with newer and more SEO friendly page titles.</p>
+  </li>
+  <li>
+    <p>Moved the images from img.techcovered.org to images folder in Github.</p>
+  </li>
+  <li>
+    <p>If you are really interested in the designing work I do, then you can take a direct look at the code I use and all the updates I made directly at Github. (Here)[https://github.com/techcovered/techcovered.github.io] is the source to my entire website, which is made open source, thanks to Github.</p>
+  </li>
+</ul>
+
+<p><strong>Much later</strong></p>
+
+<p>I am terribly sorry that I haven’t been able to keep this page updated as and when I push a few interface tweaks to the blog. But what is inexcusible is the fact that I did not even remember that a <em>changelog</em> page exists when I updated last UI change.</p>
+
+<p>After yet another interface change, I will try and recall what I did (and also tell you where I went wrong) with the blog design:</p>
+
+<ul>
+  <li>
+    <p>Made the blog look more simple. Created a wordpress theme from scratch and used only white and black in the whole website.</p>
+  </li>
+  <li>
+    <p>Removed the glamor(the sorting posts by ‘featured’ category, et al) from the homepage after realizing that no one spends that much time on the homepage. Made it easy on the eyes.</p>
+  </li>
+  <li>
+    <p>Moved the blog from two columns to a single column design, for readability. This is where things took a wrong turn. While I believed that single column design was the future of blogging, I had never been proved this wrong before. As soon as the site went single columnm, the additional ad slot which used to occupy the sidebar was removed, as a result of which my ad revenue dropped as much as 60%.</p>
+
+    <p>Also, I realized people get more infuriated with ads in blogs if they get in the way of the articles, which is exactly what a single column design did.</p>
+  </li>
+  <li>
+    <p>Added a Menu to display categories. Not that anyone used it that much, but it always made me feel special to know that someday someone is going to accidentally click the menu button and be midly impressed with the sliding menu I built.</p>
+  </li>
+  <li>
+    <p>The navbar is fixed. When you scroll down, it disappears, but when you scroll up, it reappears. Looks pretty neat, but not that useful.</p>
+  </li>
+</ul>
+
 <p><strong>8th Feb, 2013</strong></p>
 
 <ul>
@@ -155,6 +212,17 @@
   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=301593553359997&version=v2.0";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+<!-- Analytics script -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-39157548-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
   </body>
 </html>
