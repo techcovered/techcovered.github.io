@@ -1,4 +1,4 @@
-/*********************************
+﻿/*********************************
 	TechCovered on Jekyll
 *********************************/
 
@@ -506,6 +506,11 @@ nav#slide-menu>ul li.sep {
         margin: 0 auto;
         width: 306px;
     }
+
+    #MenuButton {
+	margin-right:0px;
+	}
+
     #hero > .col-md-6.rightside {
         width:250px;
         margin-top: 10px;
