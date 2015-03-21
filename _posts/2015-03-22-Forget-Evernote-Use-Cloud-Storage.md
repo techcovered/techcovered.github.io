@@ -5,8 +5,6 @@ excerpt: After having my fair share of problems with Evernote, I have finally mo
 author: Abhilash
 ---
 
-#Quitting Evernote and using the cloud to store my notes
-
 Evernote is a great app for storing notes on the cloud. It has a great Android app and a (mediocre) iOS app, both with tons of features like document scanner, audio recorder, sharing notes, and more. 
 
 Evernote comes with its share of problems, though. I, for one, am not very comfortable with the idea that all my important notes, pictures, audios, lists, etc are stored in an online cloud, which can only be accessed by using that particular app from that particular company. 
