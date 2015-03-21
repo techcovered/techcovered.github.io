@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TechCovered</title>
+    <description>The Technology Blog</description>
+    <link></link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Why I Moved to Jekyll from Wordpress</title>
+        <description>&lt;p&gt;This is yet another blogging platform level change I’ve made in the past two years. I had been with Blogger for 2 years before, followed by Wordpress for another 2 years. But hopefully, I’ll try my best to stick with Jekyll for a while*.&lt;/p&gt;
+
+&lt;p&gt;[*I’ll update this post two year later and let you know.]&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.techcovered.org/images/blogger-wordpress-jekyll.png&quot; alt=&quot;Moved from Blogger to Wordpress to Jekyll &quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;no-wordpress-its-not-you-its-me&quot;&gt;No, Wordpress, it’s not you. Its me.&lt;/h2&gt;
+
+&lt;p&gt;Wordpress is a wonderful open-source CMS, which I have loved and used for more than 5 to 6 years. I am definitely not going to rant about it when something different and more suited comes along.&lt;/p&gt;
+
+&lt;p&gt;Jekyll is not for everyone. Jekyll is also not a Wordpress competitor. That would be Buddypress, Joomla and the many other Wordpress alternatives, of which Jekyll is not a member of.&lt;/p&gt;
+
+&lt;p&gt;Jekyll is a static-page-generator. It takes in your content in markdown or html and generates a static HTML page, which shown to your visitors. This makes your blog much faster than Wordpress, which generates a HTML file every time you hit reload.&lt;/p&gt;
+
+&lt;p&gt;To make it clear, let me list out the advantages and disadvantages:&lt;/p&gt;
+
+&lt;h3 id=&quot;wordpress---disadvantages&quot;&gt;Wordpress - Disadvantages&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Wordpress comes with bloat. In the many years of blogging, I have never once used all the features of Wordpress. Wordpress is just too large for a simple blogger with simple needs. With thousands of plugins and a raging theme market, it isn’t winning awards for being lightweight or blazing fast.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Wordpress is slow. Wordpress uses PHP and every page you visit is generated whenever you hit reload. If you use a less-than-ideal hosting package like Shared Hosting, Wordpress is even more slow and takes its own sweet time. Also, the more plugins you add, the slower your site gets.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Wordpress is less secure. Even though Wordpress has a very good dev team, Wordpress is insanely popular on the internet. It only takes a few bad steps from the admin to let the bad people in, who can wipe away your data and erase your blog or also spread malware.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I once believed Wordpress was nearly impenetrable and then &lt;a href=&quot;http://www.labnol.org/home/update/21466/&quot;&gt;Amit’s blog&lt;/a&gt; got hacked (bad timing, too).&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Hosting is expensive. Wordpress hosting costs anywhere from 4permonthto100 per month, depending on your usage. Meanwhile, Jekyll on Github is completely free.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Before you jump ship, Jekyll isn’t exactly a &lt;em&gt;simple&lt;/em&gt; alternate. Here are some reasons why.&lt;/p&gt;
+
+&lt;h3 id=&quot;jekyll---disadvantages&quot;&gt;Jekyll - Disadvantages&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Jekyll is hard to setup. If you like drag and drop over lines of code, then Jekyll is not for you. I had a hard time setting up Jekyll to run on my Windows and Linux.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;To post on Jekyll, you need to know Markdown. Though Markdown is easy to learn, it is still another syntax you need to be familiar with, just to post on a daily basis.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;There are only a few plugins for Jekyll and there are as few themes too. If you are able to develop your own theme (and also learn Liquid - Jekyll’s choice of formatting language), then you are all set. If you suck at web development, there are many Jekyll website themes you can clone from the many online Github blogs.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;There are not easy posting methods for Jekyll. You need to add a markdown file in the _posts folder of your repository to create a new post. Also, since there are only a few Markdown editors with syntax highlighting, creating a post in Markdown isn’t exactly the same as typing in Wordpress or a document in MS Word.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Github supports only a few Jekyll plugins and also makes your blog open source. If you don’t mind this, then feel &lt;em&gt;free&lt;/em&gt; (pun) to use Github Pages with Jekyll&lt;/p&gt;
+
+&lt;p&gt;Comparing Jekyll to Wordpress is like comparing apples to oranges, there is no clear winner. Everything really depends on your taste, and Jekyll suited me better.&lt;/p&gt;
+
+&lt;h2 id=&quot;steps-to-migrate-wordpress-to-jekyll&quot;&gt;Steps to Migrate Wordpress to Jekyll&lt;/h2&gt;
+
+&lt;p&gt;There are no shortage of online guides and tutorials which list out many ways to install Jekyll on your computer. I’ll tell you what worked for me:&lt;/p&gt;
+
+&lt;p&gt;Installing Jekyll on Windows is possible, though a lot more difficult than installing it on Linux. So, I suggest installing Jekyll on a Linux installation and then using Windows to post. If you rather stick with windows and don’t want to mess with your partition tables, use VMWare or any other virtual machine to install Linux.&lt;/p&gt;
+
+&lt;h3 id=&quot;installing&quot;&gt;Installing&lt;/h3&gt;
+
+&lt;p&gt;For the most part, Jekyll’s &lt;a href=&quot;http://jekyllrb.com/docs/installation/&quot;&gt;official installation guide &lt;/a&gt; is good enough to help you install it on your own.&lt;/p&gt;
+
+&lt;p&gt;But I did face a few problems with setting up the dependencies, namely - installing the developer and the normal version of Ruby and the gem installer (which I later found out was an issue related to my Linux installation).&lt;/p&gt;
+
+&lt;p&gt;Another great piece of tutorial was &lt;a href=&quot;https://www.andrewmunsell.com/tutorials/jekyll-by-example&quot;&gt;Andrew Munsell’s Jekyll by Example&lt;/a&gt;. Though a few parts of the tutorial is for paid users, the free guide is more than enough to have your Jekyll running.&lt;/p&gt;
+
+&lt;p&gt;If you plan to use Github (which I recommend), then you also need to first install git on your computer.&lt;/p&gt;
+
+&lt;p&gt;For Ubuntu and Debian:
+&amp;gt;sudo apt-get install git&lt;/p&gt;
+
+&lt;p&gt;For Fedora and Red Hat:
+&amp;gt;sudo yum install git&lt;/p&gt;
+
+&lt;p&gt;If you run into any problems, just add a comment below and I will reply if I find a solution. Depends on my Googling skill, really.&lt;/p&gt;
+
+&lt;h3 id=&quot;setting-up-a-github-pages-repository&quot;&gt;Setting up a Github Pages Repository&lt;/h3&gt;
+
+&lt;p&gt;Github can be really confusing for beginners (like me) and I had to create a lot of repositories before I could get it right. &lt;a href=&quot;http://www.thinkful.com/learn/a-guide-to-using-github-pages/&quot;&gt;This interactive guide&lt;/a&gt; is something I could have never done without. If you plan to clone someone else’s repository, then use this guide to know what to do next.&lt;/p&gt;
+
+&lt;p&gt;To start a Github Page, create a repository named &lt;code&gt;yourgithubusername.github.io&lt;/code&gt;. Check the “Initialize this repository with a README” sign and click Create repository. Your Github pages account is now created.&lt;/p&gt;
+
+&lt;p&gt;Head on to yourgithubusername.github.io to see your site in action. Clone this repository to your computer and then add the folders (link given above) to start building.&lt;/p&gt;
+
+&lt;h3 id=&quot;designing&quot;&gt;Designing&lt;/h3&gt;
+
+&lt;p&gt;Designing a site for Jekyll is actually simpler than designing a wordpress theme.&lt;/p&gt;
+
+&lt;p&gt;If a Jekyll site is hosted on Github, you can easily take a look at the theme. For instance, the theme of this blog can be viewed &lt;a href=&quot;http://www.github.com/techcovered/techcovered.github.io&quot;&gt;here&lt;/a&gt;. I haven’t customized my theme to be used on other blogs, but there are several (:sigh:) better themes available which you can easily clone in github and base your blog on.&lt;/p&gt;
+
+&lt;h3 id=&quot;migrating-from-wordpress&quot;&gt;Migrating from Wordpress&lt;/h3&gt;
+
+&lt;p&gt;This is the exciting part. If you already have a blog in Wordpress, with its own custom permalink structure et al, it is still possible to move your site to Jekyll without losing any of that Google juice. Yum.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Exporting posts&lt;/strong&gt;: To export posts, you need a Wordpress plugin. &lt;a href=&quot;https://github.com/benbalter/wordpress-to-jekyll-exporter/archive/master.zip&quot;&gt;Download this zip&lt;/a&gt; and upload it to your &lt;code&gt;wp-content/plugins/&lt;/code&gt; folder of your wordpress installation. &lt;a href=&quot;http://www.girliemac.com/blog/2013/12/27/wordpress-to-jekyll/&quot;&gt;Here is an awesome tutorial on this&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For some reason, my &lt;em&gt;crappy&lt;/em&gt; wordpress installation couldn’t export the posts, so I had to try something else out. I downloaded the XML from the Tools &amp;gt; Export option in Wordpress Dashboard and then used a converter to convert all the posts to the respective markdown folders and pages.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Managing Redirects&lt;/strong&gt;: Jekyll lets you have your own URL structure for blog posts. So, you need to redirect all of your previous wordpress posts to your current ones without losing any SEO ranking. Since I used Github pages, which has no .htaccess file to edit, I had to do with meta 301 redirects and canonical URLs.&lt;/p&gt;
+
+&lt;p&gt;It turns out, there is a plugin (which Github Pages also supports) which handles all redirects for you. To enable it, just add the following line in your &lt;code&gt;_config.yml&lt;/code&gt; file.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;gem: &lt;br /&gt;
+-jekyll-redirect-from&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Now, in the YAML part of every post, you need to add from what URL the redirect comes from. For example, if your previous wordpress site had a post like &lt;code&gt;example.com/category/post_title/post_ID&lt;/code&gt; , then your post should have the following code:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;redirect_from: &lt;br /&gt;
+ - /category/post_title/post_ID/&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Don’t forget to add the slash at the start and end of the link. This makes Jekyll add folder and files to the website which redirect from this URL to your current post URL. Simple as that.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.techcovered.org/images/jekyll-config-yml.png&quot; alt=&quot;How the _config.yml should look like&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;URL redirection for custom domains&lt;/strong&gt;: Upload a file called &lt;code&gt;CNAME&lt;/code&gt; to your github repository containing the url of your website. For example, I have a CNAME file with the content &lt;code&gt;www.techcovered.org&lt;/code&gt; to let github know on which domain my site lies.&lt;/p&gt;
+
+&lt;p&gt;Now, add a CNAME record on your domain register with the link of your Github repository. For example, I have a CNAME record of techcovered.github.io with my domain register.&lt;/p&gt;
+
+&lt;p&gt;You also need to add an A record. For example, I have an A record for &lt;code&gt;www.techcovered.org.&lt;/code&gt; and &lt;code&gt;techcovered.org.&lt;/code&gt; with Github’s IP address &lt;code&gt;192.30.252.153&lt;/code&gt; and also &lt;code&gt;192.30.252.154&lt;/code&gt; (you can have multiple A records).&lt;/p&gt;
+
+&lt;p&gt;It should take about a day for the domain to propagate.&lt;/p&gt;
+
+&lt;h2 id=&quot;publishing-posts&quot;&gt;Publishing Posts&lt;/h2&gt;
+
+&lt;p&gt;To create posts, you need to create a new file in the _posts folder in the format YYYY-MM-DD-Post-Title.md with the content in Markdown format.&lt;/p&gt;
+
+&lt;p&gt;If you are not comfortable with Linux, you could download Github for Windows or Mac and then create posts there.&lt;/p&gt;
+
+&lt;p&gt;Github also has the ability to create files in the online UI, so you don’t even need access to your computer to create new posts, making this much similar to Wordpress.&lt;/p&gt;
+
+&lt;p&gt;If there are any problems you face, let me know. Comment, Email or Tweet. Do share this article if you find this interesting.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 14 Mar 2015 00:00:00 +0530</pubDate>
+        <link>//Why-I-Moved-from-Wordpress-to-Jekyll</link>
+        <guid isPermaLink="true">//Why-I-Moved-from-Wordpress-to-Jekyll</guid>
+      </item>
+    
+      <item>
+        <title>Stream Music in Chrome without Any Restrictions</title>
+        <description>&lt;p&gt;Streaming music legally is not that much of a problem anymore.&lt;/p&gt;
+
+&lt;p&gt;You have Spotify, Pandora, etc where you pay a small fee for unlimited access to music and on the other hand, there is Grooveshark, where you can stream a wide range of music for free. Also, Spotify, Pandora and other related services have their own mobile apps, though Grooveshark doesn’t.&lt;/p&gt;
+
+&lt;p&gt;In India, sites like gaana and saavn are streaming services which have a large local variety of music. Then, there is always &lt;a href=&quot;https://www.youtube.com/music&quot;&gt;Youtube Music&lt;/a&gt; where you can stream music videos for free.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://techcovered.github.io/images/streamus.png&quot; alt=&quot;streamus&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://streamus.com&quot;&gt;Streamus &lt;/a&gt;is a Google Chrome extension which lets you stream music from YouTube. It is all very simple: All you have to do is install the extension and then click on search and type a song name and click on the search results to play the song.&lt;/p&gt;
+
+&lt;p&gt;Streamus has a playlist support, it can save playlists locally - though you need an internet connection to actually play the songs. It also has a radio mode which plays music similar to the one being played. Basic functionality like looping the track/playlist, shuffle is also supported.&lt;/p&gt;
+
+&lt;p&gt;Streamus only supports Google Chrome at the moment. There is no word on any support for Firefox or any other browser.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 07 Feb 2015 21:53:21 +0530</pubDate>
+        <link>//stream-music-chrome-without-restrictions</link>
+        <guid isPermaLink="true">//stream-music-chrome-without-restrictions</guid>
+      </item>
+    
+      <item>
+        <title>Check if your Website is Being Shared on Reddit</title>
+        <description>&lt;p&gt;Reddit is one of the top 30 websites of the world (source: &lt;a href=&quot;http://www.alexa.com/siteinfo/reddit.com&quot;&gt;alexa&lt;/a&gt;) and if your website is shared on a popular subreddit, you are bound to get a lot of eyeballs to your content.&lt;/p&gt;
+
+&lt;p&gt;There is no &lt;em&gt;absolute&lt;/em&gt; method to check if your website or blog is getting popular on Reddit. Usually, if it does get popular, you would be able to see a large spike of users from Reddit on your website’s analytics. However, there is another way to check if your website is being shared on Reddit.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://techcovered.github.io/images/reddit_domain.png&quot; alt=&quot;reddit_domain&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To check for all the URLs submitted on Reddit from your website (say: websiteaddresstest.com), then go to the URL &lt;a href=&quot;http://www.reddit.com/domain/websiteaddresstest.com&quot;&gt;http://www.reddit.com/domain/websiteaddresstest.com&lt;/a&gt; where websiteaddresstest.com is your website’s address.&lt;/p&gt;
+
+&lt;p&gt;The resulting page displays a list of all URLs submitted by users which are from your website. Now, this is just a reddit search result. If you have the appropriate knowledge, you can data mine from this list and maintain a constantly updating list of URLs shared on reddit. All of this can also be done using &lt;a href=&quot;https://developers.google.com/apps-script/&quot;&gt;Google Scripts&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Do note that this list only contains posts submitted by users. Your website may even be submitted in comments of other posts, which maynot be displayed here. In that case, you have to simply rely on your website’s analytics to help you trace visitors from Reddit. If your website’s analytics isn’t good enough, simply switch over to &lt;a href=&quot;www.google.com/analytics&quot;&gt;Google’s Analytics&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 09 Jan 2015 02:30:53 +0530</pubDate>
+        <link>//check-website-shared-on-reddit</link>
+        <guid isPermaLink="true">//check-website-shared-on-reddit</guid>
+      </item>
+    
+      <item>
+        <title>Remove YouTube Comments and Replace it with Reddit</title>
+        <description>&lt;p&gt;YouTube comments used to be great and really entertaining to read. Then, Google+ happened and the entire commenting system was replaced with Google+ comments. (Almost) Everyone hated it, but Google still wouldn’t change it. However, if you are a Redditor, all you need is a simple extension to bring Reddit to YouTube.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://techcovered.github.io/images/reddit-youtube.png&quot; alt=&quot;reddit-youtube&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://alientube.co/&quot;&gt;AlienTube &lt;/a&gt;is an extension available for Chrome, Firefox, Safari and Opera, which replaces YouTube’s default Google+ comments with comments from Reddit where the video has been posted.&lt;/p&gt;
+
+&lt;p&gt;AlienTube displays a list of subreddits where the video has been posted. You can also interact with the comments: read them, upvote or downvote them, save them and even gild them. You can also revert back to Google+ comments and back to reddit comments without reloading the page and losing progress on the video you are watching.&lt;/p&gt;
+
+&lt;p&gt;Even if you weren’t a redditor, you would prefer Reddit’s comments to YouTube’s comments. Also, if you own any video, you can check how much Reddit is talking about it by simply monitoring the comments on Reddit, using this extension.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 07 Jan 2015 20:54:55 +0530</pubDate>
+        <link>//replace-youtube-comments-with-reddit</link>
+        <guid isPermaLink="true">//replace-youtube-comments-with-reddit</guid>
+      </item>
+    
+      <item>
+        <title>Keep your Footer up to date without Updating it Every Year</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://techcovered.github.io/images/no-updated-footer.png&quot; alt=&quot;no-updated-footer&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s the last few days of December. The year is soon coming to an end. If you are a webmaster and if you have the current year displayed on your footer, one of your worries would be updating your website’s footer every year so that the site shows the current year as soon as the 31st December strikes 12:00 AM.&lt;/p&gt;
+
+&lt;p&gt;Instead of manually editing HTML every single year, you can instead use a simple javascript code to do it automatically for you. If you have something like &lt;em&gt;© 2014 Your website name&lt;/em&gt; in your footer, then put this simple javascript code in your footer.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;amp;copy; &amp;lt;script&amp;gt;new Date().getFullYear()&amp;gt;2010&amp;amp;&amp;amp;document.write(new Date().getFullYear());&amp;lt;/script&amp;gt; Your website name.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;However, some browsers have extensions like NoScript installed. This would cause a problem and such users wouldn’t be able to see the footer. Certain bots of search engines also might have problems indexing javascript generated content. If you use wordpress or any other CMS which uses php, there is also a php code which you can replace your footer with.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;amp;copy; &amp;lt;?php echo date(&#39;Y&#39;); ?&amp;gt; Your website name.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If your website runs on any other language, there &lt;em&gt;will&lt;/em&gt; be a date function which you can use to automatically update your footer. For static HTML users, you can either use the javascript code or be on the safer side and manually update is every year.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://updateyourfooter.com/&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 31 Dec 2014 22:46:18 +0530</pubDate>
+        <link>//footer-upto-date-without-updating-every-year</link>
+        <guid isPermaLink="true">//footer-upto-date-without-updating-every-year</guid>
+      </item>
+    
+      <item>
+        <title>The Best Ways to Read your eBooks</title>
+        <description>&lt;p&gt;So you bought an ebook? Great! Now, how do you intend to read it? Everyone knows that an ebook is not a real substitute for the reading experience you get from reading a hardbound book. However, ebooks have advantages over printed books too. For instance, you can read the same book on multiple devices, add notes, share excerpts with your friends, sync your bookmarks across multiple devices, look up meaning of words, etc.&lt;/p&gt;
+
+&lt;p&gt;If you read an ebook the right way, the pleasure and convenience is greater than that of reading a printed book. Here is a list of the best ways to read your ebooks:&lt;/p&gt;
+
+&lt;h2 id=&quot;kindle&quot;&gt;1. Kindle&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://techcovered.github.io/images/Kindle.jpg&quot; alt=&quot;Kindle&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The latest generation of &lt;a href=&quot;https://kindle.amazon.com/&quot;&gt;Amazon Kindle&lt;/a&gt; costs around $79 (with ads) and it is easily one of the best ways to read your ebooks. The e-ink display is easy on the eyes and Amazon’s whispernet delivery and very large collection of ebooks make Kindle a must-buy for ebook enthusiasts.&lt;/p&gt;
+
+&lt;p&gt;A Kindle device also lets you look up the meaning of words, search Wikipedia, tweet or Facebook (though you should avoid tweeting. Have you tried using a keyboard in an e-ink display? ). Kindle also syncs how much you progressed in your ebooks to Amazon, and you can resume your reading across various other devices using the Kindle app.&lt;/p&gt;
+
+&lt;p&gt;Kindle is also super lightweight and can easily fit into any not-large-but-not-medium-either sized pockets easily. Kindles are known for their ability to go for weeks on end with a single charge. However, Kindles are not backlit (a feature, not a drawback). This means you cannot read your beloved books in the dead of the night without a separate light source. But then, neither can you read a printed book in the dark.&lt;/p&gt;
+
+&lt;h2 id=&quot;tablets&quot;&gt;2. Tablets&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://techcovered.github.io/images/tablet_reading.jpg&quot; alt=&quot;tablet_reading&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you own a tablet, you have the next best way to read an ebook. A tablet’s large screen is ideal for reading an ebook without scrolling too much. There are also a large number of ebook reading apps for Android and iOS.&lt;/p&gt;
+
+&lt;p&gt;If you have an Android Tablet, apps such as &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.aldiko.android&quot;&gt;Aldiko Reader&lt;/a&gt;, &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.flyersoft.moonreader&quot;&gt;Moon+ Reader&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.amazon.kindle&quot;&gt;Kindle Reader&lt;/a&gt; are the best reading apps you can get your hands on. The Kindle app also synchronizes your book progress across Amazon, thereby saving your progress in all your devices including the Kindle reader.&lt;/p&gt;
+
+&lt;p&gt;If you own an iPad, iBooks will serve the purpose. However, if you like variety, &lt;a href=&quot;https://itunes.apple.com/IN/app/id394275498?mt=8&quot;&gt;Bluefire Reader&lt;/a&gt; and &lt;a href=&quot;https://itunes.apple.com/us/app/kindle-read-books-ebooks-magazines/id302584613?mt=8&quot;&gt;Kindle Reader&lt;/a&gt; are your best bets.&lt;/p&gt;
+
+&lt;p&gt;The two major disadvantages with reading your ebook on your tablet is that the backlight of your tablet might cause a strain on your eyes and continuous reading because painful. Reading for long hours also causes your tablet to heat up, and given its weight, it is not exactly convenient to hold a hot and heavy device which is emitting bright light directed to your eyes.&lt;/p&gt;
+
+&lt;h2 id=&quot;computer&quot;&gt;3. Computer&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://techcovered.github.io/images/computer-reading.jpg&quot; alt=&quot;computer-reading&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You read that right. When you read a book (say, at home), all you do is remain stationary and concentrate on the text. You can do the same on your computer. So, your computer can also be used as an ebook reader. As simple as that.&lt;/p&gt;
+
+&lt;p&gt;If your ebook is in a pdf format, you don’t need any special software or application. A normal PDF reader in full screen mode serves the purpose. Also, if you think your display is getting a bit oo bright for you, you can always use a &lt;a href=&quot;http://www.techcovered.org/63/using-computer-without-hurting-eyes&quot;&gt;few tools to optimise your screen’s brightness&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If your ebook is not in a pdf format, you can use &lt;a href=&quot;http://calibre-ebook.com/&quot;&gt;Calibre &lt;/a&gt;to read your ebook, convert it into a DRM-free format, convert it into &lt;em&gt;other&lt;/em&gt; formats, change the meta tags and more. Calibre is also available for Mac.&lt;/p&gt;
+
+&lt;p&gt;If you would like your progress to be synced across devices, you can use &lt;a href=&quot;https://read.amazon.com&quot;&gt;Kindle’s Cloud Reader&lt;/a&gt;. There are many other web apps which let you read online, but this is as high quality as it gets. This is also helpful if you own a chromebook and can’t afford any space to store your ebook collection.&lt;/p&gt;
+
+&lt;h2 id=&quot;mobile-phone&quot;&gt;4. Mobile Phone&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://techcovered.github.io/images/phone-reading.jpg&quot; alt=&quot;phone-reading&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Do you remember what happened when J.K Rowling released the final book of her Harry Potter series? Thousands of Harry Potter fans called in sick and spent the whole time reading the book. Those who were unfortunate enough to not be able to escape from their routines read the books whenever and wherever they could. You could at least spot a few people commuting on public transport reading the 800 page novel. If Rowling had published the book this year, these people would read the ebook on their phones instead of carrying the 800 page monster.&lt;/p&gt;
+
+&lt;p&gt;So, why exactly would one want to read an ebook on their phones? The screen is excruciatingly too small to read books in, the phone’s battery decreases &lt;em&gt;exponentially&lt;/em&gt; every hour you spend reading, your phone gets heated up too often.&lt;/p&gt;
+
+&lt;p&gt;The answer is simple. Portability. If you commute a lot, it would be easier to read your books on your phone than to carry your ebook reader or tablet with you at all times. Also, the median of phone’s screen size has increased rapidly and you are no longer stuck with a 3.5” or 4” display. Not that a 5” or 6” display makes a significant difference, but every inch counts (:ahem:).&lt;/p&gt;
+
+&lt;p&gt;Android or iPhone, the same apps available for tablets are also available for the their smaller sized counterparts.&lt;/p&gt;
+
+&lt;p&gt;Unless you are a luddite, you have the accept the change thats sweeping book sales. Ebooks are cheaper than paperback editions and reading ebooks are getting more convenient than ever. Ebooks are the future.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 30 Dec 2014 14:31:41 +0530</pubDate>
+        <link>//best-ways-to-read-ebooks</link>
+        <guid isPermaLink="true">//best-ways-to-read-ebooks</guid>
+      </item>
+    
+      <item>
+        <title>Use Windows&#39; Inbuilt Tool to Capture your Screens with Comments</title>
+        <description>&lt;p&gt;Helping out friends or family with computer problems isn’t the most enjoyable thing to do.&lt;/p&gt;
+
+&lt;p&gt;This is how it usually goes: First, they explain the problem in the most unconvincing manner possible, and you narrate a step by step procedure on solving the issue. However, they end up doing the exact opposite and you resort to saving your own sanity by showing up in person in front of the computer to fix it.&lt;/p&gt;
+
+&lt;p&gt;An easy way for you to get the problem resolved faster is to ask the person with the computer problem to install Teamviewer, and you could control their computer from yours.&lt;/p&gt;
+
+&lt;p&gt;However, this would also require a lot of your time and honestly, you’d rather get it done as quick as possible.&lt;/p&gt;
+
+&lt;p&gt;If you use a Windows 7 or 8, there is an inbuilt tool which helps you create screenshots of each step you take and generates a file which you can send it and ask the person facing the problem to follow the same procedure.&lt;/p&gt;
+
+&lt;p&gt;This inbuilt tool, aptly named “Problem Steps Recorder”, is almost like a screen recording software - except, it produces images with captions instead of a video output.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://techcovered.github.io/images/problem_step_recorder.png&quot; alt=&quot;problem_step_recorder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;All you have to do is to press “Start Record” and the tool will automatically capture your screens every time you perform an action and also &lt;em&gt;describes&lt;/em&gt; what action the user performed in the notes.&lt;/p&gt;
+
+&lt;p&gt;For instance, if you drag your mouse across the screen, the caption to that particular screenshot would be something like “_User mouse drag start in &lt;title of=&quot;&quot; your=&quot;&quot; current=&quot;&quot; window=&quot;&quot;&gt;_&quot; and &quot;_User mouse drag end in &lt;title of=&quot;&quot; your=&quot;&quot; current=&quot;&quot; window=&quot;&quot;&gt;_&quot; along with the relevant time and date.&lt;/title&gt;&lt;/title&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://techcovered.github.io/images/problem_steps_output.png&quot; alt=&quot;problem_steps_output&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;PSR doesn’t record any of the keystrokes you make, but it does record any special function keys or shortcuts you make.&lt;/p&gt;
+
+&lt;p&gt;The output file is a zip,which contains a file with the extension .mht. You can send the zip file to your friend and all he has to do is to open the file with Internet Explorer. And this is where the limitations start.&lt;/p&gt;
+
+&lt;h2 id=&quot;limitations&quot;&gt;Limitations:&lt;/h2&gt;
+
+&lt;p&gt;1) You cannot save these screenshots individually to another file or as a separate image file.&lt;/p&gt;
+
+&lt;p&gt;2) You cannot edit the mht file and make the necessary CSS/HTML code changes to change anything. You cannot even change the description of the file without breaking the whole file.&lt;/p&gt;
+
+&lt;p&gt;3) The mht file can only be opened in Internet Explorer. Not that I personally hate IE, but being able to choose isn’t a bad thing.&lt;/p&gt;
+
+&lt;p&gt;4) As mentioned earlier, this works only with Windows 7 and 8.&lt;/p&gt;
+
+&lt;p&gt;Though this isn’t exactly an all round replacement to trust VNC or Teamviewer, this does serve the purpose.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 17 Dec 2014 22:30:41 +0530</pubDate>
+        <link>//windows-problem-steps-recorder</link>
+        <guid isPermaLink="true">//windows-problem-steps-recorder</guid>
+      </item>
+    
+      <item>
+        <title>Five Things You Never Knew Chrome Could do</title>
+        <description>&lt;p&gt;Chrome is the most widely used browser today, and that too for a reason. It is very fast, highly stable, easy on the eye and has a ton of plugins to go with. One would think Chrome is just a simple browser. However, there are a lot of things Chrome can do.&lt;/p&gt;
+
+&lt;p&gt;Here is a list of the top 5 things you never knew chrome could do:&lt;/p&gt;
+
+&lt;h2 id=&quot;pdf-reader&quot;&gt;1. PDF Reader&lt;/h2&gt;
+
+&lt;p&gt;Chrome has an in built PDF reader, which lets you read and save PDFs from within Chrome. In fact, even if your computer doesn’t have a dedicated PDF reader (Adobe’s PDF reader is 45 MB), Chrome can serve as a fully functioning PDF reader.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://techcovered.github.io/images/chrome-pdf.png&quot; alt=&quot;chrome-pdf&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;All you have to do is drag a PDF document from your computer and drop it on Chrome to open it in Chrome’s PDF viewer. This also works in other browsers which have their own PDF viewer, say Mozilla Firefox.&lt;/p&gt;
+
+&lt;h2 id=&quot;music-player&quot;&gt;2. Music Player&lt;/h2&gt;
+
+&lt;p&gt;Chrome can also play your music without you having to install any music player or media manager. A wide range of file formats are also supported.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://techcovered.github.io/images/chrome-music.png&quot; alt=&quot;chrome-music&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To play a music file in chrome, just drag and drop the file in Chrome and it’ll turn into a slick music player. The player is not a total replacement for an actual full featured music player, so use this as an alternative to play a music file in a hurry without having your media player installed.&lt;/p&gt;
+
+&lt;p&gt;If you want a fully featured media player within chrome (for some reason), there are a lot of extensions for Chrome, like &lt;a href=&quot;https://chrome.google.com/webstore/detail/remo-music-player/ajilpdcmebalpffmjjopcingplogifhb&quot;&gt;Remo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;video-player&quot;&gt;3. Video Player&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://techcovered.github.io/images/chrome-video.png&quot; alt=&quot;chrome-video&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Chrome also doubles up as a video player. It doesn’t support a large variety of videos, but the videos which it supports are rendered perfectly. Chrome can also handle very large size videos, including HD and Blu-ray and play them with ease. It also allows you to play videos in full screen, in case you feel weird watching a video in a tab.&lt;/p&gt;
+
+&lt;h2 id=&quot;flash-player&quot;&gt;4. Flash Player&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://techcovered.github.io/images/chrome-flash.png&quot; alt=&quot;chrome-flash&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Chrome is probably one of the few browsers which come pre-installed with its own Adobe Flash plugin. Though Flash is threatened with emerging adoption of HTML5, there are still plenty of sites which host flash content.&lt;/p&gt;
+
+&lt;p&gt;If you have a .swf file (or a flash file) or game, which you would like to run locally, Chrome can run it without needing you to install Adobe Flash player.&lt;/p&gt;
+
+&lt;h2 id=&quot;calculator&quot;&gt;5. Calculator&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://techcovered.github.io/images/chrome-calculator.png&quot; alt=&quot;chrome-calculator&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you need to find what &lt;em&gt;122^(50/21)&lt;/em&gt; equals, the simplest way to do this would be to use Chrome’s omnibox. Chrome also supports advanced mathematical expressions, like &lt;em&gt;sin 35 degrees/cos 42 degrees * log 20.9&lt;/em&gt; , but don’t go all &lt;a href=&quot;http://www.wolframalpha.com/&quot;&gt;wolframalpha&lt;/a&gt; on Chrome, though.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 08 Dec 2014 22:34:20 +0530</pubDate>
+        <link>//five-chrome-tips</link>
+        <guid isPermaLink="true">//five-chrome-tips</guid>
+      </item>
+    
+      <item>
+        <title>How to Use Facebook Chat without News Feed</title>
+        <description>&lt;p&gt;Facebook is more than a platform where people share status updates – it is also a robust platform for people to chat. However, due to it being a social networking site, any visit to Facebook is anti-productive. It is easy to get lost in a barrage of updates from friends and family.&lt;/p&gt;
+
+&lt;p&gt;Facebook Messenger is Facebook’s app meant only for Messaging purposes. The app is available for almost all mobile platforms. However, if you wish to take your conversations to your desktop, then you have the social version of Facebook, with news feeds and Farmville requests. There is no stand-alone version of Facebook Messenger for Desktop.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://techcovered.github.io/images/deface.png&quot; alt=&quot;Deface to Show Facebook Chat only&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is where &lt;a href=&quot;http://www.deface.xyz&quot;&gt;Deface &lt;/a&gt;comes in. Deface is an open source add-on for Firefox and Chrome, which blacks out every part of Facebook, except for Facebook chat.&lt;/p&gt;
+
+&lt;p&gt;Deface works by removing everything except your Facebook chat. It also increases the size of your chat boxes. There is also an option to “quick peek” into your Facebook News feed.&lt;/p&gt;
+
+&lt;p&gt;Deface is always on, by default. However, if you wish to disable it or enable it, click on the d logo on the top left of your screen.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Download Deface for &lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/deface/?src=search&quot;&gt;Firefox &lt;/a&gt;and &lt;a href=&quot;https://chrome.google.com/webstore/detail/deface/ihhimmbgggpdandomknjjamhbofgpijj&quot;&gt;Chrome&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 30 Nov 2014 14:56:16 +0530</pubDate>
+        <link>//facebook-chat-without-newsfeed</link>
+        <guid isPermaLink="true">//facebook-chat-without-newsfeed</guid>
+      </item>
+    
+      <item>
+        <title>How to Be Productive and Remain Distraction Free</title>
+        <description>&lt;p&gt;You need the will power of a Zen monk to stay true to yourself and your work, especially when you are sitting in front of a computer or mobile device with internet access. However, with enough dedication, it is actually really simple to remain productive and not be distracted.&lt;/p&gt;
+
+&lt;p&gt;Here are a few tried and tested methods that’ll help you get on track.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-blocking-websites&quot;&gt;a. Blocking Websites&lt;/h2&gt;
+
+&lt;p&gt;There is no way to put this mildly. If you want to get work done, all those websites you usually visit to kill time, have to be blocked.&lt;/p&gt;
+
+&lt;p&gt;There are a lot of easy ways to do this. You can use a couple of &lt;a href=&quot;http://www.techcovered.org/648/maximize-productivity-time-saving-tools&quot;&gt;browser extensions&lt;/a&gt; to do the trick for you.&lt;/p&gt;
+
+&lt;p&gt;You can also do it the hard way, by blocking these websites in your hosts file. To do this, you need System level access of the computer you use. The host file can be found depending on what OS you use.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;span style=&quot;color: #ff0000;&quot;&amp;gt;Windows Vista/7/8:
+&amp;lt;/span&amp;gt;C:\Windows\System32\Drivers\etc\hosts
+
+&amp;lt;span style=&quot;color: #ff0000;&quot;&amp;gt;Linux:
+&amp;lt;/span&amp;gt;/etc/hosts
+
+&amp;lt;span style=&quot;color: #ff0000;&quot;&amp;gt;Mac OSX:
+&amp;lt;/span&amp;gt;/private/etc/hosts
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To block the host file, simply type your computer’s local address, followed by the URL of the website you wish to block. If you wish to block Facebook and Reddit, for example, your host file should contain this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;127.0.0.1                   facebook.com
+127.0.0.1                   reddit.com
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;b-stop-im&quot;&gt;b. Stop IM&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://techcovered.github.io/images/google-hangout-620xa.jpg&quot; alt=&quot;google-hangout-620xa&quot; /&gt;
+This next step is more common sense than ‘tip’. If you plan on working with full concentration, you cannot afford to lose your productivity by whiling away you time, texting and chatting with your friends.&lt;/p&gt;
+
+&lt;p&gt;If you use Skype, Hangouts, MSN, Yahoo Messenger, then either sign out of them or disable notifications from these apps. Also, do not use the browser version of Gmail - hangouts is integrated in Gmail, so you would be much better off using IMAP or POP version of Gmail in your email client.&lt;/p&gt;
+
+&lt;p&gt;If switching your phone off is not an option, then you can either put it in Silent mode, or better still, turn off your data or the phone’s internet connectivity. If all these aren’t options to you, then you have to manually kill each “instant messaging” app (Like WhatsApp, Facebook Messenger, etc) by going to the App settings on your phone.&lt;/p&gt;
+
+&lt;p&gt;Doing this will help you spend less time socializing and will not hinder your productivity.&lt;/p&gt;
+
+&lt;h2 id=&quot;c-manage-your-work-sessions&quot;&gt;c. Manage your Work Sessions&lt;/h2&gt;
+
+&lt;p&gt;Despite not being related to technology, this tip is still worth a mention. If you tend to spend a lot of continuous hours in front of your computer, you become more stressed and this kills productivity.&lt;/p&gt;
+
+&lt;p&gt;For every hour you work, take a minimum of 10 minutes of break. Spend this 10 minutes either stretching, walking or just leaning back with your eyes closed.&lt;/p&gt;
+
+&lt;p&gt;Since I find it difficult to remember doing this every hour, I just ask Google to remind me. Just Google for “Google Set Timer” and set the time for One hour and leave the tab open.&lt;/p&gt;
+
+&lt;p&gt;It is also recommended that you have at least 6 to 7 hours of sleep every day, to maintain rational and clear thinking.&lt;/p&gt;
+
+&lt;h2 id=&quot;d-play-the-right-music&quot;&gt;d. Play the right music&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://techcovered.github.io/images/video-game-music.png&quot; alt=&quot;video-game-music&quot; /&gt;If you plan to be ‘wired in’ to your computer, you might as well put on your headphones and listen to some motivational music tracks that really pump up your energy levels.&lt;/p&gt;
+
+&lt;p&gt;The music you choose for this, is also a factor which can affect your productivity. For instance, if you listen to music tracks with lyrics, they get stuck in your head and get repetitive and irritating to listen to. For long working hours, jazz music and classical music like Beethoven, Bach, Chopin, etc. are recommended.&lt;/p&gt;
+
+&lt;p&gt;Personally, I prefer listening to the sound track of video games. Some of these soundtracks are pleasant to listen to, and do not bring your attention from your work to the music track.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Picture credits: &lt;a href=&quot;http://en.wikipedia.org/wiki/The_Greatest_Video_Game_Music&quot;&gt;London Philharmonic Orchestra&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 28 Nov 2014 20:38:06 +0530</pubDate>
+        <link>//remain-distraction-free-and-productive</link>
+        <guid isPermaLink="true">//remain-distraction-free-and-productive</guid>
+      </item>
+    
+  </channel>
+</rss>

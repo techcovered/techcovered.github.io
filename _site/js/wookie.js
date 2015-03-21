@@ -48,7 +48,7 @@
 
 (function() {
 	//Function to change color scheme on reload
-		var colors = ["0080AA","#1E7145","#00aba9","#603CBA","#000000","#B91D47","#2B5797","#FE7C22"];
+		var colors = ["0080AA","#1E7145","#00aba9","#603CBA","#6C3A1B","#B91D47","#2B5797","#800000"];
 	//To find random
 	 	var colorindex = Math.floor((Math.random() * 10) + 1); 
 	 	while(colorindex>7||colorindex<1) {
