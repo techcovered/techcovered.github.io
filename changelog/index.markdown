@@ -10,6 +10,12 @@ wordpress_id: 509
 
 This page is the log of the changes which have been applied to Techcovered.
 
+**22nd March, 2015**
+
+* UI improvements. Now, whenever user refreshes page or moves from one page to another, the color scheme of the website changes to 8 predefined colors.
+
+* Changed the ugly adblock banner to one with a cat. 
+
 **12th March, 2015**
 
 It has been almost a year since I last changed the blog design and this time, I was planning to do something radical - change the very foundation of the blogs. I migrated my blog from Wordpress to Jekyll, hosted by Github.
