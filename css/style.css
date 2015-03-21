@@ -462,7 +462,7 @@ nav#slide-menu>ul li.sep {
     color: #FFFFFF;
     float: left;
     font-size: 18px;
-    margin-right: 10px;
+    margin-right: 2px;
     margin-top: 8px;
     padding: 0 10px 2px;    
     text-transform: uppercase;
@@ -506,10 +506,6 @@ nav#slide-menu>ul li.sep {
         margin: 0 auto;
         width: 306px;
     }
-
-    #MenuButton {
-	margin-right:0px;
-	}
 
     #hero > .col-md-6.rightside {
         width:250px;
