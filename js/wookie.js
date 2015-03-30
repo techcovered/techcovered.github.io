@@ -46,7 +46,7 @@
   }).call(this); 
 
 
-(function() {
+/*(function() {
 	//Function to change color scheme on reload
 		var colors = ["0080AA","#1E7145","#00aba9","#603CBA","#6C3A1B","#B91D47","#2B5797","#800000"];
 	//To find random
@@ -72,4 +72,4 @@
 		$("<style> ::selection{ background-color:"+colors[colorindex]+"; } ::-moz-selection{ background-color:"+colors[colorindex]+"; }</style>").insertAfter("body *:last");
 
 
-}).call(this);
+}).call(this);*/
