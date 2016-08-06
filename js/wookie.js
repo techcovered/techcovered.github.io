@@ -32,7 +32,8 @@
       // We are targeting the first banner ad of AdSense
       var ad = document.querySelector("ins.adsbygoogle");
       var u = window.location.href;
-      if(u.endsWith("deleted-torrent-downloads/")){
+      if(u.endsWith("deleted-torrent-downloads/")==true){
+      	console.log("here");
      	 document.getElementsByClassName("adsbygoogle").innerHTML = ""; 
       }
       // If the ad contains no innerHTML, ad blockers are at work
