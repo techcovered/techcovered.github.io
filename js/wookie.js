@@ -43,10 +43,11 @@
         ad.innerHTML = '<img src="http://www.techcovered.org/images/adblock-plead.png"/>';
         //document.getElementById("showadblock").innerHTML='<img src="http://img.techcovered.org/adblock.png"/>';
       }
-      if(u.endsWith("deleted-torrent-downloads/")==true){
+      
+      /*if(u.endsWith("deleted-torrent-downloads/")==true){
       	console.log("here");
      	ad.innerHTML = ""; 
-      }
+      }*/
       
     }, 2000); // The ad blocker check is performed 2 seconds after the page load 
   }).call(this); 
