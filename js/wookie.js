@@ -31,7 +31,7 @@
 
       // We are targeting the first banner ad of AdSense
       var ad = document.querySelector("ins.adsbygoogle");
-      var u = window.location.href;
+      //var u = window.location.href;
       
       // If the ad contains no innerHTML, ad blockers are at work
       if (ad && ad.innerHTML.replace(/\s/g, "").length == 0) {
