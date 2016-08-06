@@ -32,10 +32,7 @@
       // We are targeting the first banner ad of AdSense
       var ad = document.querySelector("ins.adsbygoogle");
       var u = window.location.href;
-      if(u.endsWith("deleted-torrent-downloads/")==true){
-      	console.log("here");
-     	 document.getElementsByClassName("adsbygoogle").innerHTML = ""; 
-      }
+      
       // If the ad contains no innerHTML, ad blockers are at work
       if (ad && ad.innerHTML.replace(/\s/g, "").length == 0) {
         
@@ -45,6 +42,10 @@
         // You can put any text, image or even IFRAME tags here
         ad.innerHTML = '<img src="http://www.techcovered.org/images/adblock-plead.png"/>';
         //document.getElementById("showadblock").innerHTML='<img src="http://img.techcovered.org/adblock.png"/>';
+      }
+      if(u.endsWith("deleted-torrent-downloads/")==true){
+      	console.log("here");
+     	ad.innerHTML = ""; 
       }
       
     }, 2000); // The ad blocker check is performed 2 seconds after the page load 
